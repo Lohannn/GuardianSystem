@@ -21,6 +21,8 @@ public class CallDetailView : MonoBehaviour
     [SerializeField] private RectTransform threeAnswersUpperContainer;
     [SerializeField] private RectTransform threeAnswersLowerContainer;
     [SerializeField] private RectTransform fourAnswersContainer;
+    [SerializeField] private Image[] dispatchSlots;
+    [SerializeField] private RectTransform dispatchContainer;
 
     [Header("Event Data")]
     [SerializeField] private EventData data;
@@ -41,6 +43,14 @@ public class CallDetailView : MonoBehaviour
     private void OnDisable()
     {
         EventBus.OnCallClicked -= HandleCallClicked;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            Hide();
+        }
     }
 
     private void Initialize(EventData eventData)
@@ -77,7 +87,21 @@ public class CallDetailView : MonoBehaviour
         }
         else
         {
-            // Handle Dispatch event type if needed
+            for (int i = 0; i < data.requiredUnits.Length; i++)
+            {
+                if (i <= dispatchSlots.Length)
+                {
+                    dispatchSlots[i].gameObject.SetActive(true);
+                    CallDispatchSlotPresenter slot = dispatchSlots[i].GetComponent<CallDispatchSlotPresenter>();
+                    slot.callDetail = presenter;
+                }
+                else
+                {
+                    Debug.LogWarning($"Not enough dispatch slots for the required units. Required units: {data.requiredUnits.Length}, available slots: {dispatchSlots.Length}");
+                }
+            }
+
+            dispatchContainer.gameObject.SetActive(true);
         }
     }
 
@@ -150,7 +174,17 @@ public class CallDetailView : MonoBehaviour
             button.gameObject.SetActive(false);
         }
 
-        alreadySetupedButtons.Clear();
+        alreadySetupedButtons?.Clear();
+
+        foreach (Image slot in dispatchSlots)
+        {
+            slot.gameObject.SetActive(false);
+        }
+
+        twoAnswersContainer.gameObject.SetActive(false);
+        threeAnswersUpperContainer.gameObject.SetActive(false);
+        threeAnswersLowerContainer.gameObject.SetActive(false);
+        fourAnswersContainer.gameObject.SetActive(false);
 
         clickBlockerPanel.color = new Color(clickBlockerPanel.color.r, clickBlockerPanel.color.g, clickBlockerPanel.color.b, 0f);
         clickBlockerPanel.raycastTarget = false;

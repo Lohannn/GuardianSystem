@@ -19,7 +19,7 @@ public enum UnitType
     Police,
     Firefighter,
     Paramedic,
-    ThrashCollector
+    TrashCollector
 }
 
 [System.Serializable]
@@ -58,6 +58,11 @@ public class EventData : ScriptableObject
             {
                 Debug.LogWarning($"Event '{name}' is of type Dispatch but has no required units assigned.");
                 Array.Resize(ref requiredUnits, 1);
+            }
+            else if (requiredUnits.Length > 2)
+            {
+                Debug.LogWarning($"Event '{name}' has more than 2 required units. Only the first 2 will be considered.");
+                Array.Resize(ref requiredUnits, 2);
             }
         } else
         {

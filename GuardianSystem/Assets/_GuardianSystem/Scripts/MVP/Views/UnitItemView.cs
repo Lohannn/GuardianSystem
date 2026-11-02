@@ -1,0 +1,51 @@
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
+
+public class UnitItemView : MonoBehaviour
+{
+    [Header("References")]
+    [SerializeField] private UnitItemPresenter presenter;
+    [SerializeField] private Image dispatchStatusIcon;
+    [SerializeField] private Image dispatchCooldownImage;
+
+    private float maxTime;
+    private float remainingTime;
+
+    void Start()
+    {
+        if (presenter == null)
+            presenter = GetComponent<UnitItemPresenter>();
+    }
+
+    public void StartDispatch(float dispatchTime)
+    {
+        dispatchCooldownImage.gameObject.SetActive(true);
+        dispatchStatusIcon.gameObject.SetActive(true);
+        maxTime = dispatchTime;
+        remainingTime = maxTime;
+    }
+
+    private void EndDispatch()
+    {
+        dispatchCooldownImage.fillAmount = 1;
+        dispatchCooldownImage.gameObject.SetActive(false);
+        dispatchStatusIcon.gameObject.SetActive(false);
+
+        presenter.EndDispatchMode();
+    }
+
+    void Update()
+    {
+        if (remainingTime > 0)
+        {
+            remainingTime -= Time.deltaTime;
+            dispatchCooldownImage.fillAmount = Mathf.Clamp01(remainingTime/maxTime);
+
+            if (remainingTime <= 0)
+            {
+                EndDispatch();
+            }
+        }
+    }
+}

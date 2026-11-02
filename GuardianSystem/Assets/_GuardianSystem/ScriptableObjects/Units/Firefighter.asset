@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 165ba04314fc5ac71a56c9a92a8728d6, type: 3}
+  m_Name: Firefighter
+  m_EditorClassIdentifier: Assembly-CSharp::ParamedicUnitSO
+  id: Firefighter
+  icon: {fileID: -8345380731138308906, guid: 356e849e2b099ba3daedce9a964e31ca, type: 3}
+  type: 1
+  speedBySecond: 20
