@@ -14,25 +14,29 @@ public class CallButtonPresenter : MonoBehaviour
 
     void OnEnable()
     {
-        view.CallResolved += CaseResolvedHandler;
-        view.CallTimedOut += CallTimeOutHandler;
+        EventBus.OnCallTimedOut += CallTimeOutHandler;
+        EventBus.OnCallResolved += CaseResolvedHandler;
     }
 
     void OnDisable()
     {
-        view.CallResolved -= CaseResolvedHandler;
-        view.CallTimedOut -= CallTimeOutHandler;
+        EventBus.OnCallTimedOut -= CallTimeOutHandler;
+        EventBus.OnCallResolved -= CaseResolvedHandler;
     }
 
-    private void CaseResolvedHandler(EventData eventData)
+    //Por agora, apenas pra chamados de pergunta
+    public void CaseResolvedHandler(EventData eventData, CallButtonPresenter callPresenter)
     {
-        gameManager.populationModel.AdjustPopularity(5);
+        if (callPresenter != this) return;
+
         gameManager.AdjustActiveCalls(-1);
         view.ownerPool.ReturnObjectToPool(view.gameObject);
     }
 
-    private void CallTimeOutHandler(EventData eventData)
+    private void CallTimeOutHandler(EventData eventData, CallButtonPresenter callPresenter)
     {   
+        if (callPresenter != this) return;
+
         gameManager.populationModel.AdjustPopularity(eventData.popularityImpactOnTimeout);
         gameManager.AdjustActiveCalls(-1);
         view.ownerPool.ReturnObjectToPool(view.gameObject);

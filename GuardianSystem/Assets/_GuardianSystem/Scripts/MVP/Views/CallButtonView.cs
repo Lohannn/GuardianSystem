@@ -13,10 +13,6 @@ public class CallButtonView : MonoBehaviour
     [SerializeField] private EventData data;
     [SerializeField] private float remainingTime;
 
-    //Events
-    public event Action<EventData> CallResolved;
-    public event Action<EventData> CallTimedOut;
-
     public void Initialize(EventData eventData)
     {
         data = eventData;
@@ -43,13 +39,13 @@ public class CallButtonView : MonoBehaviour
 
     private void OnCallButtonClicked()
     {
-        Debug.Log("Call resolved");
-        CallResolved?.Invoke(data);
+        Debug.Log("Call button clicked");
+        EventBus.OnCallClicked?.Invoke(data, GetComponent<CallButtonPresenter>());
     }
 
     private void OnTimeout()
     {
         Debug.Log("Call timed out");
-        CallTimedOut?.Invoke(data);
+        EventBus.OnCallTimedOut?.Invoke(data, GetComponent<CallButtonPresenter>());
     }
 }

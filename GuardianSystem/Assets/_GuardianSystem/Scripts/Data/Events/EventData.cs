@@ -23,10 +23,9 @@ public enum UnitType
 }
 
 [System.Serializable]
-public struct EventAnswers
+public struct EventAnswer
 {
     public string answerText;
-    public bool isCorrect;
     public int popularityImpact;
 }
 
@@ -43,10 +42,10 @@ public class EventData : ScriptableObject
     [Header("Dispatch Event")]
     public UnitType[] requiredUnits;
     public int popularityImpactOnSuccess;
-    public int popularityImpactOnEachWrongUnit;
+    public int popularityImpactOnWrongUnits;
 
     [Header("Question Event")]
-    public EventAnswers[] possibleAnswers;
+    public EventAnswer[] possibleAnswers;
 
     [Header("Event Impact")]
     public int popularityImpactOnTimeout;

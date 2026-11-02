@@ -12,14 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a2c3b4ae46055411af0a3e33e9fc2ec, type: 3}
   m_Name: EventTest1
   m_EditorClassIdentifier: Assembly-CSharp::EventData
+  eventWeight: 0
   eventDescription: 'Test 1 DIspatch
 
 '
   eventImage: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  eventType: 0
+  eventType: 1
   eventDuration: 15
   requiredUnits: 00000000
   popularityImpactOnSuccess: 20
-  popularityImpactOnEachWrongUnit: -20
-  possibleAnswers: []
+  popularityImpactOnWrongUnits: 0
+  possibleAnswers:
+  - answerText: Test Positive
+    popularityImpact: 10
+  - answerText: Test nEGATIVE
+    popularityImpact: -10
   popularityImpactOnTimeout: -30
