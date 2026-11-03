@@ -7,6 +7,10 @@ public class CallButtonFactory : MonoBehaviour
     [SerializeField] private EventDatabase eventDatabase;
     [SerializeField] private RectTransform[] spawnPoints;
 
+    [Header("Water Call creation configuration")]
+    [SerializeField] private List<WaterPosition> waterSpawnPoints;
+    [SerializeField] private EventDatabase waterEventDatabase;
+
     private List<EventData> availableEventsForTheDay = new List<EventData>();
 
     private ObjectPool buttonPool;
@@ -20,14 +24,18 @@ public class CallButtonFactory : MonoBehaviour
 
     private void OnEnable()
     {
-        gameManager.SpawnCall += SpawnCallButton;
+        gameManager.SpawnCall += SetupCallButton;
         gameManager.OnDayStarted += ChangeAvailableEventsForTheDay;
+
+        EventBus.OnWaterOverflow += SetupWaterCallButton;
     }
 
     private void OnDisable()
     {
-        gameManager.SpawnCall -= SpawnCallButton;
+        gameManager.SpawnCall -= SetupCallButton;
         gameManager.OnDayStarted -= ChangeAvailableEventsForTheDay;
+        
+        EventBus.OnWaterOverflow -= SetupWaterCallButton;
     }
 
     private void Start()
@@ -40,7 +48,7 @@ public class CallButtonFactory : MonoBehaviour
         availableEventsForTheDay = eventDatabase.GetEventsByType(gameManager.currentDayConfig.activeEventWeights);
     }
 
-    private void SpawnCallButton()
+    private void SetupCallButton()
     {
         if (availableEventsForTheDay.Count == 0)
         {
@@ -62,8 +70,50 @@ public class CallButtonFactory : MonoBehaviour
         callButtonView.Initialize(randomEvent);
         callButtonView.ownerPool = buttonPool;
 
-        buttonObj.SetActive(true);
+        SpawnCallButton(buttonObj);
+    }
 
+    private void SetupWaterCallButton(WaterZone zone)
+    {
+        WaterPosition affectedZone = waterSpawnPoints.Find(sourceZone => sourceZone.Zone == zone);
+
+        if (affectedZone == null)
+        {
+            Debug.LogWarning($"No water spawn point found for zone {zone}.");
+            return;
+        }
+
+        if (affectedZone.currentCall != null) return;
+
+        if (waterEventDatabase.Events.Count == 0)
+        {
+            Debug.LogWarning("No available events for water calls.");
+            return;
+        }
+
+        EventData randomEvent = waterEventDatabase.Events[Random.Range(0, waterEventDatabase.Events.Count)];
+        
+        RectTransform spawnPoint = affectedZone.GetComponent<RectTransform>();
+
+        GameObject buttonObj = buttonPool.GetObjectFromPool();
+        RectTransform buttonRect = buttonObj.GetComponent<RectTransform>();
+
+        buttonRect.SetParent(spawnPoint, false);
+        buttonRect.localPosition = Vector3.zero;
+
+        CallButtonView callButtonView = buttonObj.GetComponent<CallButtonView>();
+        callButtonView.Initialize(randomEvent);
+        callButtonView.ownerPool = buttonPool;
+
+        affectedZone.currentCall = buttonObj.GetComponent<CallButtonPresenter>();
+
+        SpawnCallButton(buttonObj);
+        gameManager.populationModel.AdjustPopularity(gameManager.currentDayConfig.popularityImpactOnWaterCallSpawn);
+    }
+
+    private void SpawnCallButton(GameObject call)
+    {
+        call.SetActive(true);
         gameManager.AdjustActiveCalls(1);
     }
 

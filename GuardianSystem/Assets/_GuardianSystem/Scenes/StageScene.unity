@@ -700,6 +700,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 158783743}
+  - component: {fileID: 158783744}
   m_Layer: 5
   m_Name: WaterPosition (3)
   m_TagString: Untagged
@@ -726,6 +727,20 @@ RectTransform:
   m_AnchoredPosition: {x: -376, y: -457}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &158783744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158783742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91cf2fbaf63cf691dbc60165fe269ccc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaterPosition
+  zone: 3
+  currentCall: {fileID: 0}
 --- !u!1 &174776527
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,6 +751,7 @@ GameObject:
   m_Component:
   - component: {fileID: 174776528}
   - component: {fileID: 174776529}
+  - component: {fileID: 174776530}
   m_Layer: 5
   m_Name: WaterSlider4
   m_TagString: Untagged
@@ -811,12 +827,26 @@ MonoBehaviour:
   m_HandleRect: {fileID: 849879978}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 0.5
+  m_Value: 50
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &174776530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174776527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c944a1f850b8e5e7eb2786b628a58b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaterLevelSlider
+  zoneLevelSlider: {fileID: 174776529}
+  sourceZone: 3
 --- !u!1 &177808842
 GameObject:
   m_ObjectHideFlags: 0
@@ -826,6 +856,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 177808843}
+  - component: {fileID: 177808844}
   m_Layer: 5
   m_Name: WaterPosition
   m_TagString: Untagged
@@ -852,6 +883,20 @@ RectTransform:
   m_AnchoredPosition: {x: -361, y: 447}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &177808844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177808842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91cf2fbaf63cf691dbc60165fe269ccc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaterPosition
+  zone: 0
+  currentCall: {fileID: 0}
 --- !u!1 &220797638
 GameObject:
   m_ObjectHideFlags: 0
@@ -983,6 +1028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 221700252}
   - component: {fileID: 221700253}
+  - component: {fileID: 221700254}
   m_Layer: 5
   m_Name: WaterSlider2
   m_TagString: Untagged
@@ -1058,12 +1104,26 @@ MonoBehaviour:
   m_HandleRect: {fileID: 461964117}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 0.5
+  m_Value: 50
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &221700254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221700251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c944a1f850b8e5e7eb2786b628a58b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaterLevelSlider
+  zoneLevelSlider: {fileID: 221700253}
+  sourceZone: 1
 --- !u!1 &234974628
 GameObject:
   m_ObjectHideFlags: 0
@@ -2977,6 +3037,7 @@ GameObject:
   m_Component:
   - component: {fileID: 582541171}
   - component: {fileID: 582541172}
+  - component: {fileID: 582541173}
   m_Layer: 5
   m_Name: WaterSlider5
   m_TagString: Untagged
@@ -3052,12 +3113,26 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1898170460}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 0.5
+  m_Value: 50
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &582541173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582541170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c944a1f850b8e5e7eb2786b628a58b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaterLevelSlider
+  zoneLevelSlider: {fileID: 582541172}
+  sourceZone: 4
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -3173,6 +3248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 641747306}
   - component: {fileID: 641747307}
+  - component: {fileID: 641747308}
   m_Layer: 5
   m_Name: WaterSlider3
   m_TagString: Untagged
@@ -3248,12 +3324,26 @@ MonoBehaviour:
   m_HandleRect: {fileID: 876651961}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 0.5
+  m_Value: 50
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &641747308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641747305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c944a1f850b8e5e7eb2786b628a58b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaterLevelSlider
+  zoneLevelSlider: {fileID: 641747307}
+  sourceZone: 2
 --- !u!1 &641782286
 GameObject:
   m_ObjectHideFlags: 0
@@ -3266,6 +3356,8 @@ GameObject:
   - component: {fileID: 641782289}
   - component: {fileID: 641782288}
   - component: {fileID: 641782290}
+  - component: {fileID: 641782292}
+  - component: {fileID: 641782291}
   m_Layer: 5
   m_Name: WaterWatchPanel
   m_TagString: Untagged
@@ -3361,6 +3453,38 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &641782291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641782286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fa761557128ba2909176968fcb033ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaterLevelPresenter
+  view: {fileID: 641782292}
+--- !u!114 &641782292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641782286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc157e8c4e90d0c48b9993d277c22c9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaterLevelView
+  sliders:
+  - {fileID: 2127317814}
+  - {fileID: 221700254}
+  - {fileID: 641747308}
+  - {fileID: 174776530}
+  - {fileID: 582541173}
+  presenter: {fileID: 641782291}
 --- !u!1 &669342975
 GameObject:
   m_ObjectHideFlags: 0
@@ -5694,6 +5818,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1287756309}
+  - component: {fileID: 1287756310}
   m_Layer: 5
   m_Name: WaterPosition (2)
   m_TagString: Untagged
@@ -5720,6 +5845,20 @@ RectTransform:
   m_AnchoredPosition: {x: 817, y: -438}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1287756310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287756308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91cf2fbaf63cf691dbc60165fe269ccc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaterPosition
+  zone: 2
+  currentCall: {fileID: 0}
 --- !u!1 &1348555097
 GameObject:
   m_ObjectHideFlags: 0
@@ -6229,6 +6368,13 @@ MonoBehaviour:
   - {fileID: 1658815817}
   - {fileID: 898845386}
   - {fileID: 774482229}
+  waterSpawnPoints:
+  - {fileID: 177808844}
+  - {fileID: 1430287200}
+  - {fileID: 1287756310}
+  - {fileID: 158783744}
+  - {fileID: 1893071480}
+  waterEventDatabase: {fileID: 11400000, guid: f7bb9618533e4d5b28225bc0b961fd3e, type: 2}
 --- !u!1 &1419660749
 GameObject:
   m_ObjectHideFlags: 0
@@ -6313,6 +6459,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1430287199}
+  - component: {fileID: 1430287200}
   m_Layer: 5
   m_Name: WaterPosition (1)
   m_TagString: Untagged
@@ -6339,6 +6486,20 @@ RectTransform:
   m_AnchoredPosition: {x: 801, y: 433}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1430287200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430287198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91cf2fbaf63cf691dbc60165fe269ccc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaterPosition
+  zone: 1
+  currentCall: {fileID: 0}
 --- !u!1 &1441993891
 GameObject:
   m_ObjectHideFlags: 0
@@ -7619,6 +7780,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1893071479}
+  - component: {fileID: 1893071480}
   m_Layer: 5
   m_Name: WaterPosition (4)
   m_TagString: Untagged
@@ -7645,6 +7807,20 @@ RectTransform:
   m_AnchoredPosition: {x: 49.022, y: -40}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1893071480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893071478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91cf2fbaf63cf691dbc60165fe269ccc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaterPosition
+  zone: 4
+  currentCall: {fileID: 0}
 --- !u!1 &1898170459
 GameObject:
   m_ObjectHideFlags: 0
@@ -8803,6 +8979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2127317812}
   - component: {fileID: 2127317813}
+  - component: {fileID: 2127317814}
   m_Layer: 5
   m_Name: WaterSlider1
   m_TagString: Untagged
@@ -8878,12 +9055,26 @@ MonoBehaviour:
   m_HandleRect: {fileID: 844583290}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 0.5
+  m_Value: 50
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2127317814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127317811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c944a1f850b8e5e7eb2786b628a58b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaterLevelSlider
+  zoneLevelSlider: {fileID: 2127317813}
+  sourceZone: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -2,14 +2,14 @@ using UnityEngine;
 
 public class PopulationModel
 {
-    public int Popularity { get; private set; }
+    public float Popularity { get; private set; }
 
-    public PopulationModel(int initialPopularity = 50)
+    public PopulationModel(float initialPopularity = 50)
     {
         Popularity = Mathf.Clamp(initialPopularity, 0, 100);
     }
 
-    public void AdjustPopularity(int amount)
+    public void AdjustPopularity(float amount)
     {
         Popularity = Mathf.Clamp(Popularity + amount, 0, 100);
 

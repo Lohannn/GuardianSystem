@@ -14,7 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DayConfigData
   DayNumber: 0
   dayDurationInSeconds: 60
-  callSpawnInterval: 5
+  minCallSpawnInterval: 3
+  maxCallSpawnInterval: 7
   maxSimultaneousCalls: 3
+  waterVariationPerSecond: 5
+  waterDirectionChangeInterval: 2
+  popularityImpactOnWaterCallSpawn: -10
+  emptyWaterInterval: 5
+  popularityImpactOnEmptyWaterPerTick: -2
   isTutorialActive: 0
   activeEventWeights: 00000000

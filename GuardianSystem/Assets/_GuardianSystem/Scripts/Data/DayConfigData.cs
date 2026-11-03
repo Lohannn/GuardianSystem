@@ -11,6 +11,11 @@ public class DayConfigData : ScriptableObject
     public float maxCallSpawnInterval = 7f;
     public int maxSimultaneousCalls;
     public float waterVariationPerSecond;
+    public float waterDirectionChangeInterval;
+
+    public float popularityImpactOnWaterCallSpawn;
+    public float emptyWaterInterval;
+    public float popularityImpactOnEmptyWaterPerTick;
 
     [Header("Active Mechanics and Call Types")]
     public bool isTutorialActive = false;

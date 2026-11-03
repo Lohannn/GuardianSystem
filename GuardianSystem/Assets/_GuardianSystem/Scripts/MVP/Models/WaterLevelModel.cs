@@ -17,22 +17,35 @@ public class WaterLevelModel
     private Dictionary<WaterZone, int> zoneDirections = new(); 
     private float variationPerSecond;
     private float directionChangeInterval;
-    private float directionTimer;
+    private float penaltyInterval;
+    private float penaltyValue;
 
-    public WaterLevelModel(float variation, float changeInterval)
+    private float directionTimer;
+    private float penaltyTimer;
+
+    private GameManager gameManager;
+
+    public WaterLevelModel(GameManager gm)
     {
-        variationPerSecond = variation;
-        directionChangeInterval = changeInterval;
+        DayConfigData dayConfig = gm.currentDayConfig;
+
+        gameManager = gm;
+        variationPerSecond = dayConfig.waterVariationPerSecond;
+        directionChangeInterval = dayConfig.waterDirectionChangeInterval;
+        penaltyInterval = dayConfig.emptyWaterInterval;
+        penaltyValue = dayConfig.popularityImpactOnEmptyWaterPerTick;
 
         foreach (WaterZone zone in Enum.GetValues(typeof(WaterZone)))
         {
-            zoneLevels[zone] = 50f;
+            zoneLevels.Add(zone, 50f);
+            zoneDirections.Add(zone, UnityEngine.Random.value > 0.5f ? -1 : 1);
         }
     }
 
-    public void UpdateValues(float deltaTime)
+    public Dictionary<WaterZone, float> UpdateValues(float deltaTime)
     {
         directionTimer += deltaTime;
+        penaltyTimer += deltaTime;
 
         if (directionTimer >= directionChangeInterval)
         {
@@ -40,7 +53,22 @@ public class WaterLevelModel
             directionTimer = 0f;
         }
 
-        foreach (WaterZone zone in zoneLevels.Keys)
+        if (penaltyTimer >= penaltyInterval)
+        {
+            penaltyTimer = 0f;
+            int emptyZones = 0;
+
+            foreach (float zone in zoneLevels.Values)
+                if (zone <= 0) emptyZones++;
+
+            if (emptyZones > 0)
+            {
+                float totalPenalty = emptyZones * penaltyValue;
+                gameManager.populationModel.AdjustPopularity(totalPenalty);
+            }
+        }
+
+        foreach (WaterZone zone in new List<WaterZone>(zoneLevels.Keys))
         {
             float currentLevel = zoneLevels[zone];
 
@@ -49,19 +77,20 @@ public class WaterLevelModel
             zoneLevels[zone] += zoneDirections[zone] * variationPerSecond * deltaTime;
 
             zoneLevels[zone] = Mathf.Clamp(zoneLevels[zone], 0, 100);
-            
+
             if (zoneLevels[zone] >= 100)
             {
                 EventBus.OnWaterOverflow?.Invoke(zone);
             }
         }
+        return zoneLevels;
     }
 
     private void ChangeDirections()
     {
-        foreach (WaterZone zone in zoneDirections.Keys)
+        foreach (WaterZone zone in Enum.GetValues(typeof(WaterZone)))
         {
-            zoneDirections[zone] = (int)(UnityEngine.Random.value < 0.5f ? -1 : 1f);
+            zoneDirections[zone] = UnityEngine.Random.value < 0.5f ? -1 : 1;
         }
     }
 
