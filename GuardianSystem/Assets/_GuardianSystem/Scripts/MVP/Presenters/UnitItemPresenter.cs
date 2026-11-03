@@ -45,7 +45,12 @@ public class UnitItemPresenter : MonoBehaviour, IDragHandler, IBeginDragHandler,
 
     public void EndDispatchMode()
     {
-        dispatchResult?.Invoke();
+        
+        if (dispatchResult != null)
+        {
+            dispatchResult?.Invoke();
+        }
+
         dispatchResult = null;
         inDispatch = false;
     }

@@ -51,7 +51,7 @@ public class CallDispatchSlotPresenter : MonoBehaviour, IDropHandler, IPointerEn
             EventBus.OnDispatchStart?.Invoke(
                 currentUnitInSlot, 
                 TimeBetweenUnitAndCall(currentUnitInSlot, callPosition), 
-                callDetail.result
+                slotPosition == 0 ? callDetail.result : null
             );
         }
     }

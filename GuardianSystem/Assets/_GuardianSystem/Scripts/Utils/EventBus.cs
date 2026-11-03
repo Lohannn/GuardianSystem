@@ -14,4 +14,6 @@ public static class EventBus
     public static Action<UnitItemPresenter, float, Action> OnDispatchStart;
     public static Action<float> OnShowDispatchPreview;
     public static Action OnHideDispatchPreview;
+
+    public static Action<WaterZone> OnWaterOverflow;
 }
