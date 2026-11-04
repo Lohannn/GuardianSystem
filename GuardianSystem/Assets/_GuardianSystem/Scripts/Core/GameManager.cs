@@ -40,6 +40,7 @@ public class GameManager : MonoBehaviour
 #endregion
 
     public event Action SpawnCall;
+    public event Action<Zone> AddTrash;
 
     private void Awake()
     {
@@ -83,6 +84,7 @@ public class GameManager : MonoBehaviour
             case GameState.Running:
                 Debug.Log("Game is now running.");
                 StartCoroutine(SpawnCallCoroutine());
+                StartCoroutine(AddTrashCoroutine());
                 OnDayRunning?.Invoke();
                 break;
             case GameState.Paused:
@@ -173,6 +175,22 @@ public class GameManager : MonoBehaviour
             if (CurrentGameState == GameState.Running && currentCallsActive < currentDayConfig.maxSimultaneousCalls)
             {
                 SpawnCall?.Invoke();
+            }
+        }
+    }
+
+    private IEnumerator AddTrashCoroutine()
+    {
+        while (CurrentGameState == GameState.Running)
+        {
+            float spawnInterval = UnityEngine.Random.Range(currentDayConfig.minTrashAddInterval, currentDayConfig.maxTrashAddInterval);
+            Zone randomZone = (Zone)UnityEngine.Random.Range(0, Enum.GetNames(typeof(Zone)).Length);
+
+            yield return new WaitForSeconds(spawnInterval);
+
+            if (CurrentGameState == GameState.Running)
+            {
+                AddTrash?.Invoke(randomZone);
             }
         }
     }

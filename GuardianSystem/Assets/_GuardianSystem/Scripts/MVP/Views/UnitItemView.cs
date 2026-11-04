@@ -8,6 +8,7 @@ public class UnitItemView : MonoBehaviour
     [SerializeField] private UnitItemPresenter presenter;
     [SerializeField] private Image dispatchStatusIcon;
     [SerializeField] private Image dispatchCooldownImage;
+    [SerializeField] private CanvasGroup parentContainer;
 
     private float maxTime;
     private float remainingTime;
@@ -47,5 +48,19 @@ public class UnitItemView : MonoBehaviour
                 EndDispatch();
             }
         }
+    }
+
+    public void BeginDrag()
+    {
+        parentContainer.alpha = 0.3f;
+        parentContainer.interactable = false;
+        parentContainer.blocksRaycasts = false;
+    }
+
+    public void EndDrag()
+    {
+        parentContainer.alpha = 1f;
+        parentContainer.interactable = true;
+        parentContainer.blocksRaycasts = true;
     }
 }

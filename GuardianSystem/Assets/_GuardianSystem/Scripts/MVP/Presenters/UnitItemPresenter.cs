@@ -41,6 +41,8 @@ public class UnitItemPresenter : MonoBehaviour, IDragHandler, IBeginDragHandler,
         dispatchResult = result;
         inDispatch = true;
         view.StartDispatch(dispatchedTime);
+        EventBus.OnUnitEndDrag?.Invoke();
+        view.EndDrag();
     }
 
     public void EndDispatchMode()
@@ -64,6 +66,7 @@ public class UnitItemPresenter : MonoBehaviour, IDragHandler, IBeginDragHandler,
         }
 
         EventBus.OnUnitBeginDrag?.Invoke(this, eventData.position);
+        view.BeginDrag();
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -78,5 +81,6 @@ public class UnitItemPresenter : MonoBehaviour, IDragHandler, IBeginDragHandler,
         if (inDispatch) return;
 
         EventBus.OnUnitEndDrag?.Invoke();
+        view.EndDrag();
     }
 }

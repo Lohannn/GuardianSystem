@@ -50,26 +50,26 @@ public class CallDispatchSlotPresenter : MonoBehaviour, IDropHandler, IPointerEn
             Vector2 callPosition = call.GetComponent<RectTransform>().position;
             EventBus.OnDispatchStart?.Invoke(
                 currentUnitInSlot, 
-                TimeBetweenUnitAndCall(currentUnitInSlot, callPosition), 
+                UnitMovementCalculator.CalculateTravelTime(currentUnitInSlot.UnitBase.position, 
+                                                           callPosition, 
+                                                           currentUnitInSlot.Unit.speedBySecond), 
                 slotPosition == 0 ? callDetail.result : null
             );
         }
-    }
-
-    private float TimeBetweenUnitAndCall(UnitItemPresenter unit, Vector2 callPosition)
-    {
-        float distance = Vector2.Distance(unit.UnitBase.position, callPosition);
-
-        return distance / unit.Unit.speedBySecond;
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
         if (!eventData.pointerDrag) return;
 
-        UnitItemPresenter unitPreview = eventData.pointerDrag?.GetComponent<UnitItemPresenter>();;
+        UnitItemPresenter unitPreview = eventData.pointerDrag.GetComponent<UnitItemPresenter>();;
 
-        EventBus.OnShowDispatchPreview?.Invoke(TimeBetweenUnitAndCall(unitPreview, callDetail.currentCallButtonPresenter.transform.position));
+        if (unitPreview == null) return;
+
+        EventBus.OnShowDispatchPreview?.Invoke(UnitMovementCalculator.CalculateTravelTime(
+                                               unitPreview.UnitBase.position, 
+                                               callDetail.currentCallButtonPresenter.transform.position,
+                                               unitPreview.Unit.speedBySecond));
     }
 
     public void OnPointerExit(PointerEventData eventData)

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum WaterZone
+public enum Zone
 {
     South,
     North,
@@ -13,8 +13,8 @@ public enum WaterZone
 
 public class WaterLevelModel
 {
-    private Dictionary<WaterZone, float> zoneLevels = new();
-    private Dictionary<WaterZone, int> zoneDirections = new(); 
+    private Dictionary<Zone, float> zoneLevels = new();
+    private Dictionary<Zone, int> zoneDirections = new(); 
     private float variationPerSecond;
     private float directionChangeInterval;
     private float penaltyInterval;
@@ -32,17 +32,17 @@ public class WaterLevelModel
         gameManager = gm;
         variationPerSecond = dayConfig.waterVariationPerSecond;
         directionChangeInterval = dayConfig.waterDirectionChangeInterval;
-        penaltyInterval = dayConfig.emptyWaterInterval;
+        penaltyInterval = dayConfig.emptyWaterTickInterval;
         penaltyValue = dayConfig.popularityImpactOnEmptyWaterPerTick;
 
-        foreach (WaterZone zone in Enum.GetValues(typeof(WaterZone)))
+        foreach (Zone zone in Enum.GetValues(typeof(Zone)))
         {
             zoneLevels.Add(zone, 50f);
             zoneDirections.Add(zone, UnityEngine.Random.value > 0.5f ? -1 : 1);
         }
     }
 
-    public Dictionary<WaterZone, float> UpdateValues(float deltaTime)
+    public Dictionary<Zone, float> UpdateValues(float deltaTime)
     {
         directionTimer += deltaTime;
         penaltyTimer += deltaTime;
@@ -68,7 +68,7 @@ public class WaterLevelModel
             }
         }
 
-        foreach (WaterZone zone in new List<WaterZone>(zoneLevels.Keys))
+        foreach (Zone zone in new List<Zone>(zoneLevels.Keys))
         {
             float currentLevel = zoneLevels[zone];
 
@@ -88,18 +88,18 @@ public class WaterLevelModel
 
     private void ChangeDirections()
     {
-        foreach (WaterZone zone in Enum.GetValues(typeof(WaterZone)))
+        foreach (Zone zone in Enum.GetValues(typeof(Zone)))
         {
             zoneDirections[zone] = UnityEngine.Random.value < 0.5f ? -1 : 1;
         }
     }
 
-    public float GetZoneLevel(WaterZone zone)
+    public float GetZoneLevel(Zone zone)
     {        
         return zoneLevels[zone];
     }
 
-    public void SetZoneLevel(WaterZone zone, float value)
+    public void SetZoneLevel(Zone zone, float value)
     {   
         zoneLevels[zone] = Mathf.Clamp(value, 0, 100);
 

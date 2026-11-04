@@ -16,14 +16,14 @@ public class WaterLevelView : MonoBehaviour
         }
     }
 
-    private void SetZoneLevelValue(WaterZone zone, float newValue)
+    private void SetZoneLevelValue(Zone zone, float newValue)
     {
         presenter.ChangeZoneLevel(zone, newValue);
     }
 
-    public void UpdateSliders(Dictionary<WaterZone, float> zones)
+    public void UpdateSliders(Dictionary<Zone, float> zones)
     {
-        foreach (WaterZone zone in zones.Keys)
+        foreach (Zone zone in zones.Keys)
         {
             WaterLevelSlider currentSlider = sliders.Find(slider => slider.SourceZone == zone);
 

@@ -8,11 +8,11 @@ public class WaterLevelSlider : MonoBehaviour
     [SerializeField] private Slider zoneLevelSlider;
 
     [Header("Zone config")]
-    [SerializeField] private WaterZone sourceZone;
+    [SerializeField] private Zone sourceZone;
 
-    public WaterZone SourceZone => sourceZone;
+    public Zone SourceZone => sourceZone;
 
-    public void AddOnValueChanged(Action<WaterZone, float> eventToTrigger)
+    public void AddOnValueChanged(Action<Zone, float> eventToTrigger)
     {
         zoneLevelSlider.onValueChanged.RemoveAllListeners();
         zoneLevelSlider.onValueChanged.AddListener(

@@ -8,7 +8,7 @@ public class CallButtonFactory : MonoBehaviour
     [SerializeField] private RectTransform[] spawnPoints;
 
     [Header("Water Call creation configuration")]
-    [SerializeField] private List<WaterPosition> waterSpawnPoints;
+    [SerializeField] private List<ZonePresenter> waterSpawnPoints;
     [SerializeField] private EventDatabase waterEventDatabase;
 
     private List<EventData> availableEventsForTheDay = new List<EventData>();
@@ -73,9 +73,9 @@ public class CallButtonFactory : MonoBehaviour
         SpawnCallButton(buttonObj);
     }
 
-    private void SetupWaterCallButton(WaterZone zone)
+    private void SetupWaterCallButton(Zone zone)
     {
-        WaterPosition affectedZone = waterSpawnPoints.Find(sourceZone => sourceZone.Zone == zone);
+        ZonePresenter affectedZone = waterSpawnPoints.Find(sourceZone => sourceZone.Zone == zone);
 
         if (affectedZone == null)
         {

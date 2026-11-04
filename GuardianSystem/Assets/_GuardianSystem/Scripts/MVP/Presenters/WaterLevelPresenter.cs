@@ -35,12 +35,12 @@ public class WaterLevelPresenter : MonoBehaviour
 
     private void UpdateValues(float deltaTime)
     {
-        Dictionary<WaterZone, float> updatedValues = waterLevel.UpdateValues(deltaTime);
+        Dictionary<Zone, float> updatedValues = waterLevel.UpdateValues(deltaTime);
 
         view.UpdateSliders(updatedValues);
     }
 
-    public void ChangeZoneLevel(WaterZone zone, float newValue)
+    public void ChangeZoneLevel(Zone zone, float newValue)
     {
         waterLevel.SetZoneLevel(zone, newValue);
     }
