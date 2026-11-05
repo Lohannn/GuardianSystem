@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c17ae20f2a0051491e71f8ee55be9f, type: 3}
+  m_Name: Day0Cutscene_Test
+  m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
+  cutsceneImage: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  dialogues:
+  - level: 0
+    dialogues:
+    - Testando dialogo ruim 1
+    - Testando dialogo ruim 2
+    - Testando dialogo ruim 3
+  - level: 1
+    dialogues:
+    - Testando dialogo neutro 1
+    - Testando dialogo neutro 2
+    - Testando dialogo neutro 3
+  - level: 2
+    dialogues:
+    - Testando dialogo bom 1
+    - Testando dialogo bom 2
+    - Testando dialogo bom 3

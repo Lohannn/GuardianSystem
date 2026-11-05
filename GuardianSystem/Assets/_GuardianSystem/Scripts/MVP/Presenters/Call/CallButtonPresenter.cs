@@ -30,6 +30,8 @@ public class CallButtonPresenter : MonoBehaviour
         if (callPresenter != this) return;
 
         gameManager.AdjustActiveCalls(-1);
+        gameManager.TryEndDay();
+
         view.ownerPool.ReturnObjectToPool(view.gameObject);
     }
 
@@ -39,6 +41,8 @@ public class CallButtonPresenter : MonoBehaviour
 
         gameManager.populationModel.AdjustPopularity(eventData.popularityImpactOnTimeout);
         gameManager.AdjustActiveCalls(-1);
+        gameManager.TryEndDay();
+
         view.ownerPool.ReturnObjectToPool(view.gameObject);
     }
 }

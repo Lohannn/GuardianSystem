@@ -4,6 +4,7 @@ using UnityEngine;
 public class DayConfigData : ScriptableObject
 {
     public int DayNumber;
+    public CutsceneData endDayCutscene;
 
     [Header("Calls")]
     public float dayDurationInSeconds = 180f;

@@ -18,7 +18,7 @@ public class CallButtonView : MonoBehaviour
         data = eventData;
         remainingTime = data.eventDuration;
 
-        callButtonText.text = data.eventType.ToString(); 
+        callButtonText.text = data.eventType.ToString();
 
         callButton.onClick.RemoveAllListeners();
         callButton.onClick.AddListener(OnCallButtonClicked);
@@ -26,13 +26,17 @@ public class CallButtonView : MonoBehaviour
 
     void Update()
     {
-        if (remainingTime > 0)
+        if (GameManager.Instance.CurrentGameState == GameState.Running ||
+            GameManager.Instance.CurrentGameState == GameState.Overtime)
         {
-            remainingTime -= Time.deltaTime;
-            if (remainingTime <= 0)
+            if (remainingTime > 0)
             {
-                remainingTime = 0;
-                OnTimeout();
+                remainingTime -= Time.deltaTime;
+                if (remainingTime <= 0)
+                {
+                    remainingTime = 0;
+                    OnTimeout();
+                }
             }
         }
     }

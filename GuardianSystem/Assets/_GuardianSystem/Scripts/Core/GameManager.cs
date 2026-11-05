@@ -8,6 +8,7 @@ public enum GameState
     Setup,
     Starting,
     Running,
+    Overtime,
     Paused,
     EndOfDay,
     Cutscene
@@ -29,6 +30,7 @@ public class GameManager : MonoBehaviour
     [Header("Day Data")]
     private int currentDayNumber = 0;
     private float currentDayDuration;
+    private bool endOfDayRequested = false;
 
     //Events
 #region Game State Events
@@ -60,8 +62,20 @@ public class GameManager : MonoBehaviour
 
             if (currentDayDuration <= 0)
             {
-                ChangeState(GameState.EndOfDay);
+                ChangeState(GameState.Overtime);
             }
+        }
+    }
+
+    private void LateUpdate()
+    {
+        if (!endOfDayRequested) return;
+
+        endOfDayRequested = false;
+
+        if (CurrentGameState == GameState.Overtime && currentCallsActive == 0)
+        {
+            ChangeState(GameState.EndOfDay);
         }
     }
 
@@ -87,6 +101,9 @@ public class GameManager : MonoBehaviour
                 StartCoroutine(AddTrashCoroutine());
                 OnDayRunning?.Invoke();
                 break;
+            case GameState.Overtime:
+                Debug.Log("Game is now on overtime");
+                break;
             case GameState.Paused:
                 Debug.Log("Game is now paused.");
                 OnDayPaused?.Invoke();
@@ -94,6 +111,7 @@ public class GameManager : MonoBehaviour
             case GameState.EndOfDay:
                 Debug.Log("Day has ended.");
                 OnDayEnded?.Invoke();
+                StartCoroutine(EndDayCoriutine());
                 break;
             case GameState.Cutscene:
                 Debug.Log("Cutscene is now playing.");
@@ -106,7 +124,7 @@ public class GameManager : MonoBehaviour
     {
         if (currentDayNumber < dayConfigOrder.Count)
         {
-            if (currentDayNumber == 3)
+            if (currentDayNumber == 4)
             {
                 if (populationModel.Popularity < 30)
                 {
@@ -147,6 +165,15 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void TryEndDay()
+    {
+        if (CurrentGameState != GameState.Overtime ||
+            currentCallsActive > 0) 
+            return;
+
+        endOfDayRequested = true;
+    }
+
     public void AdjustActiveCalls(int adjustment)
     {
         currentCallsActive += adjustment;
@@ -156,6 +183,12 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(1.5f);
         ChangeState(GameState.Running);
+    }
+
+    private IEnumerator EndDayCoriutine()
+    {
+        yield return new WaitForSeconds(1.5f);
+        ChangeState(GameState.Cutscene);
     }
 
     private IEnumerator SpawnCallCoroutine()

@@ -32,6 +32,7 @@ public class ZonePresenter : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
 
         gameManager.OnDayStarted += SetupTrash;
         gameManager.AddTrash += AddTrashCounter;
+        gameManager.OnDayEnded += ResetTranshCounter;
     }
 
     void OnDisable()
@@ -41,6 +42,7 @@ public class ZonePresenter : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
 
         gameManager.OnDayStarted -= SetupTrash;
         gameManager.AddTrash -= AddTrashCounter;
+        gameManager.OnDayEnded -= ResetTranshCounter;
     }
 
     private void SetupTrash()
@@ -88,7 +90,7 @@ public class ZonePresenter : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
         view.UpdateIcons(trashCounter);
     }
 
-    private void ResetTrashCounter()
+    private void CollectTrashCounter()
     {
         gameManager.populationModel.AdjustPopularity(gameManager.currentDayConfig.popularityImpactOnCollectedTrash * trashCounter);
         trashCounter = 0;
@@ -96,9 +98,23 @@ public class ZonePresenter : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
         view.UpdateIcons(trashCounter);
     }
 
+    private void ResetTranshCounter()
+    {
+        if (collectorUnit != null)
+        {
+            return;
+        }
+
+        trashCounter = 0;
+        collectorUnit = null;
+        view.UpdateIcons(trashCounter);
+    }
+
     public void OnDrop(PointerEventData eventData)
     {
-        if (collectorUnit != null || trashCounter <= 0) return;
+        if (collectorUnit != null || trashCounter <= 0 || 
+            gameManager.CurrentGameState != GameState.Running &&
+            gameManager.CurrentGameState != GameState.Overtime) return;
 
         UnitItemPresenter droppedUnit = eventData.pointerDrag?.GetComponent<UnitItemPresenter>();
 
@@ -110,12 +126,14 @@ public class ZonePresenter : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
                                          UnitMovementCalculator.CalculateTravelTime(collectorUnit.UnitBase.position,
                                                                                     transform.position,
                                                                                     collectorUnit.Unit.speedBySecond),
-                                         ResetTrashCounter);
+                                         CollectTrashCounter);
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (!eventData.pointerDrag || trashCounter <= 0) return;
+        if (!eventData.pointerDrag || trashCounter <= 0 || 
+            gameManager.CurrentGameState != GameState.Running &&
+            gameManager.CurrentGameState != GameState.Overtime) return;
 
         UnitItemPresenter unitPreview = eventData.pointerDrag.GetComponent<UnitItemPresenter>();
 

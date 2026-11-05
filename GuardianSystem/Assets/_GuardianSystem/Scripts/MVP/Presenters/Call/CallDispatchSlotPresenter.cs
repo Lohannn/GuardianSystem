@@ -27,6 +27,9 @@ public class CallDispatchSlotPresenter : MonoBehaviour, IDropHandler, IPointerEn
 
     public void OnDrop(PointerEventData eventData)
     {
+        if (GameManager.Instance.CurrentGameState != GameState.Running &&
+            GameManager.Instance.CurrentGameState != GameState.Overtime) return;
+
         currentUnitInSlot = eventData.pointerDrag?.GetComponent<UnitItemPresenter>();
 
         if (currentUnitInSlot == null) return;
@@ -60,7 +63,9 @@ public class CallDispatchSlotPresenter : MonoBehaviour, IDropHandler, IPointerEn
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (!eventData.pointerDrag) return;
+        if (!eventData.pointerDrag || 
+            GameManager.Instance.CurrentGameState != GameState.Running &&
+            GameManager.Instance.CurrentGameState != GameState.Overtime) return;
 
         UnitItemPresenter unitPreview = eventData.pointerDrag.GetComponent<UnitItemPresenter>();;
 

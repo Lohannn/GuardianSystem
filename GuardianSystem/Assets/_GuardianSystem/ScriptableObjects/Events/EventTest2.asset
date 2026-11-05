@@ -15,7 +15,7 @@ MonoBehaviour:
   eventWeight: 0
   eventDescription: Test 2 Question
   eventImage: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  eventType: 0
+  eventType: 1
   eventDuration: 15
   requiredUnits: 0200000001000000
   popularityImpactOnSuccess: 20

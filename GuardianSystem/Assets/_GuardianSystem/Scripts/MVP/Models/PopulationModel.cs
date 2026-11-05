@@ -1,5 +1,12 @@
 using UnityEngine;
 
+public enum PopularityLevel
+{
+    Bad,
+    Neutral,
+    Good
+}
+
 public class PopulationModel
 {
     public float Popularity { get; private set; }
@@ -22,6 +29,21 @@ public class PopulationModel
         {
             Debug.Log($"Popularity decreased by {Mathf.Abs(amount)}. New popularity: {Popularity}");
             //feedback de perdida ganha aqui
+        }
+    }
+
+    public PopularityLevel GetPopularityLevel()
+    {
+        switch (Popularity)
+        {
+            case > 60f:
+                return PopularityLevel.Good;
+            case > 45f:
+                return PopularityLevel.Neutral;
+            case <= 45f:
+                return PopularityLevel.Bad;
+            default:
+                return PopularityLevel.Neutral;
         }
     }
 }

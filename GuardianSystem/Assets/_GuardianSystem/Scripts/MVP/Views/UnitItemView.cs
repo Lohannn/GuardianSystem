@@ -13,6 +13,16 @@ public class UnitItemView : MonoBehaviour
     private float maxTime;
     private float remainingTime;
 
+    void OnEnable()
+    {
+        GameManager.Instance.OnDayEnded += EndDispatch;
+    }
+
+    void OnDisable()
+    {
+        GameManager.Instance.OnDayEnded -= EndDispatch;
+    }
+
     void Start()
     {
         if (presenter == null)
@@ -38,14 +48,18 @@ public class UnitItemView : MonoBehaviour
 
     void Update()
     {
-        if (remainingTime > 0)
+        if (GameManager.Instance.CurrentGameState == GameState.Running ||
+            GameManager.Instance.CurrentGameState == GameState.Overtime)
         {
-            remainingTime -= Time.deltaTime;
-            dispatchCooldownImage.fillAmount = Mathf.Clamp01(remainingTime/maxTime);
-
-            if (remainingTime <= 0)
+            if (remainingTime > 0)
             {
-                EndDispatch();
+                remainingTime -= Time.deltaTime;
+                dispatchCooldownImage.fillAmount = Mathf.Clamp01(remainingTime / maxTime);
+
+                if (remainingTime <= 0)
+                {
+                    EndDispatch();
+                }
             }
         }
     }
