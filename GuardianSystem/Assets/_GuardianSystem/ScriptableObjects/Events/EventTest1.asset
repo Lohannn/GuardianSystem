@@ -18,7 +18,7 @@ MonoBehaviour:
 '
   eventImage: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   eventType: 0
-  eventDuration: 15
+  eventDuration: 999
   requiredUnits: 02000000
   popularityImpactOnSuccess: 20
   popularityImpactOnWrongUnits: 0

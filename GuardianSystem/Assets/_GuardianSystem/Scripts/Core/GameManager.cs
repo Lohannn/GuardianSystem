@@ -51,6 +51,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        populationModel = new PopulationModel();
         ChangeState(GameState.Starting);
     }
 
@@ -63,6 +64,7 @@ public class GameManager : MonoBehaviour
             if (currentDayDuration <= 0)
             {
                 ChangeState(GameState.Overtime);
+                TryEndDay();
             }
         }
     }
@@ -76,6 +78,7 @@ public class GameManager : MonoBehaviour
         if (CurrentGameState == GameState.Overtime && currentCallsActive == 0)
         {
             ChangeState(GameState.EndOfDay);
+            currentDayNumber++;
         }
     }
 
@@ -91,7 +94,6 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.Starting:
                 Debug.Log("Game is starting.");
-                populationModel = new PopulationModel();
                 StartDay();
                 OnDayStarted?.Invoke();
                 break;
@@ -124,16 +126,16 @@ public class GameManager : MonoBehaviour
     {
         if (currentDayNumber < dayConfigOrder.Count)
         {
-            if (currentDayNumber == 4)
+            if (currentDayNumber == 3)
             {
-                if (populationModel.Popularity < 30)
+                if (populationModel.GetPopularityLevel() == PopularityLevel.Bad)
                 {
-                    Debug.Log("Popularity is below 30, choosing bad end day.");
+                    Debug.Log("Choosing bad end day.");
                     // Set the current day config to the bad end day
                 }
                 else
                 {
-                    Debug.Log("Popularity is above 30, choosing good end day.");
+                    Debug.Log("Choosing good end day.");
                     // Set the current day config to the good end day
                 }
             }

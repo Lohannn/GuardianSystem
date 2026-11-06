@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DayConfigData
   DayNumber: 0
   endDayCutscene: {fileID: 11400000, guid: ebaeee58aca3dc63b9e503f1f6ce2732, type: 2}
-  dayDurationInSeconds: 20
+  dayDurationInSeconds: 999
   minCallSpawnInterval: 3
   maxCallSpawnInterval: 7
   maxSimultaneousCalls: 3

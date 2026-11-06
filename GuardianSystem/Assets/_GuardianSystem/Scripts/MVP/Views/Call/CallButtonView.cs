@@ -6,19 +6,21 @@ public class CallButtonView : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Button callButton;
-    [SerializeField] private Text callButtonText; //Protype only
+    [SerializeField] private Image timeViewerImage;
     public ObjectPool ownerPool;
 
     [Header("Event Data")]
     [SerializeField] private EventData data;
+    [SerializeField] private float maxTime;
     [SerializeField] private float remainingTime;
 
     public void Initialize(EventData eventData)
     {
         data = eventData;
-        remainingTime = data.eventDuration;
+        maxTime = data.eventDuration;
+        remainingTime = 0;
 
-        callButtonText.text = data.eventType.ToString();
+        timeViewerImage.fillAmount = 0;
 
         callButton.onClick.RemoveAllListeners();
         callButton.onClick.AddListener(OnCallButtonClicked);
@@ -29,10 +31,12 @@ public class CallButtonView : MonoBehaviour
         if (GameManager.Instance.CurrentGameState == GameState.Running ||
             GameManager.Instance.CurrentGameState == GameState.Overtime)
         {
-            if (remainingTime > 0)
+            if (remainingTime < maxTime)
             {
-                remainingTime -= Time.deltaTime;
-                if (remainingTime <= 0)
+                remainingTime += Time.deltaTime;
+                timeViewerImage.fillAmount = Mathf.Clamp01(remainingTime / maxTime);
+
+                if (remainingTime >= maxTime)
                 {
                     remainingTime = 0;
                     OnTimeout();
