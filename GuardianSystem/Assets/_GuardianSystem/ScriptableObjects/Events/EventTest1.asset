@@ -16,8 +16,8 @@ MonoBehaviour:
   eventDescription: 'Test 1 DIspatch
 
 '
-  eventImage: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  eventType: 0
+  eventImage: {fileID: 21300000, guid: d261a3299bc9dcf32881ed4d25a4e780, type: 3}
+  eventType: 1
   eventDuration: 999
   requiredUnits: 02000000
   popularityImpactOnSuccess: 20
