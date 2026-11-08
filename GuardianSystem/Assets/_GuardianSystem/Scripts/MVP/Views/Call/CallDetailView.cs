@@ -9,6 +9,7 @@ public class CallDetailView : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private CallDetailPresenter presenter;
+    [SerializeField] private ExtraPanelOpen animation;
 
     [SerializeField] private Image clickBlockerPanel;
     [SerializeField] private Image callDetailPanel;
@@ -47,9 +48,10 @@ public class CallDetailView : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Escape))
+        if (Input.GetKeyUp(KeyCode.Escape) && callDetailPanel.gameObject.activeInHierarchy)
         {
             Hide();
+            EventBus.OnDetailPanelHide.Invoke();
         }
     }
 
@@ -163,10 +165,12 @@ public class CallDetailView : MonoBehaviour
         clickBlockerPanel.raycastTarget = true;
 
         callDetailPanel.gameObject.SetActive(true);
+        animation.OpenPanelAnimated();
     }
 
     public void Hide()
     {
+
         foreach (Button button in questionCallAnswerButtons)
         {
             button.onClick.RemoveAllListeners();
@@ -188,7 +192,7 @@ public class CallDetailView : MonoBehaviour
 
         clickBlockerPanel.color = new Color(clickBlockerPanel.color.r, clickBlockerPanel.color.g, clickBlockerPanel.color.b, 0f);
         clickBlockerPanel.raycastTarget = false;
-        callDetailPanel.gameObject.SetActive(false);
+        animation.ClosePanelAnimated(() => callDetailPanel.gameObject.SetActive(false));
     }
 
     private void HandleCallClicked(EventData eventData, CallButtonPresenter callPresenter)

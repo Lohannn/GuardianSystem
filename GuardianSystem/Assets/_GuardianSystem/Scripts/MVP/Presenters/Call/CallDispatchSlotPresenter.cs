@@ -17,12 +17,14 @@ public class CallDispatchSlotPresenter : MonoBehaviour, IDropHandler, IPointerEn
     {
         EventBus.OnCallResolved += DispatchUnits;
         EventBus.OnCallTimedOut += ClearSlot;
+        EventBus.OnDetailPanelHide += ClearSlot;
     }
 
     void OnDisable()
     {
         EventBus.OnCallResolved -= DispatchUnits;       
         EventBus.OnCallTimedOut -= ClearSlot;
+        EventBus.OnDetailPanelHide -= ClearSlot;
     }
 
     public void OnDrop(PointerEventData eventData)
@@ -37,6 +39,13 @@ public class CallDispatchSlotPresenter : MonoBehaviour, IDropHandler, IPointerEn
         bool accepted = callDetail.TryUnitDrop(slotPosition, currentUnitInSlot);
         
         if (accepted) view.SetIcon(currentUnitInSlot.Unit);
+    }
+
+    private void ClearSlot()
+    {
+        currentUnitInSlot = null;
+        view.RemoveIcon();
+        EventBus.OnHideDispatchPreview?.Invoke();
     }
 
     private void ClearSlot(EventData data, CallButtonPresenter call)

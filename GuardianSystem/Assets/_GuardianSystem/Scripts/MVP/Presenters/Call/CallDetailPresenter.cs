@@ -25,12 +25,16 @@ public class CallDetailPresenter : MonoBehaviour
     {
         EventBus.OnCallClicked += HandleCallClicked;
         EventBus.OnCallTimedOut += CallTimeOutHandler;
+
+        EventBus.OnDetailPanelHide += ClearCase;
     }
 
     void OnDisable()
     {
         EventBus.OnCallClicked -= HandleCallClicked;
         EventBus.OnCallTimedOut -= CallTimeOutHandler;
+
+        EventBus.OnDetailPanelHide -= ClearCase;
     }
 
     public void HandleAnswerSelection(EventAnswer selectedAnswer)
@@ -88,12 +92,7 @@ public class CallDetailPresenter : MonoBehaviour
 
         EventBus.OnCallResolved?.Invoke(eventData, currentCallButtonPresenter);
         
-        currentSelectedAnswer = null;
-        for (int i = 0; i < dispatchedUnits.Length; i++)
-        {
-            dispatchedUnits[i] = null;
-        }
-        result = null;
+        ClearCase();
 
         view.Hide();
     }
@@ -101,6 +100,17 @@ public class CallDetailPresenter : MonoBehaviour
     private void CallTimeOutHandler(EventData eventData, CallButtonPresenter callPresenter)
     {
         if (currentCallButtonPresenter != callPresenter) return;
+        ClearCase();
         view.Hide();
+    }
+
+    private void ClearCase()
+    {
+        currentSelectedAnswer = null;
+        for (int i = 0; i < dispatchedUnits.Length; i++)
+        {
+            dispatchedUnits[i] = null;
+        }
+        result = null;
     }
 }

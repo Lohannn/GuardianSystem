@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class GhostItem : MonoBehaviour
 {
     [Header("References")]
+    [SerializeField] private GameObject previewContainer;
     [SerializeField] private TextMeshProUGUI dispatchDurationPreview;
     
     private Image unitImage;
@@ -39,12 +40,12 @@ public class GhostItem : MonoBehaviour
     private void ShowDurationPreview(float duration)
     {
         dispatchDurationPreview.SetText("{0:0.0} seg", duration);
-        dispatchDurationPreview.gameObject.SetActive(true);
+        previewContainer.SetActive(true);
     }
 
     private void HideDurationPreview()
     {
-        dispatchDurationPreview.gameObject.SetActive(false);
+        previewContainer.SetActive(false);
     }
 
     private void StartGhost(UnitItemPresenter presenter, Vector2 position)
