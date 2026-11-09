@@ -1494,6 +1494,7 @@ GameObject:
   - component: {fileID: 132141801}
   - component: {fileID: 132141803}
   - component: {fileID: 132141802}
+  - component: {fileID: 132141804}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -1518,7 +1519,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 75, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &132141802
 MonoBehaviour:
@@ -1558,6 +1559,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132141800}
   m_CullTransparentMesh: 1
+--- !u!114 &132141804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132141800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &134155030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1747,6 +1762,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 859378361}
+  - {fileID: 1318857679}
   m_Father: {fileID: 220797642}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1825,6 +1841,7 @@ MonoBehaviour:
   - {fileID: 1699627128}
   - {fileID: 1716485238}
   - {fileID: 1987183456}
+  statsIcon: {fileID: 1318857679}
 --- !u!1 &177808842
 GameObject:
   m_ObjectHideFlags: 0
@@ -1858,6 +1875,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 487389976}
+  - {fileID: 522411362}
   m_Father: {fileID: 220797642}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1936,6 +1954,7 @@ MonoBehaviour:
   - {fileID: 566205633}
   - {fileID: 385072576}
   - {fileID: 248965688}
+  statsIcon: {fileID: 522411362}
 --- !u!1 &188113293
 GameObject:
   m_ObjectHideFlags: 0
@@ -3059,6 +3078,7 @@ GameObject:
   - component: {fileID: 248965689}
   - component: {fileID: 248965691}
   - component: {fileID: 248965690}
+  - component: {fileID: 248965692}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -3083,7 +3103,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 175, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &248965690
 MonoBehaviour:
@@ -3123,6 +3143,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 248965688}
   m_CullTransparentMesh: 1
+--- !u!114 &248965692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248965688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &260222791
 GameObject:
   m_ObjectHideFlags: 0
@@ -4168,6 +4202,7 @@ GameObject:
   - component: {fileID: 359634092}
   - component: {fileID: 359634094}
   - component: {fileID: 359634093}
+  - component: {fileID: 359634095}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -4192,7 +4227,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 175, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &359634093
 MonoBehaviour:
@@ -4232,6 +4267,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359634091}
   m_CullTransparentMesh: 1
+--- !u!114 &359634095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359634091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &369220143
 GameObject:
   m_ObjectHideFlags: 0
@@ -4715,6 +4764,7 @@ GameObject:
   - component: {fileID: 385072577}
   - component: {fileID: 385072579}
   - component: {fileID: 385072578}
+  - component: {fileID: 385072580}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -4739,7 +4789,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 125, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &385072578
 MonoBehaviour:
@@ -4779,6 +4829,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 385072576}
   m_CullTransparentMesh: 1
+--- !u!114 &385072580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385072576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &392008010
 GameObject:
   m_ObjectHideFlags: 0
@@ -5859,6 +5923,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &522411361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 522411362}
+  - component: {fileID: 522411364}
+  - component: {fileID: 522411363}
+  m_Layer: 5
+  m_Name: StatusIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &522411362
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522411361}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 177808843}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 30.5}
+  m_SizeDelta: {x: 30, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &522411363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522411361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 42e2807d46ac94deb98acf1c63800a95, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &522411364
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522411361}
+  m_CullTransparentMesh: 1
 --- !u!1 &526833628
 GameObject:
   m_ObjectHideFlags: 0
@@ -5991,6 +6130,7 @@ GameObject:
   - component: {fileID: 566205634}
   - component: {fileID: 566205636}
   - component: {fileID: 566205635}
+  - component: {fileID: 566205637}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -6015,7 +6155,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 75, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &566205635
 MonoBehaviour:
@@ -6055,6 +6195,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566205633}
   m_CullTransparentMesh: 1
+--- !u!114 &566205637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566205633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &566285122
 GameObject:
   m_ObjectHideFlags: 0
@@ -6466,6 +6620,7 @@ GameObject:
   - component: {fileID: 608629018}
   - component: {fileID: 608629020}
   - component: {fileID: 608629019}
+  - component: {fileID: 608629021}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -6490,7 +6645,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 25, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &608629019
 MonoBehaviour:
@@ -6530,6 +6685,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 608629017}
   m_CullTransparentMesh: 1
+--- !u!114 &608629021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608629017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &612868511
 GameObject:
   m_ObjectHideFlags: 0
@@ -6616,6 +6785,7 @@ GameObject:
   - component: {fileID: 615666324}
   - component: {fileID: 615666326}
   - component: {fileID: 615666325}
+  - component: {fileID: 615666327}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -6640,7 +6810,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 25, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &615666325
 MonoBehaviour:
@@ -6680,6 +6850,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615666323}
   m_CullTransparentMesh: 1
+--- !u!114 &615666327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615666323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -6796,6 +6980,7 @@ GameObject:
   - component: {fileID: 631747418}
   - component: {fileID: 631747420}
   - component: {fileID: 631747419}
+  - component: {fileID: 631747421}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -6820,7 +7005,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 75, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &631747419
 MonoBehaviour:
@@ -6860,6 +7045,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 631747417}
   m_CullTransparentMesh: 1
+--- !u!114 &631747421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631747417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &631895859
 GameObject:
   m_ObjectHideFlags: 0
@@ -8780,6 +8979,7 @@ GameObject:
   - component: {fileID: 772306022}
   - component: {fileID: 772306024}
   - component: {fileID: 772306023}
+  - component: {fileID: 772306025}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -8804,7 +9004,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 175, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &772306023
 MonoBehaviour:
@@ -8844,6 +9044,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 772306021}
   m_CullTransparentMesh: 1
+--- !u!114 &772306025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772306021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &773184191
 GameObject:
   m_ObjectHideFlags: 0
@@ -9593,6 +9807,7 @@ GameObject:
   - component: {fileID: 922374823}
   - component: {fileID: 922374825}
   - component: {fileID: 922374824}
+  - component: {fileID: 922374826}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -9617,7 +9832,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 125, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &922374824
 MonoBehaviour:
@@ -9657,6 +9872,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 922374822}
   m_CullTransparentMesh: 1
+--- !u!114 &922374826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922374822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &929276589
 GameObject:
   m_ObjectHideFlags: 0
@@ -9939,6 +10168,7 @@ GameObject:
   - component: {fileID: 944414461}
   - component: {fileID: 944414463}
   - component: {fileID: 944414462}
+  - component: {fileID: 944414464}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -9963,7 +10193,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 125, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &944414462
 MonoBehaviour:
@@ -10003,6 +10233,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944414460}
   m_CullTransparentMesh: 1
+--- !u!114 &944414464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944414460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &955963352
 GameObject:
   m_ObjectHideFlags: 0
@@ -10291,6 +10535,7 @@ GameObject:
   - component: {fileID: 961719389}
   - component: {fileID: 961719391}
   - component: {fileID: 961719390}
+  - component: {fileID: 961719392}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -10315,7 +10560,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 125, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &961719390
 MonoBehaviour:
@@ -10355,6 +10600,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961719388}
   m_CullTransparentMesh: 1
+--- !u!114 &961719392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961719388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &964334111
 GameObject:
   m_ObjectHideFlags: 0
@@ -12172,6 +12431,81 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TextBoxView
   cutsceneView: {fileID: 1090050169}
+--- !u!1 &1136372760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1136372761}
+  - component: {fileID: 1136372763}
+  - component: {fileID: 1136372762}
+  m_Layer: 5
+  m_Name: StatusIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1136372761
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136372760}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1430287199}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 30.5}
+  m_SizeDelta: {x: 30, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1136372762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136372760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 42e2807d46ac94deb98acf1c63800a95, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1136372763
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136372760}
+  m_CullTransparentMesh: 1
 --- !u!1 &1159310264
 GameObject:
   m_ObjectHideFlags: 0
@@ -13090,6 +13424,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1224741545}
+  - {fileID: 2132383876}
   m_Father: {fileID: 220797642}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -13168,6 +13503,7 @@ MonoBehaviour:
   - {fileID: 1594983569}
   - {fileID: 961719388}
   - {fileID: 772306021}
+  statsIcon: {fileID: 2132383876}
 --- !u!1 &1290617541
 GameObject:
   m_ObjectHideFlags: 0
@@ -13330,6 +13666,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1307028594}
+  m_CullTransparentMesh: 1
+--- !u!1 &1318857678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1318857679}
+  - component: {fileID: 1318857681}
+  - component: {fileID: 1318857680}
+  m_Layer: 5
+  m_Name: StatusIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1318857679
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318857678}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 158783743}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 30.5}
+  m_SizeDelta: {x: 30, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1318857680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318857678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 42e2807d46ac94deb98acf1c63800a95, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1318857681
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318857678}
   m_CullTransparentMesh: 1
 --- !u!1 &1328943702
 GameObject:
@@ -14177,6 +14588,7 @@ GameObject:
   - component: {fileID: 1429631614}
   - component: {fileID: 1429631616}
   - component: {fileID: 1429631615}
+  - component: {fileID: 1429631617}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -14201,7 +14613,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 25, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1429631615
 MonoBehaviour:
@@ -14241,6 +14653,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1429631613}
   m_CullTransparentMesh: 1
+--- !u!114 &1429631617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429631613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &1430287198
 GameObject:
   m_ObjectHideFlags: 0
@@ -14274,6 +14700,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1792932520}
+  - {fileID: 1136372761}
   m_Father: {fileID: 220797642}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -14352,6 +14779,7 @@ MonoBehaviour:
   - {fileID: 631747417}
   - {fileID: 922374822}
   - {fileID: 1696360344}
+  statsIcon: {fileID: 1136372761}
 --- !u!1 &1432136031
 GameObject:
   m_ObjectHideFlags: 0
@@ -14600,6 +15028,7 @@ GameObject:
   - component: {fileID: 1448205102}
   - component: {fileID: 1448205104}
   - component: {fileID: 1448205103}
+  - component: {fileID: 1448205105}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -14624,7 +15053,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 25, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1448205103
 MonoBehaviour:
@@ -14664,6 +15093,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1448205101}
   m_CullTransparentMesh: 1
+--- !u!114 &1448205105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448205101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &1462007180
 GameObject:
   m_ObjectHideFlags: 0
@@ -15559,6 +16002,7 @@ GameObject:
   - component: {fileID: 1594983570}
   - component: {fileID: 1594983572}
   - component: {fileID: 1594983571}
+  - component: {fileID: 1594983573}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -15583,7 +16027,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 75, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1594983571
 MonoBehaviour:
@@ -15623,6 +16067,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594983569}
   m_CullTransparentMesh: 1
+--- !u!114 &1594983573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594983569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &1598897808
 GameObject:
   m_ObjectHideFlags: 0
@@ -16233,6 +16691,7 @@ GameObject:
   - component: {fileID: 1696360345}
   - component: {fileID: 1696360347}
   - component: {fileID: 1696360346}
+  - component: {fileID: 1696360348}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -16257,7 +16716,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 175, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1696360346
 MonoBehaviour:
@@ -16297,6 +16756,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1696360344}
   m_CullTransparentMesh: 1
+--- !u!114 &1696360348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696360344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &1699627128
 GameObject:
   m_ObjectHideFlags: 0
@@ -16308,6 +16781,7 @@ GameObject:
   - component: {fileID: 1699627129}
   - component: {fileID: 1699627131}
   - component: {fileID: 1699627130}
+  - component: {fileID: 1699627132}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -16332,7 +16806,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 75, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1699627130
 MonoBehaviour:
@@ -16372,6 +16846,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1699627128}
   m_CullTransparentMesh: 1
+--- !u!114 &1699627132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699627128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &1703677395
 GameObject:
   m_ObjectHideFlags: 0
@@ -16458,6 +16946,7 @@ GameObject:
   - component: {fileID: 1716485239}
   - component: {fileID: 1716485241}
   - component: {fileID: 1716485240}
+  - component: {fileID: 1716485242}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -16482,7 +16971,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 125, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1716485240
 MonoBehaviour:
@@ -16522,6 +17011,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716485238}
   m_CullTransparentMesh: 1
+--- !u!114 &1716485242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716485238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &1726671865
 GameObject:
   m_ObjectHideFlags: 0
@@ -17240,6 +17743,7 @@ GameObject:
   - component: {fileID: 1820028952}
   - component: {fileID: 1820028954}
   - component: {fileID: 1820028953}
+  - component: {fileID: 1820028955}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -17264,7 +17768,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 25, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1820028953
 MonoBehaviour:
@@ -17304,6 +17808,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820028951}
   m_CullTransparentMesh: 1
+--- !u!114 &1820028955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820028951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &1823039619
 GameObject:
   m_ObjectHideFlags: 0
@@ -17482,7 +18000,19 @@ PrefabInstance:
       value: "\xC1gua"
       objectReference: {fileID: 0}
     - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
+      propertyPath: m_margin.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
       propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
+      propertyPath: m_HorizontalAlignment
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3126510759990188654, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
@@ -18038,6 +18568,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1888439825}
   m_CullTransparentMesh: 1
+--- !u!1 &1888908587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1888908588}
+  - component: {fileID: 1888908590}
+  - component: {fileID: 1888908589}
+  m_Layer: 5
+  m_Name: StatusIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1888908588
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888908587}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1893071479}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 30.5}
+  m_SizeDelta: {x: 30, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1888908589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888908587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 42e2807d46ac94deb98acf1c63800a95, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1888908590
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888908587}
+  m_CullTransparentMesh: 1
 --- !u!1 &1890153995
 GameObject:
   m_ObjectHideFlags: 0
@@ -18312,6 +18917,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1064490881}
+  - {fileID: 1888908588}
   m_Father: {fileID: 220797642}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -18390,6 +18996,7 @@ MonoBehaviour:
   - {fileID: 132141800}
   - {fileID: 944414460}
   - {fileID: 359634091}
+  statsIcon: {fileID: 1888908588}
 --- !u!1 &1911141986
 GameObject:
   m_ObjectHideFlags: 0
@@ -19396,6 +20003,7 @@ GameObject:
   - component: {fileID: 1987183457}
   - component: {fileID: 1987183459}
   - component: {fileID: 1987183458}
+  - component: {fileID: 1987183460}
   m_Layer: 5
   m_Name: TrashIcon
   m_TagString: Untagged
@@ -19420,7 +20028,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 175, y: -37.5}
-  m_SizeDelta: {x: 46, y: 59}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1987183458
 MonoBehaviour:
@@ -19460,6 +20068,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1987183456}
   m_CullTransparentMesh: 1
+--- !u!114 &1987183460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987183456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55286932f24e94981cc4e7291d16d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrashIcon
+  finalSize: {x: 46, y: 59}
+  animationDuration: 0.3
 --- !u!1 &2007016745
 GameObject:
   m_ObjectHideFlags: 0
@@ -20616,6 +21238,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2132159172}
+  m_CullTransparentMesh: 1
+--- !u!1 &2132383875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2132383876}
+  - component: {fileID: 2132383878}
+  - component: {fileID: 2132383877}
+  m_Layer: 5
+  m_Name: StatusIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2132383876
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132383875}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1287756309}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 30.5}
+  m_SizeDelta: {x: 30, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2132383877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132383875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 42e2807d46ac94deb98acf1c63800a95, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2132383878
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132383875}
   m_CullTransparentMesh: 1
 --- !u!1 &2137003039
 GameObject:

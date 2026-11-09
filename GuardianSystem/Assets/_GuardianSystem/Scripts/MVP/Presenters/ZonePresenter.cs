@@ -96,6 +96,7 @@ public class ZonePresenter : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
         trashCounter = 0;
         collectorUnit = null;
         view.UpdateIcons(trashCounter);
+        view.DeactivateStatus();
     }
 
     private void ResetTranshCounter()
@@ -108,6 +109,7 @@ public class ZonePresenter : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
         trashCounter = 0;
         collectorUnit = null;
         view.UpdateIcons(trashCounter);
+        view.DeactivateStatus();
     }
 
     public void OnDrop(PointerEventData eventData)
@@ -127,6 +129,7 @@ public class ZonePresenter : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
                                                                                     transform.position,
                                                                                     collectorUnit.Unit.speedBySecond),
                                          CollectTrashCounter);
+        view.ActivateStatus();
     }
 
     public void OnPointerEnter(PointerEventData eventData)
