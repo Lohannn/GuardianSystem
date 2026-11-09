@@ -578,6 +578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WaterLevelSlider
   zoneLevelSlider: {fileID: 65805926}
+  fillArea: {fileID: 0}
   sourceZone: 1
 --- !u!114 &65805926
 MonoBehaviour:
@@ -1298,6 +1299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WaterLevelSlider
   zoneLevelSlider: {fileID: 117019699}
+  fillArea: {fileID: 0}
   sourceZone: 2
 --- !u!114 &117019699
 MonoBehaviour:
@@ -7208,7 +7210,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -640, y: 518.49}
-  m_SizeDelta: {x: 0, y: 40}
+  m_SizeDelta: {x: 680, y: 700}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &641782288
 MonoBehaviour:
@@ -10105,6 +10107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WaterLevelSlider
   zoneLevelSlider: {fileID: 937316923}
+  fillArea: {fileID: 0}
   sourceZone: 3
 --- !u!114 &937316923
 MonoBehaviour:
@@ -15792,6 +15795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WaterLevelSlider
   zoneLevelSlider: {fileID: 1565643162}
+  fillArea: {fileID: 0}
   sourceZone: 4
 --- !u!114 &1565643162
 MonoBehaviour:
@@ -18000,12 +18004,20 @@ PrefabInstance:
       value: "\xC1gua"
       objectReference: {fileID: 0}
     - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
       propertyPath: m_margin.x
       value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
       propertyPath: m_fontStyle
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
       propertyPath: m_sharedMaterial
@@ -21074,6 +21086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WaterLevelSlider
   zoneLevelSlider: {fileID: 2127317813}
+  fillArea: {fileID: 0}
   sourceZone: 0
 --- !u!114 &2127317815
 MonoBehaviour:

@@ -6,6 +6,7 @@ public class WaterLevelSlider : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Slider zoneLevelSlider;
+    [SerializeField] private Image fillArea;
 
     [Header("Zone config")]
     [SerializeField] private Zone sourceZone;
