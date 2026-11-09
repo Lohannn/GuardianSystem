@@ -12,14 +12,21 @@ public class ExtraPanelOpen : MonoBehaviour
     [Header("Animation config")]
     [SerializeField] private float scaleXChangeDuration;
     [SerializeField] private float scaleYChangeDuration;
-    [SerializeField] private float scaleChangeDelay;
-    [SerializeField] private float contentFadeDuration;
-    [SerializeField] private float contentFadeDelay;
 
-    public void TogglePanel()
+    private void OnEnable()
     {
-        extraPanelContainer.sizeDelta = new(extraPanelContainer.sizeDelta.x, isOpened ? 0f : openedSize.y);
-        isOpened = !isOpened;
+        GameManager.Instance.OnSetupDay += ClosePanel;
+    }
+
+    private void OnDisable()
+    {
+        GameManager.Instance.OnSetupDay -= ClosePanel;
+    }
+
+    public void ClosePanel()
+    {
+        extraPanelContainer.sizeDelta = new(0, 40);
+        isOpened = false;
     }
 
     public void TogglePanelWindowAnimated(Action action)

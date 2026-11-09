@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour
 
     //Events
 #region Game State Events
+    public event Action OnSetupDay;
     public event Action OnDayStarted;
     public event Action OnDayPaused;
     public event Action OnDayRunning;
@@ -90,6 +91,7 @@ public class GameManager : MonoBehaviour
         {
             case GameState.Setup:
                 Debug.Log("Game is setting up.");
+                OnSetupDay?.Invoke();
                 SetupDay();
                 break;
             case GameState.Starting:
@@ -113,7 +115,7 @@ public class GameManager : MonoBehaviour
             case GameState.EndOfDay:
                 Debug.Log("Day has ended.");
                 OnDayEnded?.Invoke();
-                StartCoroutine(EndDayCoriutine());
+                StartCoroutine(ChangeStateDelay(GameState.Cutscene, 1.5f));
                 break;
             case GameState.Cutscene:
                 Debug.Log("Cutscene is now playing.");
@@ -150,7 +152,7 @@ public class GameManager : MonoBehaviour
         }
 
         Debug.Log($"Setting up Day {currentDayConfig.name}.");
-        ChangeState(GameState.Starting);
+        StartCoroutine(ChangeStateDelay(GameState.Starting, 2f));
     }
 
     private void StartDay()
@@ -159,7 +161,7 @@ public class GameManager : MonoBehaviour
         {
             currentDayNumber = currentDayConfig.DayNumber;
             currentDayDuration = currentDayConfig.dayDurationInSeconds;
-            StartCoroutine(StartDayCoroutine());
+            StartCoroutine(ChangeStateDelay(GameState.Running, 1.5f));
         }
         else
         {
@@ -181,16 +183,10 @@ public class GameManager : MonoBehaviour
         currentCallsActive += adjustment;
     }
 
-    private IEnumerator StartDayCoroutine()
+    private IEnumerator ChangeStateDelay(GameState newState, float delay)
     {
-        yield return new WaitForSeconds(1.5f);
-        ChangeState(GameState.Running);
-    }
-
-    private IEnumerator EndDayCoriutine()
-    {
-        yield return new WaitForSeconds(1.5f);
-        ChangeState(GameState.Cutscene);
+        yield return new WaitForSeconds(delay);
+        ChangeState(newState);
     }
 
     private IEnumerator SpawnCallCoroutine()

@@ -23,6 +23,8 @@ public class CutsceneView : MonoBehaviour
     [SerializeField] private Sprite visibleIcon;
     [SerializeField] private Sprite invisibleIcon;
 
+    [SerializeField] private Image fadeImage;
+
     [SerializeField] private float secondsPerCharacter = 0.03f;
     private float typingTimer;
 
@@ -33,6 +35,20 @@ public class CutsceneView : MonoBehaviour
     private string[] currentDialogs;
     private int currentDialogIndex;
     private string currentText;
+
+    private void OnEnable()
+    {
+        GameManager.Instance.OnDayEnded += StartFade;
+        GameManager.Instance.OnCutsceneStarted += CloseFade;
+        GameManager.Instance.OnDayStarted += CloseFade;
+    }
+
+    private void OnDisable()
+    {
+        GameManager.Instance.OnDayEnded -= StartFade;
+        GameManager.Instance.OnCutsceneStarted -= CloseFade;
+        GameManager.Instance.OnDayStarted -= CloseFade;
+    }
 
     void Awake()
     {
@@ -120,6 +136,8 @@ public class CutsceneView : MonoBehaviour
         cutsceneContainer.blocksRaycasts = false;
         cutsceneContainer.interactable = false;
 
+        StartFade();
+
         presenter.EndCutscene();
     }
 
@@ -166,6 +184,16 @@ public class CutsceneView : MonoBehaviour
             isVisible = true;
             toggleVisibilityButton.image.sprite = visibleIcon;
         }
+    }
+
+    private void StartFade()
+    {
+        fadeImage.gameObject.SetActive(true);
+    }
+
+    private void CloseFade()
+    {
+        fadeImage.gameObject.SetActive(false);
     }
 
     private IEnumerator StartCutsceneCourotine()

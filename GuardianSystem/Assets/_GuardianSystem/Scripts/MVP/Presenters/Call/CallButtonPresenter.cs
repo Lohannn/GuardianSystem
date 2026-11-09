@@ -32,7 +32,7 @@ public class CallButtonPresenter : MonoBehaviour
         gameManager.AdjustActiveCalls(-1);
         gameManager.TryEndDay();
 
-        view.ownerPool.ReturnObjectToPool(view.gameObject);
+        view.DisableAnimation();
     }
 
     private void CallTimeOutHandler(EventData eventData, CallButtonPresenter callPresenter)
@@ -43,6 +43,6 @@ public class CallButtonPresenter : MonoBehaviour
         gameManager.AdjustActiveCalls(-1);
         gameManager.TryEndDay();
 
-        view.ownerPool.ReturnObjectToPool(view.gameObject);
+        view.DisableAnimation();
     }
 }

@@ -1,10 +1,12 @@
 using System;
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public class CallButtonView : MonoBehaviour
 {
     [Header("References")]
+    [SerializeField] private RectTransform rTransform;
     [SerializeField] private Button callButton;
     [SerializeField] private Image timeViewerImage;
     public ObjectPool ownerPool;
@@ -13,6 +15,21 @@ public class CallButtonView : MonoBehaviour
     [SerializeField] private EventData data;
     [SerializeField] private float maxTime;
     [SerializeField] private float remainingTime;
+
+    [Header("Animation Config")]
+    [SerializeField] private float finalHeight;
+    [SerializeField] private float animationDuration;
+
+    private void Awake()
+    {
+        rTransform.sizeDelta = new(rTransform.sizeDelta.x, 0f);
+    }
+
+    private void OnEnable()
+    {
+        rTransform.sizeDelta = new(rTransform.sizeDelta.x, 0f);
+        rTransform.DOSizeDelta(new(rTransform.sizeDelta.x, finalHeight), animationDuration).SetEase(Ease.OutBack, 3f);
+    }
 
     public void Initialize(EventData eventData)
     {
@@ -55,5 +72,14 @@ public class CallButtonView : MonoBehaviour
     {
         Debug.Log("Call timed out");
         EventBus.OnCallTimedOut?.Invoke(data, GetComponent<CallButtonPresenter>());
+    }
+
+    public void DisableAnimation() {
+        callButton.interactable = false;
+        rTransform.DOSizeDelta(new(rTransform.sizeDelta.x, 0f), animationDuration).SetEase(Ease.InBack, 3f).OnComplete(() =>
+        {
+        callButton.interactable = true;
+            ownerPool.ReturnObjectToPool(gameObject);
+        });
     }
 }
