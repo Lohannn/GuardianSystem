@@ -1,11 +1,13 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WaterLevelView : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private List<WaterLevelSlider> sliders;
+    [SerializeField] private WaterLevelButtonView waterLevelButton;
     [SerializeField] private WaterLevelPresenter presenter;
 
     void Awake()
@@ -19,6 +21,8 @@ public class WaterLevelView : MonoBehaviour
     private void SetZoneLevelValue(Zone zone, float newValue)
     {
         presenter.ChangeZoneLevel(zone, newValue);
+
+        CheckCrisisMode();
     }
 
     public void UpdateSliders(Dictionary<Zone, float> zones)
@@ -35,5 +39,21 @@ public class WaterLevelView : MonoBehaviour
 
             currentSlider.SetValue(zones[zone]);
         }
+
+        CheckCrisisMode();
+    }
+
+    private void CheckCrisisMode()
+    {
+        foreach (WaterLevelSlider slider in sliders)
+        {
+            if (slider.inCrisisState)
+            {
+                waterLevelButton.SetWaterCrisis();
+                return;
+            }
+        }
+
+        waterLevelButton.RemoveWaterCrisis();
     }
 }
