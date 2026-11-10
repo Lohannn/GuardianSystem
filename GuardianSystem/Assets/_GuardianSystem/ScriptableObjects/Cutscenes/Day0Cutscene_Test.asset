@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31c17ae20f2a0051491e71f8ee55be9f, type: 3}
   m_Name: Day0Cutscene_Test
   m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
-  cutsceneImage: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  cutsceneImage: {fileID: 7422824590492814562, guid: 01568f4ac6a7f3d4b9f169a4b812ea75, type: 3}
   dialogues:
   - level: 0
     dialogues:
