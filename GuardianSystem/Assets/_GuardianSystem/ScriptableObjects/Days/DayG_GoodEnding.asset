@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f90dcc2c9dca1f0bfd7cc016732c33, type: 3}
+  m_Name: DayG_GoodEnding
+  m_EditorClassIdentifier: Assembly-CSharp::DayConfigData
+  DayNumber: 4
+  endDayCutscene: {fileID: 11400000, guid: ebaeee58aca3dc63b9e503f1f6ce2732, type: 2}
+  dayDurationInSeconds: 20
+  minCallSpawnInterval: 3
+  maxCallSpawnInterval: 7
+  maxSimultaneousCalls: 3
+  waterVariationPerSecond: 5
+  waterDirectionChangeInterval: 2
+  popularityImpactOnWaterCallSpawn: -10
+  emptyWaterTickInterval: 3
+  popularityImpactOnEmptyWaterPerTick: -2
+  minTrashAddInterval: 4
+  maxTrashAddInterval: 10
+  fullTrashTickInterval: 3
+  popularityImpactOnFullTrashPerTick: -2
+  popularityImpactOnCollectedTrash: 3
+  isTutorialActive: 0
+  activeEventWeights: 00000000

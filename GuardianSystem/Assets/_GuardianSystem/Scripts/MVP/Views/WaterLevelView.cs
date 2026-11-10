@@ -21,8 +21,6 @@ public class WaterLevelView : MonoBehaviour
     private void SetZoneLevelValue(Zone zone, float newValue)
     {
         presenter.ChangeZoneLevel(zone, newValue);
-
-        CheckCrisisMode();
     }
 
     public void UpdateSliders(Dictionary<Zone, float> zones)

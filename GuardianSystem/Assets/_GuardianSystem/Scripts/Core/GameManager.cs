@@ -7,6 +7,7 @@ public enum GameState
 {
     Setup,
     Starting,
+    Interrupted,
     Running,
     Overtime,
     Paused,
@@ -24,6 +25,8 @@ public class GameManager : MonoBehaviour
 
     [Header("Day configuration")]
     [SerializeField] private List<DayConfigData> dayConfigOrder;
+    [SerializeField] private DayConfigData badEndConfig;
+    [SerializeField] private DayConfigData goodEndConfig;
     public DayConfigData currentDayConfig;
     [NonSerialized] public PopulationModel populationModel;
 
@@ -36,6 +39,7 @@ public class GameManager : MonoBehaviour
 #region Game State Events
     public event Action OnSetupDay;
     public event Action OnDayStarted;
+    public event Action OnDayInterrupted;
     public event Action OnDayPaused;
     public event Action OnDayRunning;
     public event Action OnDayEnded;
@@ -99,6 +103,10 @@ public class GameManager : MonoBehaviour
                 StartDay();
                 OnDayStarted?.Invoke();
                 break;
+            case GameState.Interrupted:
+                Debug.Log("Game has been interrupted.");
+                OnDayInterrupted?.Invoke();
+                break;
             case GameState.Running:
                 Debug.Log("Game is now running.");
                 StartCoroutine(SpawnCallCoroutine());
@@ -126,30 +134,24 @@ public class GameManager : MonoBehaviour
 
     private void SetupDay()
     {
-        if (currentDayNumber < dayConfigOrder.Count)
+        if (currentDayConfig == badEndConfig || currentDayConfig == goodEndConfig)
+            return;
+
+        if (dayConfigOrder == null || dayConfigOrder.Count == 0)
         {
-            if (currentDayNumber == 3)
-            {
-                if (populationModel.GetPopularityLevel() == PopularityLevel.Bad)
-                {
-                    Debug.Log("Choosing bad end day.");
-                    // Set the current day config to the bad end day
-                }
-                else
-                {
-                    Debug.Log("Choosing good end day.");
-                    // Set the current day config to the good end day
-                }
-            }
-            else
-            {
-                currentDayConfig = dayConfigOrder[currentDayNumber];
-            }
+            Debug.LogError("No day config available.");
+            return;
         }
-        else
+
+        if (currentDayNumber < 0 || currentDayNumber > dayConfigOrder.Count)
         {
-            currentDayConfig = dayConfigOrder[dayConfigOrder.Count - 1];
+            Debug.LogError($"{currentDayNumber} is a invalid Day number.");
+            return;
         }
+
+        currentDayConfig = currentDayNumber == dayConfigOrder.Count
+            ? GetEndingDay()
+            : dayConfigOrder[currentDayNumber];
 
         Debug.Log($"Setting up Day {currentDayConfig.name}.");
         StartCoroutine(ChangeStateDelay(GameState.Starting, 2f));
@@ -159,9 +161,14 @@ public class GameManager : MonoBehaviour
     {
         if (currentDayConfig != null)
         {
-            currentDayNumber = currentDayConfig.DayNumber;
             currentDayDuration = currentDayConfig.dayDurationInSeconds;
             StartCoroutine(ChangeStateDelay(GameState.Running, 1.5f));
+
+            print($"Is bad ending?: {currentDayConfig == badEndConfig}");
+            if (currentDayConfig == badEndConfig)
+            {
+                StartCoroutine(BadEndInterruption());
+            }
         }
         else
         {
@@ -178,6 +185,15 @@ public class GameManager : MonoBehaviour
         endOfDayRequested = true;
     }
 
+    private DayConfigData GetEndingDay()
+    {
+        bool isBadEnding = populationModel.GetPopularityLevel() == PopularityLevel.Bad;
+
+        Debug.Log(isBadEnding ? "Choosing Bad End day." : "Choosing Good End day");
+
+        return isBadEnding ? badEndConfig : goodEndConfig;
+    }
+
     public void AdjustActiveCalls(int adjustment)
     {
         currentCallsActive += adjustment;
@@ -187,6 +203,12 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         ChangeState(newState);
+    }
+
+    private IEnumerator BadEndInterruption()
+    {
+        yield return new WaitForSeconds(5f);
+        ChangeState(GameState.Interrupted);
     }
 
     private IEnumerator SpawnCallCoroutine()
