@@ -23,6 +23,16 @@ public class WaterLevelButtonView : MonoBehaviour
 
     private bool inCrisis;
 
+    private void OnEnable()
+    {
+        GameManager.Instance.OnSetupDay += RemoveWaterCrisis;
+    }
+
+    private void OnDisable()
+    {
+        GameManager.Instance.OnSetupDay -= RemoveWaterCrisis;
+    }
+
     private void Start()
     {
         defaultButtonOnSprite = buttonOnImage.sprite;
