@@ -48,7 +48,8 @@ public class UnitItemView : MonoBehaviour
 
     void Update()
     {
-        if (GameManager.Instance.CurrentGameState == GameState.Running ||
+        if (GameManager.Instance.CurrentGameState == GameState.Running || 
+            GameManager.Instance.CurrentGameState == GameState.Utopia ||
             GameManager.Instance.CurrentGameState == GameState.Overtime)
         {
             if (remainingTime > 0)

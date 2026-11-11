@@ -8,6 +8,7 @@ public enum GameState
     Setup,
     Starting,
     Interrupted,
+    Utopia,
     Running,
     Overtime,
     Paused,
@@ -41,6 +42,7 @@ public class GameManager : MonoBehaviour
     public event Action OnDayStarted;
     public event Action OnDayInterrupted;
     public event Action OnDayPaused;
+    public event Action OnUtopiaRunning;
     public event Action OnDayRunning;
     public event Action OnDayEnded;
     public event Action OnCutsceneStarted;
@@ -48,6 +50,9 @@ public class GameManager : MonoBehaviour
 
     public event Action SpawnCall;
     public event Action<Zone> AddTrash;
+    public event Action EndUtopiaDay;
+
+    public bool utopiaDay = false;
 
     private void Awake()
     {
@@ -62,7 +67,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (CurrentGameState == GameState.Running)
+        if (CurrentGameState == GameState.Running || CurrentGameState == GameState.Utopia)
         {
             currentDayDuration -= Time.deltaTime;
 
@@ -107,6 +112,12 @@ public class GameManager : MonoBehaviour
                 Debug.Log("Game has been interrupted.");
                 OnDayInterrupted?.Invoke();
                 break;
+            case GameState.Utopia:
+                Debug.Log("Game has been entered in a Utopia");
+                utopiaDay = true;
+                StartCoroutine(SpawnCallCoroutine());
+                OnUtopiaRunning?.Invoke();
+                break;
             case GameState.Running:
                 Debug.Log("Game is now running.");
                 StartCoroutine(SpawnCallCoroutine());
@@ -115,6 +126,7 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.Overtime:
                 Debug.Log("Game is now on overtime");
+                if (utopiaDay) EndUtopiaDay?.Invoke();
                 break;
             case GameState.Paused:
                 Debug.Log("Game is now paused.");
@@ -162,7 +174,12 @@ public class GameManager : MonoBehaviour
         if (currentDayConfig != null)
         {
             currentDayDuration = currentDayConfig.dayDurationInSeconds;
-            StartCoroutine(ChangeStateDelay(GameState.Running, 1.5f));
+
+            GameState nextState = currentDayConfig == goodEndConfig 
+                ? GameState.Utopia 
+                : GameState.Running;
+
+            StartCoroutine(ChangeStateDelay(nextState, 1.5f));
 
             print($"Is bad ending?: {currentDayConfig == badEndConfig}");
             if (currentDayConfig == badEndConfig)
@@ -179,7 +196,7 @@ public class GameManager : MonoBehaviour
     public void TryEndDay()
     {
         if (CurrentGameState != GameState.Overtime ||
-            currentCallsActive > 0) 
+            currentCallsActive > 0 || utopiaDay) 
             return;
 
         endOfDayRequested = true;
@@ -213,7 +230,7 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator SpawnCallCoroutine()
     {
-        while (CurrentGameState == GameState.Running)
+        while (CurrentGameState == GameState.Running || CurrentGameState == GameState.Utopia)
         {
             if (currentCallsActive >= currentDayConfig.maxSimultaneousCalls)
             {
@@ -225,7 +242,8 @@ public class GameManager : MonoBehaviour
 
             yield return new WaitForSeconds(spawnInterval);
 
-            if (CurrentGameState == GameState.Running && currentCallsActive < currentDayConfig.maxSimultaneousCalls)
+            if (CurrentGameState == GameState.Running || CurrentGameState == GameState.Utopia 
+                && currentCallsActive < currentDayConfig.maxSimultaneousCalls)
             {
                 SpawnCall?.Invoke();
             }

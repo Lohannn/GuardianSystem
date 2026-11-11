@@ -40,7 +40,16 @@ public class UnitItemPresenter : MonoBehaviour, IDragHandler, IBeginDragHandler,
 
         dispatchResult = result;
         inDispatch = true;
-        view.StartDispatch(dispatchedTime);
+
+        if (GameManager.Instance.CurrentGameState == GameState.Utopia)
+        {
+            view.StartDispatch(0.01f);
+        }
+        else
+        {
+            view.StartDispatch(dispatchedTime);
+        }
+
         EventBus.OnUnitEndDrag?.Invoke();
         view.EndDrag();
     }

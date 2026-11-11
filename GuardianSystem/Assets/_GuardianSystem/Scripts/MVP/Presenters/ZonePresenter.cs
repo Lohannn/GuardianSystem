@@ -116,6 +116,7 @@ public class ZonePresenter : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
     {
         if (collectorUnit != null || trashCounter <= 0 || 
             gameManager.CurrentGameState != GameState.Running &&
+            gameManager.CurrentGameState != GameState.Utopia &&
             gameManager.CurrentGameState != GameState.Overtime) return;
 
         UnitItemPresenter droppedUnit = eventData.pointerDrag?.GetComponent<UnitItemPresenter>();
@@ -134,8 +135,9 @@ public class ZonePresenter : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (!eventData.pointerDrag || trashCounter <= 0 || 
+        if (!eventData.pointerDrag || trashCounter <= 0 ||
             gameManager.CurrentGameState != GameState.Running &&
+            gameManager.CurrentGameState != GameState.Utopia &&
             gameManager.CurrentGameState != GameState.Overtime) return;
 
         UnitItemPresenter unitPreview = eventData.pointerDrag.GetComponent<UnitItemPresenter>();

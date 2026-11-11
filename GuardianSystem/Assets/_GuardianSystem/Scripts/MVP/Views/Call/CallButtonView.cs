@@ -45,6 +45,8 @@ public class CallButtonView : MonoBehaviour
 
     void Update()
     {
+        if (GameManager.Instance.utopiaDay) return;
+
         if (GameManager.Instance.CurrentGameState == GameState.Running ||
             GameManager.Instance.CurrentGameState == GameState.Overtime)
         {
