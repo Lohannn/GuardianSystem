@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 86558f51070ce1fd3926389972598f64
+guid: 47a3c6c1e53c1606a9d9009e61482653
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -212292573564997370
-    second: CallPanel_0
+      213: 397562050790799948
+    second: Logo(1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,13 +46,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 5, y: 5, z: 5, w: 82}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -110,6 +110,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -139,23 +152,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CallPanel_0
+      name: Logo(1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2400
-        height: 1600
+        width: 1172
+        height: 1224
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 100, y: 100, z: 100, w: 100}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 60174347709cd0df0800000000000000
-      internalID: -212292573564997370
+      spriteID: c4abf8d249c648500800000000000000
+      internalID: 397562050790799948
       vertices: []
       indices: 
       edges: []
@@ -164,8 +177,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -174,7 +187,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CallPanel_0: -212292573564997370
+      Logo(1)_0: 397562050790799948
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

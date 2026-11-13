@@ -15,11 +15,15 @@ public class ExtraPanelOpen : MonoBehaviour
 
     private void OnEnable()
     {
+        if(GameManager.Instance == null) return;
+
         GameManager.Instance.OnSetupDay += ClosePanel;
     }
 
     private void OnDisable()
     {
+        if(GameManager.Instance == null) return;
+
         GameManager.Instance.OnSetupDay -= ClosePanel;
     }
 
