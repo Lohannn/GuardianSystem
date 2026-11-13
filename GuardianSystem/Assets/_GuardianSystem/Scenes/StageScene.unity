@@ -1103,8 +1103,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lorem ipsum dolor Lorem ipsum dolorLorem ipsum dolor
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
+  m_sharedMaterial: {fileID: -8605157922147086610, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2734,6 +2734,14 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9d616731219494f1c8e8913834f1c93d, type: 2}
+    - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3126510759990188654, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -5.9892273
@@ -4209,8 +4217,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lorem ipsum dolor Lorem ipsum dolorLorem ipsum dolor
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
+  m_sharedMaterial: {fileID: -8605157922147086610, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5705,6 +5713,14 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9d616731219494f1c8e8913834f1c93d, type: 2}
+    - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3126510759990188654, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -5.9892273
@@ -5891,8 +5907,8 @@ MonoBehaviour:
     malesuada, interdum nisl et, malesuada eros. Ut congue auctor commodo. Maecenas
     sed porta arcu, a auctor arcu.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
+  m_sharedMaterial: {fileID: -8605157922147086610, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6218,7 +6234,7 @@ MonoBehaviour:
     vitae porta. In hac habitasse platea dictumst. Nam sit amet ex et dolor dignissim.
     In hac habitasse platea dictumst. Nam sit amet ex et dolor dignissim.\n\n "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d616731219494f1c8e8913834f1c93d, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -6285,7 +6301,7 @@ MonoBehaviour:
   m_margin: {x: 32.72766, y: 24.459473, z: 32.72766, w: 24.45947}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &475552671
@@ -7263,8 +7279,8 @@ MonoBehaviour:
   m_text: "A decis\xE3o permanecer\xE1 em vigor at\xE9 que seja poss\xEDvel garantir
     a efic\xE1cia, seguran\xE7a e benef\xEDcios reais do sistema para a popula\xE7\xE3o."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
+  m_sharedMaterial: {fileID: -8605157922147086610, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9459,6 +9475,14 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9d616731219494f1c8e8913834f1c93d, type: 2}
+    - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3126510759990188654, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -5.9892273
@@ -10248,8 +10272,8 @@ MonoBehaviour:
     malesuada, interdum nisl et, malesuada eros. Ut congue auctor commodo. Maecenas
     sed porta arcu, a auctor arcu.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
+  m_sharedMaterial: {fileID: -8605157922147086610, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12560,8 +12584,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Testando dialogo ruim 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
+  m_sharedMaterial: {fileID: -8605157922147086610, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14234,6 +14258,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2130919127}
     m_Modifications:
+    - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9d616731219494f1c8e8913834f1c93d, type: 2}
+    - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3126510759990188654, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -5.9892273
@@ -15420,8 +15452,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lorem ipsum dolor Lorem ipsum dolorLorem ipsum dolor
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
+  m_sharedMaterial: {fileID: -8605157922147086610, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15632,7 +15664,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 20 seg
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d616731219494f1c8e8913834f1c93d, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -15699,7 +15731,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1377554352
@@ -16777,8 +16809,8 @@ MonoBehaviour:
   m_text: "Ap\xF3s avalia\xE7\xE3o durante os primeiros dias do sistema, foi decidido
     a suspens\xE3o do projeto \"Guardian System\" por tempo indeterminado. "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
+  m_sharedMaterial: {fileID: -8605157922147086610, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17137,8 +17169,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lorem ipsum dolor Lorem ipsum dolorLorem ipsum dolor
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
+  m_sharedMaterial: {fileID: -8605157922147086610, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17430,8 +17462,8 @@ MonoBehaviour:
     malesuada, interdum nisl et, malesuada eros. Ut congue auctor commodo. Maecenas
     sed porta arcu, a auctor arcu.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
+  m_sharedMaterial: {fileID: -8605157922147086610, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -19432,8 +19464,8 @@ MonoBehaviour:
     malesuada, interdum nisl et, malesuada eros. Ut congue auctor commodo. Maecenas
     sed porta arcu, a auctor arcu.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
+  m_sharedMaterial: {fileID: -8605157922147086610, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20259,6 +20291,10 @@ PrefabInstance:
       value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9d616731219494f1c8e8913834f1c93d, type: 2}
+    - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
       propertyPath: m_fontStyle
       value: 1
       objectReference: {fileID: 0}
@@ -20269,10 +20305,14 @@ PrefabInstance:
     - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+      objectReference: {fileID: -2762055317233044693, guid: 9d616731219494f1c8e8913834f1c93d, type: 2}
     - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
       propertyPath: m_HorizontalAlignment
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3126510759990188654, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -20863,8 +20903,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lorem ipsum dolor Lorem ipsum dolorLorem ipsum dolor
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
+  m_sharedMaterial: {fileID: -8605157922147086610, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21765,6 +21805,14 @@ PrefabInstance:
       propertyPath: m_margin.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9d616731219494f1c8e8913834f1c93d, type: 2}
+    - target: {fileID: 729588356491839508, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3126510759990188654, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -5.9892273
@@ -22416,8 +22464,8 @@ MonoBehaviour:
     malesuada, interdum nisl et, malesuada eros. Ut congue auctor commodo. Maecenas
     sed porta arcu, a auctor arcu.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
+  m_sharedMaterial: {fileID: -8605157922147086610, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22822,8 +22870,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lorem ipsum dolor Lorem ipsum dolorLorem ipsum dolor
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
+  m_sharedMaterial: {fileID: -8605157922147086610, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -23681,8 +23729,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lorem ipsum dolor Lorem ipsum dolorLorem ipsum dolor
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
+  m_sharedMaterial: {fileID: -8605157922147086610, guid: 521e26b450634ffb68b07a873f21dcbb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
