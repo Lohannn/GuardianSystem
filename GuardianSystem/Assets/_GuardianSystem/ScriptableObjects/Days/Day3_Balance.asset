@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f90dcc2c9dca1f0bfd7cc016732c33, type: 3}
+  m_Name: Day3_Balance
+  m_EditorClassIdentifier: Assembly-CSharp::DayConfigData
+  DayNumber: 3
+  endDayCutscene: {fileID: 11400000, guid: ebaeee58aca3dc63b9e503f1f6ce2732, type: 2}
+  dayDurationInSeconds: 300
+  minCallSpawnInterval: 8
+  maxCallSpawnInterval: 15
+  maxSimultaneousCalls: 4
+  waterVariationPerSecond: 1.2
+  waterDirectionChangeInterval: 8
+  popularityImpactOnWaterCallSpawn: -3
+  emptyWaterTickInterval: 10
+  popularityImpactOnEmptyWaterPerTick: -0.8
+  minTrashAddInterval: 9
+  maxTrashAddInterval: 14
+  fullTrashTickInterval: 10
+  popularityImpactOnFullTrashPerTick: -0.9
+  popularityImpactOnCollectedTrash: 0.8
+  isTutorialActive: 0
+  activeEventWeights: 000000000100000002000000

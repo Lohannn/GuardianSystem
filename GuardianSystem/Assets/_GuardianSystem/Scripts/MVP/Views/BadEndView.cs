@@ -3,6 +3,7 @@ using System.Collections;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class BadEndView : MonoBehaviour
@@ -133,10 +134,6 @@ public class BadEndView : MonoBehaviour
     {
         yield return new WaitForSeconds(1.5f);
 
-#if UNITY_EDITOR
-        EditorApplication.isPlaying = false;
-#else
-        Application.Quit();
-#endif
+        SceneManager.LoadScene("MainMenuScene");
     }
 }

@@ -2,8 +2,8 @@ using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GoodEndView : MonoBehaviour
 {
@@ -78,10 +78,6 @@ public class GoodEndView : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
 
-#if UNITY_EDITOR
-        EditorApplication.isPlaying = false;
-#else
-        Application.Quit();
-#endif
+        SceneManager.LoadScene("MainMenuScene");
     }
 }
