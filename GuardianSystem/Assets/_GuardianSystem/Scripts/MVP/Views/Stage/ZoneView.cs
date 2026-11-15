@@ -8,6 +8,7 @@ public class ZoneView : MonoBehaviour
     [SerializeField] private ZonePresenter presenter;
     [SerializeField] private GameObject[] trashIcon;
     [SerializeField] private RectTransform statsIcon;
+    [SerializeField] private ParticleSystem waterBurst;
 
     public void UpdateIcons(int currentCounters)
     {

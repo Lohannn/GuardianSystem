@@ -107,6 +107,7 @@ public class GameManager : MonoBehaviour
                 Debug.Log("Game is starting.");
                 StartDay();
                 OnDayStarted?.Invoke();
+                EventBus.OnFadeOut?.Invoke();
                 break;
             case GameState.Interrupted:
                 Debug.Log("Game has been interrupted.");
@@ -135,11 +136,13 @@ public class GameManager : MonoBehaviour
             case GameState.EndOfDay:
                 Debug.Log("Day has ended.");
                 OnDayEnded?.Invoke();
+                EventBus.OnFadeIn?.Invoke();
                 StartCoroutine(ChangeStateDelay(GameState.Cutscene, 1.5f));
                 break;
             case GameState.Cutscene:
                 Debug.Log("Cutscene is now playing.");
                 OnCutsceneStarted?.Invoke();
+                EventBus.OnFadeOut?.Invoke();
                 break;
         }
     }

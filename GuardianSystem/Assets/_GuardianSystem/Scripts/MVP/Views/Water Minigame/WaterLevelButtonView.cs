@@ -1,3 +1,4 @@
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -21,7 +22,19 @@ public class WaterLevelButtonView : MonoBehaviour
     [SerializeField] private Color32 crisisColor;
     private Color32 defaultColor;
 
+    [Header("Button Animation config")]
+    [SerializeField] private float shakeDuration;
+    [SerializeField] private float shakeStrength;
+    [SerializeField] private int shakeVibrato;
+
     private bool inCrisis;
+
+    private RectTransform rTransform;
+
+    void Awake()
+    {
+        rTransform = GetComponent<RectTransform>();
+    }
 
     private void OnEnable()
     {
@@ -43,6 +56,8 @@ public class WaterLevelButtonView : MonoBehaviour
     public void SetWaterCrisis()
     {
         if (inCrisis) return;
+
+        rTransform.DOShakeAnchorPos(shakeDuration, shakeStrength, shakeVibrato);
 
         buttonOnImage.sprite = buttonOnCrisisSprite;
         buttonOffImage.sprite = buttonOffCrisisSprite;

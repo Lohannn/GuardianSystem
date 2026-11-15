@@ -8,6 +8,7 @@ public class PopularityAlertManager : MonoBehaviour
 
     [Header("Alert position config")]
     [SerializeField] private float activeAlertAnchoredPosition;
+    [SerializeField] private float spacingBetweenAlerts;
 
     private List<PopularityAlertView> alertList = new();
 
@@ -55,7 +56,7 @@ public class PopularityAlertManager : MonoBehaviour
         {
             PopularityAlertView alert = alertList[i];
 
-            alert.MoveTo(-i * (alert.ObjectTransform.sizeDelta.y + 50f));
+            alert.MoveTo(-i * (alert.ObjectTransform.sizeDelta.y + spacingBetweenAlerts));
         }
     }
 }

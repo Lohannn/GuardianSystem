@@ -36,20 +36,6 @@ public class CutsceneView : MonoBehaviour
     private int currentDialogIndex;
     private string currentText;
 
-    private void OnEnable()
-    {
-        GameManager.Instance.OnDayEnded += StartFade;
-        GameManager.Instance.OnCutsceneStarted += CloseFade;
-        GameManager.Instance.OnDayStarted += CloseFade;
-    }
-
-    private void OnDisable()
-    {
-        GameManager.Instance.OnDayEnded -= StartFade;
-        GameManager.Instance.OnCutsceneStarted -= CloseFade;
-        GameManager.Instance.OnDayStarted -= CloseFade;
-    }
-
     void Awake()
     {
         toggleVisibilityButton.onClick.AddListener(ToggleDialog);
@@ -136,7 +122,7 @@ public class CutsceneView : MonoBehaviour
         cutsceneContainer.blocksRaycasts = false;
         cutsceneContainer.interactable = false;
 
-        StartFade();
+        EventBus.OnFadeIn?.Invoke();
 
         presenter.EndCutscene();
     }
@@ -184,16 +170,6 @@ public class CutsceneView : MonoBehaviour
             isVisible = true;
             toggleVisibilityButton.image.sprite = visibleIcon;
         }
-    }
-
-    private void StartFade()
-    {
-        fadeImage.gameObject.SetActive(true);
-    }
-
-    private void CloseFade()
-    {
-        fadeImage.gameObject.SetActive(false);
     }
 
     private IEnumerator StartCutsceneCourotine()
