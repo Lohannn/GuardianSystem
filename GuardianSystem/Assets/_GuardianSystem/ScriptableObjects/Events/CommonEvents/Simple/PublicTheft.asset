@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2c3b4ae46055411af0a3e33e9fc2ec, type: 3}
+  m_Name: PublicTheft
+  m_EditorClassIdentifier: Assembly-CSharp::EventData
+  eventWeight: 0
+  eventDescription: "Um cidad\xE3o relata que sua bicicleta foi furtada em uma pra\xE7a.
+    Testemunhas afirmam ter visto o suspeito nas proximidades. \xC9 necess\xE1rio
+    enviar uma equipe para verificar a ocorr\xEAncia."
+  eventImage: {fileID: 5428235409488937955, guid: 020d3a4501a593acdaf66f9ed80d7f0b, type: 3}
+  eventType: 0
+  eventDuration: 18
+  requiredUnits: 00000000
+  popularityImpactOnSuccess: 3
+  popularityImpactOnWrongUnits: -5
+  possibleAnswers: []
+  popularityImpactOnTimeout: -5

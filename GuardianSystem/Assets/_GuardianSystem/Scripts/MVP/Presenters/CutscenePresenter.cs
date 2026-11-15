@@ -26,7 +26,7 @@ public class CutscenePresenter : MonoBehaviour
     {
         CutsceneData currentCutscene = gameManager.currentDayConfig.endDayCutscene;
 
-        view.SetupCutscene(currentCutscene, 
+        view.SetupCutscene(currentCutscene.GetImage(gameManager.populationModel.GetPopularityLevel()), 
                            currentCutscene.GetDialogues(gameManager.populationModel.GetPopularityLevel()));
     }
 

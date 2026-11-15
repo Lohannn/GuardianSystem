@@ -14,19 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DayConfigData
   DayNumber: 4
   endDayCutscene: {fileID: 11400000, guid: ebaeee58aca3dc63b9e503f1f6ce2732, type: 2}
-  dayDurationInSeconds: 120
-  minCallSpawnInterval: 3
-  maxCallSpawnInterval: 5
+  dayDurationInSeconds: 240
+  minCallSpawnInterval: 7
+  maxCallSpawnInterval: 16
   maxSimultaneousCalls: 3
-  waterVariationPerSecond: 1
-  waterDirectionChangeInterval: 8
-  popularityImpactOnWaterCallSpawn: -10
-  emptyWaterTickInterval: 3
-  popularityImpactOnEmptyWaterPerTick: -0.8
-  minTrashAddInterval: 5
-  maxTrashAddInterval: 8
-  fullTrashTickInterval: 3
-  popularityImpactOnFullTrashPerTick: -1
-  popularityImpactOnCollectedTrash: 2.5
+  waterVariationPerSecond: 1.5
+  waterDirectionChangeInterval: 10
+  popularityImpactOnWaterCallSpawn: -2
+  emptyWaterTickInterval: 12
+  popularityImpactOnEmptyWaterPerTick: -0.5
+  minTrashAddInterval: 12
+  maxTrashAddInterval: 18
+  fullTrashTickInterval: 8
+  popularityImpactOnFullTrashPerTick: -0.6
+  popularityImpactOnCollectedTrash: 0.7
   isTutorialActive: 0
   activeEventWeights: 020000000100000000000000

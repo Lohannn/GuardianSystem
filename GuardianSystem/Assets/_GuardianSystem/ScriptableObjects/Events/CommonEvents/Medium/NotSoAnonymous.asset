@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2c3b4ae46055411af0a3e33e9fc2ec, type: 3}
+  m_Name: NotSoAnonymous
+  m_EditorClassIdentifier: Assembly-CSharp::EventData
+  eventWeight: 1
+  eventDescription: "Um cidad\xE3o publicou uma den\xFAncia no sistema acompanhada
+    de uma foto que exp\xF5e o rosto e o endere\xE7o de outra pessoa. A den\xFAncia
+    \xE9 leg\xEDtima, mas os dados est\xE3o vis\xEDveis publicamente. O que fazer?"
+  eventImage: {fileID: -5608072620577646555, guid: 608e3d83ab8e6f3b9bc5d9f6adfbfc68, type: 3}
+  eventType: 1
+  eventDuration: 24
+  requiredUnits: 00000000
+  popularityImpactOnSuccess: 0
+  popularityImpactOnWrongUnits: 0
+  possibleAnswers:
+  - answerText: "Ocultar os dados pessoais e manter a den\xFAncia registrada."
+    popularityImpact: 4
+  - answerText: "Excluir toda a den\xFAncia, sem possibilidade de an\xE1lise."
+    popularityImpact: -5
+  - answerText: "Manter a publica\xE7\xE3o integral para garantir transpar\xEAncia."
+    popularityImpact: -5
+  - answerText: "Penalizar cidad\xE3o pela exposi\xE7\xE3o. "
+    popularityImpact: -5
+  popularityImpactOnTimeout: -7

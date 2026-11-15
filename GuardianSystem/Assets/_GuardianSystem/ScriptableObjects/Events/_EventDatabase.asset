@@ -13,5 +13,19 @@ MonoBehaviour:
   m_Name: _EventDatabase
   m_EditorClassIdentifier: Assembly-CSharp::EventDatabase
   events:
-  - {fileID: 11400000, guid: d443684d674cef229bb2e9ef6d8772d9, type: 2}
-  - {fileID: 11400000, guid: 36ddab28f9a0610a09735d4a7d04ee26, type: 2}
+  - {fileID: 11400000, guid: 38050756e3c6c1d2396f4dbe6004a0c0, type: 2}
+  - {fileID: 11400000, guid: afc399451f58d5c05acd3abd086aebad, type: 2}
+  - {fileID: 11400000, guid: 6b6074c397ab3cb5cbf2f29c3387c07c, type: 2}
+  - {fileID: 11400000, guid: e015e919c0070b0e29320b2cb8a5b670, type: 2}
+  - {fileID: 11400000, guid: 6a349dd236a9632419c31589d74c6b7d, type: 2}
+  - {fileID: 11400000, guid: 705d2aff10c75f6d897ea89b1fe54b5c, type: 2}
+  - {fileID: 11400000, guid: 9d2f21e06e0ac4c58b2d1875a2ad1b4e, type: 2}
+  - {fileID: 11400000, guid: 2c6bb8c436ecc5d1ab8d9149fe3797c3, type: 2}
+  - {fileID: 11400000, guid: cc1e5edcc5286f2ffbf49339e0163c51, type: 2}
+  - {fileID: 11400000, guid: fe87ad92f95879b08864efff859a1349, type: 2}
+  - {fileID: 11400000, guid: 933c25d4ebc29b003b5755b7a10ead7a, type: 2}
+  - {fileID: 11400000, guid: 11939116f00722644a94ea1364563d84, type: 2}
+  - {fileID: 11400000, guid: f4bb2a554750637d19521e313ef6eee4, type: 2}
+  - {fileID: 11400000, guid: 6a0313e7aa117d134a4c109778a24c1b, type: 2}
+  - {fileID: 11400000, guid: aea0b738c70c8dff09205c242f6a4f90, type: 2}
+  - {fileID: 11400000, guid: ac6e34588544d9e77b92d397dbfdd6a5, type: 2}

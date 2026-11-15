@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: _WaterEventDatabase
   m_EditorClassIdentifier: Assembly-CSharp::EventDatabase
   events:
-  - {fileID: 11400000, guid: d443684d674cef229bb2e9ef6d8772d9, type: 2}
-  - {fileID: 11400000, guid: 36ddab28f9a0610a09735d4a7d04ee26, type: 2}
+  - {fileID: 11400000, guid: 57fcd101d72947092b9df06be94da6cb, type: 2}
+  - {fileID: 11400000, guid: 5173fc593d89edeaba0e51a2d6542430, type: 2}
+  - {fileID: 11400000, guid: 3cdec5624e291136a80450153369632b, type: 2}
+  - {fileID: 11400000, guid: 50a2701ca7d9c6559bb57b2ee4493e53, type: 2}

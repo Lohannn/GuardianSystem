@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2c3b4ae46055411af0a3e33e9fc2ec, type: 3}
+  m_Name: TrafficLight
+  m_EditorClassIdentifier: Assembly-CSharp::EventData
+  eventWeight: 0
+  eventDescription: "Moradores relatam que o sem\xE1foro de pedestres pr\xF3ximo
+    a uma escola parou de funcionar. O tr\xE2nsito est\xE1 intenso, mas ainda n\xE3o
+    houve acidentes. Como proceder?"
+  eventImage: {fileID: -4585031799566294454, guid: 712219106e7815b37bde0944ae900c1d, type: 3}
+  eventType: 1
+  eventDuration: 18
+  requiredUnits: 00000000
+  popularityImpactOnSuccess: 0
+  popularityImpactOnWrongUnits: 0
+  possibleAnswers:
+  - answerText: "Sinalizar o risco e solicitar manuten\xE7\xE3o priorit\xE1ria."
+    popularityImpact: 3
+  - answerText: "Ignorar, n\xE3o h\xE1 v\xEDtimas."
+    popularityImpact: -4
+  popularityImpactOnTimeout: -5

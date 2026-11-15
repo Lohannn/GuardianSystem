@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c17ae20f2a0051491e71f8ee55be9f, type: 3}
+  m_Name: Day1Cutscene
+  m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
+  images:
+  - level: 0
+    image: {fileID: 21300000, guid: b3564bbe0b2551fb78b1865081389210, type: 3}
+  - level: 1
+    image: {fileID: 21300000, guid: 01568f4ac6a7f3d4b9f169a4b812ea75, type: 3}
+  - level: 2
+    image: {fileID: 21300000, guid: 75616da022fcc823c89fd05dfe5aa615, type: 3}
+  dialogues:
+  - level: 0
+    dialogues:
+    - Assim, achei que era algo que deveria nos ajudar ou organizar a cidade, algo
+      assim.
+    - "Desde que implementaram isso, s\xF3 t\xF4 vendo mais problemas, problema com
+      \xE1gua, tem ambul\xE2ncia e viatura pra todo lado, mas quando a gente realmente
+      precisa, demora."
+    - "E ainda t\xE3o muito lentos para resolver coisas b\xE1sicas, sabe?"
+  - level: 1
+    dialogues:
+    - Ah, eu nem sabia que tinham colocado um sistema diferente na cidade.
+    - "Pra mim t\xE1 bem a mesma coisa, n\xE3o sei o que era para isso t\xE1 fazendo
+      pra gente, mas t\xE1 tudo bem normal, como sempre."
+  - level: 2
+    dialogues:
+    - "Virou outra coisa a cidade! Tem alguns problemas que come\xE7aram a ser resolvidos
+      muito mais r\xE1pido, outros que n\xE3o deu nem tempo de reclamar e j\xE1 tava
+      feito."
+    - "Eu n\xE3o tava esperando que ia ser uma diferen\xE7a t\xE3o grande assim."
+    - Se tiverem mais coisa pra colocar na cidade que nem isso, que coloquem logo!

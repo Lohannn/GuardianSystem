@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2c3b4ae46055411af0a3e33e9fc2ec, type: 3}
+  m_Name: 2Ways1Chance
+  m_EditorClassIdentifier: Assembly-CSharp::EventData
+  eventWeight: 1
+  eventDescription: "Duas vias est\xE3o bloqueadas por obras. Uma causa congestionamento
+    perto de um centro comercial; a outra prejudica o acesso de ambul\xE3ncias. S\xF3
+    \xE9 poss\xEDvel atender uma no momento."
+  eventImage: {fileID: -5862773989258749522, guid: 7a3925c450a29c795bbc3a76740cec2b, type: 3}
+  eventType: 1
+  eventDuration: 24
+  requiredUnits: 00000000
+  popularityImpactOnSuccess: 0
+  popularityImpactOnWrongUnits: 0
+  possibleAnswers:
+  - answerText: Liberar o acesso ao hospital e sinalizar desvio comercial.
+    popularityImpact: 4
+  - answerText: "Priorizar via comercial pois afeta mais ve\xEDculos."
+    popularityImpact: -5
+  - answerText: Dividir recurso e tempo entre as duas.
+    popularityImpact: -1
+  - answerText: Aguardar as obras serem finalizadas.
+    popularityImpact: -10
+  popularityImpactOnTimeout: -7

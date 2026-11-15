@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c17ae20f2a0051491e71f8ee55be9f, type: 3}
+  m_Name: Day3Cutscene
+  m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
+  images:
+  - level: 0
+    image: {fileID: 21300000, guid: b75a43f5f0a508aacbdfc0d9ff905210, type: 3}
+  - level: 1
+    image: {fileID: 21300000, guid: 69dd8cf39201c9af69aa86dc5ee806c6, type: 3}
+  - level: 2
+    image: {fileID: 21300000, guid: a3568f6072d8821baa9547590b2d02a9, type: 3}
+  dialogues:
+  - level: 0
+    dialogues:
+    - "Dias se passaram desde a implementa\xE7\xE3o de um novo sistema que prometia
+      conectar toda a cidade e agilizar a resolu\xE7\xE3o de problemas."
+    - "Como o ac\xFAmulo de lixo, o monitoramento dos n\xEDveis de \xE1gua e o atendimento
+      de ocorr\xEAncias pela cidade."
+    - "Infelizmente, n\xE3o foi isso que vimos nos \xFAltimos dias."
+    - "Foram registrados diversos problemas pela cidade: falta de \xE1gua e transbordamentos,
+      coleta irregular de lixo e respostas lentas ou insatisfat\xF3rias \xE0s ocorr\xEAncias."
+    - "Com tantos problemas, fica a pergunta: realmente vale a pena continuar investindo
+      em uma tecnologia que deveria facilitar a vida dos cidad\xE3os, mas parece
+      estar fazendo justamente o contr\xE1rio?"
+  - level: 1
+    dialogues:
+    - "Dias se passaram desde a implementa\xE7\xE3o de um novo sistema que prometia
+      conectar toda a cidade e agilizar a resolu\xE7\xE3o de problemas."
+    - "Como o ac\xFAmulo de lixo, o monitoramento dos n\xEDveis de \xE1gua e o atendimento
+      de ocorr\xEAncias pela cidade."
+    - "At\xE9 o momento, o novo sistema n\xE3o provocou mudan\xE7as significativas
+      na rotina da popula\xE7\xE3o."
+    - "Muitos moradores afirmam n\xE3o ter percebido melhorias ou problemas, e alguns
+      sequer sabiam da implementa\xE7\xE3o dessa tecnologia."
+    - "Apesar dos resultados ainda pouco expressivos, a expectativa \xE9 que, com
+      mais tempo e aprimoramentos, o sistema possa demonstrar seu potencial e trazer
+      benef\xEDcios mais percept\xEDveis \xE0 cidade."
+  - level: 2
+    dialogues:
+    - "Dias se passaram desde a implementa\xE7\xE3o de um novo sistema que prometia
+      conectar toda a cidade e agilizar a resolu\xE7\xE3o de problemas."
+    - "Como o ac\xFAmulo de lixo, o monitoramento dos n\xEDveis de \xE1gua e o atendimento
+      de ocorr\xEAncias pela cidade."
+    - "O sistema se mostrou realmente \xFAtil."
+    - "A popula\xE7\xE3o recebeu a novidade de bra\xE7os abertos, e diversos moradores
+      relataram melhorias em v\xE1rios aspectos da cidade."
+    - "A popula\xE7\xE3o recebeu a novidade de bra\xE7os abertos, e diversos moradores
+      relataram melhorias em v\xE1rios aspectos da cidade."
+    - "Diante dos resultados positivos, a prefeitura j\xE1 considera ampliar os investimentos
+      nessa tecnologia, que vem sendo chamada de \"Guardian System\", o sistema guardi\xE3o
+      da cidade."

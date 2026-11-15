@@ -242,7 +242,7 @@ public class GameManager : MonoBehaviour
 
             yield return new WaitForSeconds(spawnInterval);
 
-            if (CurrentGameState == GameState.Running || CurrentGameState == GameState.Utopia 
+            if ((CurrentGameState == GameState.Running || CurrentGameState == GameState.Utopia)
                 && currentCallsActive < currentDayConfig.maxSimultaneousCalls)
             {
                 SpawnCall?.Invoke();

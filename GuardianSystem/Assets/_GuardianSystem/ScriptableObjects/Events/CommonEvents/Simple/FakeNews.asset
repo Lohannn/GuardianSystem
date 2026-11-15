@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2c3b4ae46055411af0a3e33e9fc2ec, type: 3}
+  m_Name: FakeNews
+  m_EditorClassIdentifier: Assembly-CSharp::EventData
+  eventWeight: 0
+  eventDescription: "Uma publica\xE7\xE3o nas redes sociais afirma que todos os postos
+    de sa\xFAde da regi\xE3o ser\xE3o fechados amanh\xE3. A informa\xE7\xE3o n\xE3o
+    foi confirmada , mas j\xE1 est\xE1 causando preocupa\xE7\xF5es entre os moradores."
+  eventImage: {fileID: -4942639155145601319, guid: 3d53178fba3756fb3b484f93aeac364d, type: 3}
+  eventType: 1
+  eventDuration: 18
+  requiredUnits: 00000000
+  popularityImpactOnSuccess: 0
+  popularityImpactOnWrongUnits: 0
+  possibleAnswers:
+  - answerText: "Consultar canais oficiais e divulgar inforam\xE7\xF5es verificadas."
+    popularityImpact: 3
+  - answerText: "Repassar a informa\xE7\xE3o imediatamente para mais pessoas."
+    popularityImpact: -4
+  popularityImpactOnTimeout: -5

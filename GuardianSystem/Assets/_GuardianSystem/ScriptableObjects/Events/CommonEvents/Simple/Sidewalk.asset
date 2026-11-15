@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2c3b4ae46055411af0a3e33e9fc2ec, type: 3}
+  m_Name: Sidewalk
+  m_EditorClassIdentifier: Assembly-CSharp::EventData
+  eventWeight: 0
+  eventDescription: "Uma obra bloqueou a \xFAnica cal\xE7ada acess\xEDvel de uma
+    avenida. Pessoas com mobilidade reduzida est\xE3o sendo obrigadas a usar a rua.
+    Como prosseguir?"
+  eventImage: {fileID: -5862773989258749522, guid: 7a3925c450a29c795bbc3a76740cec2b, type: 3}
+  eventType: 1
+  eventDuration: 18
+  requiredUnits: 00000000
+  popularityImpactOnSuccess: 0
+  popularityImpactOnWrongUnits: 0
+  possibleAnswers:
+  - answerText: "Solicitar uma passagem acess\xEDvel e sinalizar."
+    popularityImpact: 3
+  - answerText: Orientar pedestres a acharem outra rua.
+    popularityImpact: -2
+  - answerText: "Aguardar a conlus\xE3o da obra."
+    popularityImpact: -4
+  popularityImpactOnTimeout: -5

@@ -84,12 +84,12 @@ public class CutsceneView : MonoBehaviour
         }
     }
 
-    public void SetupCutscene(CutsceneData cutscene, string[] dialogs)
+    public void SetupCutscene(Sprite cutsceneImage, string[] dialogs)
     {
         currentDialogs = dialogs;
         currentDialogIndex = 0;
         currentText = currentDialogs[currentDialogIndex];
-        cutsceneBackground.sprite = cutscene.cutsceneImage;
+        cutsceneBackground.sprite = cutsceneImage;
         cutsceneContainer.alpha = 1f;
         cutsceneContainer.blocksRaycasts = true;
         cutsceneContainer.interactable = true;

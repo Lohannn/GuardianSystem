@@ -77,6 +77,8 @@ public class CallDispatchSlotPresenter : MonoBehaviour, IDropHandler, IPointerEn
             GameManager.Instance.CurrentGameState != GameState.Utopia &&
             GameManager.Instance.CurrentGameState != GameState.Overtime) return;
 
+        if (eventData.pointerDrag == null) return;
+
         UnitItemPresenter unitPreview = eventData.pointerDrag.GetComponent<UnitItemPresenter>();;
 
         if (unitPreview == null) return;

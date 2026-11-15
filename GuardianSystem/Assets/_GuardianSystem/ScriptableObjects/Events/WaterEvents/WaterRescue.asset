@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2c3b4ae46055411af0a3e33e9fc2ec, type: 3}
+  m_Name: WaterRescue
+  m_EditorClassIdentifier: Assembly-CSharp::EventData
+  eventWeight: 1
+  eventDescription: "Moradores retirados de uma \xE1rea inundada est\xE3o sendo acolhidos
+    em um abrigo tempor\xE1rio. Algumas pessoas precisam de avalia\xE7\xE3o m\xE9dica
+    e h\xE1 res\xEDduos contaminados acumulados na \xE1rea externa, que j\xE1 foi
+    considerada segura para limpeza."
+  eventImage: {fileID: 111916522244217026, guid: bdf3f16578d1e83e090abd7dbfc82bcc, type: 3}
+  eventType: 0
+  eventDuration: 22
+  requiredUnits: 0200000003000000
+  popularityImpactOnSuccess: 4
+  popularityImpactOnWrongUnits: -5
+  possibleAnswers: []
+  popularityImpactOnTimeout: -7

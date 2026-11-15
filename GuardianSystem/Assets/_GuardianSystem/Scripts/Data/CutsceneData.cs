@@ -10,10 +10,18 @@ public struct CutsceneDialog
     public string[] dialogues;
 }
 
+[Serializable]
+public struct CutsceneImage
+{
+    public PopularityLevel level;
+
+    public Sprite image;
+}
+
 [CreateAssetMenu(fileName = "New Cutscene", menuName = "GS/Cutscene")]
 public class CutsceneData : ScriptableObject
 {
-    public Sprite cutsceneImage;
+    public CutsceneImage[] images;
     public CutsceneDialog[] dialogues;
 
     public string[] GetDialogues(PopularityLevel level)
@@ -28,5 +36,19 @@ public class CutsceneData : ScriptableObject
 
         Debug.LogWarning($"No dialogues found for the {level} Popularity Level");
         return Array.Empty<string>();
+    }
+
+    public Sprite GetImage(PopularityLevel level)
+    {
+        foreach (CutsceneImage image in images)
+        {
+            if (image.level == level)
+            {
+                return image.image;
+            }
+        }
+
+        Debug.LogWarning($"No images found for the {level} Popularity Level");
+        return null;
     }
 }

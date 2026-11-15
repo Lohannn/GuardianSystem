@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c17ae20f2a0051491e71f8ee55be9f, type: 3}
+  m_Name: Day2Cutscene
+  m_EditorClassIdentifier: Assembly-CSharp::CutsceneData
+  images:
+  - level: 0
+    image: {fileID: 21300000, guid: 6442d4bfa0f190a518263f5047ca40b3, type: 3}
+  - level: 1
+    image: {fileID: 21300000, guid: 5a2160c52814da432a869fe03de8f71e, type: 3}
+  - level: 2
+    image: {fileID: 21300000, guid: 640d9f9ac3b7a1bb4b1e365206e8a1b3, type: 3}
+  dialogues:
+  - level: 0
+    dialogues:
+    - "Para ser sincera, eu preferia como estava antes, desde que implementaram o
+      sistema novo na cidade, ficou um caos aqui. A gente tem que trabalhar em dobro
+      para compensar a lentid\xE3o de tudo"
+    - "Nossos ve\xEDculos presos no tr\xE2nsito, lixo esperando coleta faz tempo,
+      e nem quero falar sobre os problemas com \xE1gua que tamos tendo."
+    - Ou melhorem logo, ou tirem isso da nossa cidade.
+  - level: 1
+    dialogues:
+    - "Aqui no trabalho n\xE3o senti nenhuma diferen\xE7a, at\xE9 estranhei pois
+      tinha tanta gente falando sobre, mas nunca notei nada demais."
+    - "Acho que \xE9 assim que deveria ser mesmo n\xE9? Deve t\xE1 ajudando de alguma
+      forma que a gente n\xE3o perceba, ou sei l\xE1."
+  - level: 2
+    dialogues:
+    - Nossa, depois que colocaram isso na cidade, nosso trabalho ficou muito mais
+      tranquilo.
+    - "Antes era problema atr\xE1s de problema, agora tudo \xE9 resolvido muito mais
+      r\xE1pido, at\xE9 as entregas t\xE3o chegando no hor\xE1rio."
+    - "N\xE3o sei exatamente o que esse sistema t\xE1 fazendo, mas que continue assim."
