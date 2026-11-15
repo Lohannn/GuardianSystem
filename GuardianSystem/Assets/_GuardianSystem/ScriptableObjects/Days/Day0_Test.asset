@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62f90dcc2c9dca1f0bfd7cc016732c33, type: 3}
-  m_Name: Day0
+  m_Name: Day0_Test
   m_EditorClassIdentifier: Assembly-CSharp::DayConfigData
   DayNumber: -1
   endDayCutscene: {fileID: 11400000, guid: dff340f7f7ec355a8954e980617ef99d, type: 2}
-  dayDurationInSeconds: 10
+  dayDurationInSeconds: 999
   minCallSpawnInterval: 10
   maxCallSpawnInterval: 24
   maxSimultaneousCalls: 2
   waterVariationPerSecond: 1
   waterDirectionChangeInterval: 8
   popularityImpactOnWaterCallSpawn: -1
-  emptyWaterTickInterval: 15
+  emptyWaterTickInterval: 5
   popularityImpactOnEmptyWaterPerTick: -0.3
-  minTrashAddInterval: 15
-  maxTrashAddInterval: 20
-  fullTrashTickInterval: 12
+  minTrashAddInterval: 1
+  maxTrashAddInterval: 2
+  fullTrashTickInterval: 3
   popularityImpactOnFullTrashPerTick: -0.4
   popularityImpactOnCollectedTrash: 0.6
   isTutorialActive: 0

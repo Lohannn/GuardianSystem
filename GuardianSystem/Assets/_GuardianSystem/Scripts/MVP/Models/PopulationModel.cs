@@ -20,16 +20,7 @@ public class PopulationModel
     {
         Popularity = Mathf.Clamp(Popularity + amount, 0, 100);
 
-        if (amount > 0)
-        {
-            Debug.Log($"Popularity increased by {amount}. New popularity: {Popularity}");
-            //feedback de aceitação ganha aqui
-        }
-        else if (amount < 0)
-        {
-            Debug.Log($"Popularity decreased by {Mathf.Abs(amount)}. New popularity: {Popularity}");
-            //feedback de perdida ganha aqui
-        }
+        EventBus.OnPopularityValueChanged?.Invoke(amount > 0);
     }
 
     public PopularityLevel GetPopularityLevel()

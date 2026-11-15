@@ -80,7 +80,7 @@ public class CallButtonView : MonoBehaviour
         callButton.interactable = false;
         rTransform.DOSizeDelta(new(rTransform.sizeDelta.x, 0f), animationDuration).SetEase(Ease.InBack, 3f).OnComplete(() =>
         {
-        callButton.interactable = true;
+            callButton.interactable = true;
             ownerPool.ReturnObjectToPool(gameObject);
         });
     }

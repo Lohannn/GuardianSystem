@@ -14,7 +14,7 @@ public class WaterLevelButtonView : MonoBehaviour
 
     [SerializeField] private Image[] detailsImages;
     [SerializeField] private Sprite[] crisisDetailsSprites;
-    [SerializeField] private Image[] defaultDetailsSprite;
+    [SerializeField] private Sprite[] defaultDetailsSprite;
 
     [SerializeField] private TextMeshProUGUI label;
     [SerializeField] private Image waterDrop;
@@ -68,7 +68,7 @@ public class WaterLevelButtonView : MonoBehaviour
 
         for (int i = 0; i < detailsImages.Length; i++)
         {
-            detailsImages[i].sprite = defaultDetailsSprite[i].sprite;
+            detailsImages[i].sprite = defaultDetailsSprite[i];
         }
 
         inCrisis = false;

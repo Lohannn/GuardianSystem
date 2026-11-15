@@ -18,4 +18,7 @@ public static class EventBus
     public static Action OnHideDispatchPreview;
 
     public static Action<Zone> OnWaterOverflow;
+
+    public static Action<bool> OnPopularityValueChanged;
+    public static Action<PopularityAlertView> OnAlertExpire;
 }
