@@ -57,7 +57,13 @@ public class GhostItem : MonoBehaviour
 
     public void UpdateGhost(Vector2 position)
     {
-        rTransform.position = position;
+        RectTransformUtility.ScreenPointToWorldPointInRectangle(
+            rTransform,
+            position,
+            Camera.main,
+            out Vector3 worldPoint
+        );
+        rTransform.position = worldPoint;
     }
 
     public void EndGhost()

@@ -9,6 +9,8 @@ public class BadEndView : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Image badEndImage;
+    [SerializeField] private RectTransform badEndWhiteImageTransform;
+    [SerializeField] private Image badEndWhiteImage;
     [SerializeField] private CanvasGroup badEndMessageGroup;
     [SerializeField] private TextMeshProUGUI firstText;
     [SerializeField] private TextMeshProUGUI secondText;
@@ -25,7 +27,7 @@ public class BadEndView : MonoBehaviour
     private float typingTimer;
     private bool canFirstTextStartTyping;
     private bool canSecondTextStartTyping;
-    private bool canCreditsRoll;
+    private Sequence shutdownSequence;
 
     private void Awake()
     {
@@ -48,6 +50,20 @@ public class BadEndView : MonoBehaviour
         GameManager.Instance.OnDayInterrupted -= StartEnd;
     }
 
+    private void AnimateShutdown()
+    {
+        shutdownSequence = DOTween.Sequence()
+            .Append(
+                badEndWhiteImageTransform.DOScaleY(0.004f, 0.10f).SetEase(Ease.InCubic)
+            )
+            .Append(
+                badEndWhiteImageTransform.DOScaleX(0.005f, 0.10f).SetEase(Ease.InCubic)
+            )
+            .Append(
+                badEndWhiteImage.DOFade(0f, 0.08f)
+            );
+    }
+
     private void Update()
     {
         if (canFirstTextStartTyping || canSecondTextStartTyping)
@@ -64,8 +80,6 @@ public class BadEndView : MonoBehaviour
                 secondText.maxVisibleCharacters = visibleCharacters;
             }
         }
-
-        
     }
 
     private void StartEnd()
@@ -102,6 +116,7 @@ public class BadEndView : MonoBehaviour
 
     private IEnumerator EndingCoroutine()
     {
+        AnimateShutdown();
         yield return new WaitForSeconds(2.5f);
 
         canFirstTextStartTyping = true;
@@ -123,7 +138,7 @@ public class BadEndView : MonoBehaviour
             yield return null;
         }
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
         badEndMessageGroup.DOFade(0, messageFadeDuration);
 
         RollCredits();

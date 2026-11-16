@@ -23,8 +23,6 @@ public class CutsceneView : MonoBehaviour
     [SerializeField] private Sprite visibleIcon;
     [SerializeField] private Sprite invisibleIcon;
 
-    [SerializeField] private Image fadeImage;
-
     [SerializeField] private float secondsPerCharacter = 0.03f;
     private float typingTimer;
 
@@ -122,8 +120,6 @@ public class CutsceneView : MonoBehaviour
         cutsceneContainer.blocksRaycasts = false;
         cutsceneContainer.interactable = false;
 
-        EventBus.OnFadeIn?.Invoke();
-
         presenter.EndCutscene();
     }
 
@@ -181,6 +177,6 @@ public class CutsceneView : MonoBehaviour
     private IEnumerator EndCutsceneCoroutine()
     {
         yield return new WaitForSeconds(2f);
-        EndCutscene();
+        EventBus.OnFadeOut?.Invoke(EndCutscene);
     }
 }

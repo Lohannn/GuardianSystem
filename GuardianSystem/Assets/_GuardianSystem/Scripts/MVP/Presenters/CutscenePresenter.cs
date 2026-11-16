@@ -32,6 +32,7 @@ public class CutscenePresenter : MonoBehaviour
 
     public void EndCutscene()
     {
-        gameManager.ChangeState(GameState.Setup);
+        EventBus.OnShowDayTitle?.Invoke(gameManager.currentDayNumber + 1);
+        StartCoroutine(gameManager.ChangeStateDelay(GameState.Setup, 3f));
     }
 }

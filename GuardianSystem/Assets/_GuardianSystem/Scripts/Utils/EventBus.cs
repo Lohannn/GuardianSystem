@@ -22,6 +22,7 @@ public static class EventBus
     public static Action<bool> OnPopularityValueChanged;
     public static Action<PopularityAlertView> OnAlertExpire;
 
-    public static Action OnFadeIn;
-    public static Action OnFadeOut;
+    public static Action<Action> OnFadeOut;
+    public static Action<Action> OnFadeIn;
+    public static Action<int> OnShowDayTitle;
 }

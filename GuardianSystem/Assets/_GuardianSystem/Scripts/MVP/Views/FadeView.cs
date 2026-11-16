@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using System;
 
 public class FadeView : MonoBehaviour
 {
@@ -28,21 +29,27 @@ public class FadeView : MonoBehaviour
 
     void OnEnable()
     {
-        EventBus.OnFadeIn += FadeIn;
         EventBus.OnFadeOut += FadeOut;
+        EventBus.OnFadeIn += FadeIn;
     }
 
-    private void FadeIn()
+    void OnDisable()
     {
-        AnimateFade(1f, false);
+        EventBus.OnFadeOut -= FadeOut;
+        EventBus.OnFadeIn -= FadeIn;
     }
 
-    private void FadeOut()
+    private void FadeOut(Action onCompleteAction)
     {
-        AnimateFade(-0.5f, true);
+        AnimateFade(1f, false, onCompleteAction);
     }
 
-    private void AnimateFade(float targetValue, bool isRevealing)
+    private void FadeIn(Action onCompleteAction)
+    {
+        AnimateFade(-0.5f, true, onCompleteAction);
+    }
+
+    private void AnimateFade(float targetValue, bool isRevealing, Action onCompleteAction)
     {
         fadeImage.raycastTarget = true;
 
@@ -56,6 +63,8 @@ public class FadeView : MonoBehaviour
         ).SetEase(Ease.InOutSine).OnComplete(() =>
         {
             fadeImage.raycastTarget = targetValue > 0f;
+
+            onCompleteAction?.Invoke();
         });
     }
 }

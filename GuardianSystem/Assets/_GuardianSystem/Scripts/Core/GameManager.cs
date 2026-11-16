@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
     [NonSerialized] public PopulationModel populationModel;
 
     [Header("Day Data")]
-    private int currentDayNumber = 0;
+    public int currentDayNumber = 0;
     private float currentDayDuration;
     private bool endOfDayRequested = false;
 
@@ -44,6 +44,7 @@ public class GameManager : MonoBehaviour
     public event Action OnDayPaused;
     public event Action OnUtopiaRunning;
     public event Action OnDayRunning;
+    public event Action OnDayOvertime;
     public event Action OnDayEnded;
     public event Action OnCutsceneStarted;
 #endregion
@@ -107,7 +108,7 @@ public class GameManager : MonoBehaviour
                 Debug.Log("Game is starting.");
                 StartDay();
                 OnDayStarted?.Invoke();
-                EventBus.OnFadeOut?.Invoke();
+                EventBus.OnFadeIn?.Invoke(null);
                 break;
             case GameState.Interrupted:
                 Debug.Log("Game has been interrupted.");
@@ -127,6 +128,7 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.Overtime:
                 Debug.Log("Game is now on overtime");
+                if (!utopiaDay) OnDayOvertime?.Invoke();
                 if (utopiaDay) EndUtopiaDay?.Invoke();
                 break;
             case GameState.Paused:
@@ -136,13 +138,13 @@ public class GameManager : MonoBehaviour
             case GameState.EndOfDay:
                 Debug.Log("Day has ended.");
                 OnDayEnded?.Invoke();
-                EventBus.OnFadeIn?.Invoke();
-                StartCoroutine(ChangeStateDelay(GameState.Cutscene, 1.5f));
+                EventBus.OnFadeOut?.Invoke(null);
+                StartCoroutine(ChangeStateDelay(GameState.Cutscene, 3f));
                 break;
             case GameState.Cutscene:
                 Debug.Log("Cutscene is now playing.");
                 OnCutsceneStarted?.Invoke();
-                EventBus.OnFadeOut?.Invoke();
+                EventBus.OnFadeIn?.Invoke(null);
                 break;
         }
     }
@@ -219,7 +221,7 @@ public class GameManager : MonoBehaviour
         currentCallsActive += adjustment;
     }
 
-    private IEnumerator ChangeStateDelay(GameState newState, float delay)
+    public IEnumerator ChangeStateDelay(GameState newState, float delay)
     {
         yield return new WaitForSeconds(delay);
         ChangeState(newState);
