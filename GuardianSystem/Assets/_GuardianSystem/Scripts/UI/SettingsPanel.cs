@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SettingsPanel : MonoBehaviour
 {
@@ -7,41 +8,41 @@ public class SettingsPanel : MonoBehaviour
     [SerializeField] private TextMeshProUGUI fullScreenCheck;
     [SerializeField] private CanvasGroup panelGroup;
 
-    private bool inFullscreen;
+    [Header("Volume Sliders")]
+    [SerializeField] private Slider musicSlider;
+    [SerializeField] private Slider sfxSlider;
+
+    private void Awake()
+    {
+        musicSlider.onValueChanged.AddListener(ChangeMusicVolume);
+        sfxSlider.onValueChanged.AddListener(ChangeSFXVolume);
+    }
 
     private void Start()
     {
-        inFullscreen = Screen.fullScreen;
-
-        UpdateCheck();
+        RefreshUI();
     }
 
     public void ToggleFullscreen()
     {
-        inFullscreen = !inFullscreen;
-
-        if (inFullscreen)
-        {
-            Screen.SetResolution(
-                Screen.currentResolution.width,
-                Screen.currentResolution.height,
-                FullScreenMode.FullScreenWindow
-            );
-        }
-        else
-        {
-            Screen.SetResolution(
-                1280,
-                720,
-                FullScreenMode.Windowed
-            );
-        }
-
+        SettingsManager.Instance.ToggleFullscreen();
         UpdateCheck();
+    }
+
+    public void ChangeMusicVolume(float value)
+    {
+        SettingsManager.Instance.SetMusicVolume(value);
+    }
+
+    public void ChangeSFXVolume(float value)
+    {
+        SettingsManager.Instance.SetSFXVolume(value);
     }
 
     public void OpenPanel()
     {
+        RefreshUI();
+
         panelGroup.alpha = 1;
         panelGroup.blocksRaycasts = true;
         panelGroup.interactable = true;
@@ -52,10 +53,28 @@ public class SettingsPanel : MonoBehaviour
         panelGroup.alpha = 0;
         panelGroup.blocksRaycasts = false;
         panelGroup.interactable = false;
+
+        SettingsManager.Instance.SaveSettings();
+    }
+
+    private void RefreshUI()
+    {
+        SettingsManager settings = SettingsManager.Instance;
+
+        musicSlider.SetValueWithoutNotify(settings.MusicVolume);
+        sfxSlider.SetValueWithoutNotify(settings.SFXVolume);
+
+        UpdateCheck();
     }
 
     private void UpdateCheck()
     {
-        fullScreenCheck.text = inFullscreen ? "X" : "";
+        fullScreenCheck.text = SettingsManager.Instance.IsFullscreen ? "X" : "";
+    }
+
+    private void OnDestroy()
+    {
+        musicSlider.onValueChanged.RemoveListener(ChangeMusicVolume);
+        sfxSlider.onValueChanged.RemoveListener(ChangeSFXVolume);
     }
 }

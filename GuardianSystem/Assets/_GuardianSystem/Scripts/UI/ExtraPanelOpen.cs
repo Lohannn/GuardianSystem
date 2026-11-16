@@ -37,10 +37,10 @@ public class ExtraPanelOpen : MonoBehaviour
     {
         if (isOpened)
         {
-            extraPanelContainer.DOSizeDelta(new(openedSize.x, 40), scaleYChangeDuration).SetEase(Ease.InQuad)
+            extraPanelContainer.DOSizeDelta(new(openedSize.x, 40), scaleYChangeDuration).SetUpdate(true).SetEase(Ease.InQuad)
                 .OnComplete(() =>
                 {
-                    extraPanelContainer.DOSizeDelta(new(0, 40), scaleXChangeDuration).SetEase(Ease.InSine)
+                    extraPanelContainer.DOSizeDelta(new(0, 40), scaleXChangeDuration).SetUpdate(true).SetEase(Ease.InSine)
                         .OnComplete(() =>
                         {
                             action?.Invoke();
@@ -49,10 +49,10 @@ public class ExtraPanelOpen : MonoBehaviour
         }
         else
         {
-            extraPanelContainer.DOSizeDelta(new(openedSize.x, 40), scaleXChangeDuration).SetEase(Ease.OutSine)
+            extraPanelContainer.DOSizeDelta(new(openedSize.x, 40), scaleXChangeDuration).SetUpdate(true).SetEase(Ease.OutSine)
                 .OnComplete(() =>
                 {
-                    extraPanelContainer.DOSizeDelta(new(openedSize.x, openedSize.y), scaleYChangeDuration).SetEase(Ease.OutBack)
+                    extraPanelContainer.DOSizeDelta(new(openedSize.x, openedSize.y), scaleYChangeDuration).SetUpdate(true).SetEase(Ease.OutBack)
                         .OnComplete(() =>
                         {
                             action?.Invoke();
@@ -67,18 +67,18 @@ public class ExtraPanelOpen : MonoBehaviour
     {
         if (isOpened)
         {
-            extraPanelContainer.DOSizeDelta(new(openedSize.x, 40), scaleYChangeDuration).SetEase(Ease.InQuad)
+            extraPanelContainer.DOSizeDelta(new(openedSize.x, 40), scaleYChangeDuration).SetUpdate(true).SetEase(Ease.InQuad)
                 .OnComplete(() =>
                 {
-                    extraPanelContainer.DOSizeDelta(new(0, 40), scaleXChangeDuration).SetEase(Ease.InSine);
+                    extraPanelContainer.DOSizeDelta(new(0, 40), scaleXChangeDuration).SetUpdate(true).SetEase(Ease.InSine);
                 });
         }
         else
         {
-            extraPanelContainer.DOSizeDelta(new(openedSize.x, 40), scaleXChangeDuration).SetEase(Ease.OutSine)
+            extraPanelContainer.DOSizeDelta(new(openedSize.x, 40), scaleXChangeDuration).SetUpdate(true).SetEase(Ease.OutSine)
                 .OnComplete(() =>
                 {
-                    extraPanelContainer.DOSizeDelta(new(openedSize.x, openedSize.y), scaleYChangeDuration).SetEase(Ease.OutBack);
+                    extraPanelContainer.DOSizeDelta(new(openedSize.x, openedSize.y), scaleYChangeDuration).SetUpdate(true).SetEase(Ease.OutBack);
                 });
         }
 
@@ -87,10 +87,10 @@ public class ExtraPanelOpen : MonoBehaviour
 
     public void OpenPanelAnimated()
     {
-        extraPanelContainer.DOSizeDelta(new(openedSize.x, extraPanelContainer.sizeDelta.y), scaleXChangeDuration).SetEase(Ease.OutSine)
+        extraPanelContainer.DOSizeDelta(new(openedSize.x, extraPanelContainer.sizeDelta.y), scaleXChangeDuration).SetUpdate(true).SetEase(Ease.OutSine)
                 .OnComplete(() =>
                 {
-                    extraPanelContainer.DOSizeDelta(new(openedSize.x, openedSize.y), scaleYChangeDuration).SetEase(Ease.OutBack);
+                    extraPanelContainer.DOSizeDelta(new(openedSize.x, openedSize.y), scaleYChangeDuration).SetUpdate(true).SetEase(Ease.OutBack);
                 });
 
         isOpened = true;
@@ -98,10 +98,10 @@ public class ExtraPanelOpen : MonoBehaviour
 
     public void OpenPanelAnimated(Action action)
     {
-        extraPanelContainer.DOSizeDelta(new(openedSize.x, extraPanelContainer.sizeDelta.y), scaleXChangeDuration).SetEase(Ease.OutSine)
+        extraPanelContainer.DOSizeDelta(new(openedSize.x, extraPanelContainer.sizeDelta.y), scaleXChangeDuration).SetUpdate(true).SetEase(Ease.OutSine)
                 .OnComplete(() =>
                 {
-                    extraPanelContainer.DOSizeDelta(new(openedSize.x, openedSize.y), scaleYChangeDuration).SetEase(Ease.OutBack)
+                    extraPanelContainer.DOSizeDelta(new(openedSize.x, openedSize.y), scaleYChangeDuration).SetUpdate(true).SetEase(Ease.OutBack)
                         .OnComplete(() =>
                         {
                             action?.Invoke();
@@ -113,10 +113,10 @@ public class ExtraPanelOpen : MonoBehaviour
 
     public void ClosePanelAnimated()
     {
-        extraPanelContainer.DOSizeDelta(new(extraPanelContainer.sizeDelta.x, 40), scaleYChangeDuration).SetEase(Ease.InQuad)
+        extraPanelContainer.DOSizeDelta(new(extraPanelContainer.sizeDelta.x, 40), scaleYChangeDuration).SetUpdate(true).SetEase(Ease.InQuad)
                 .OnComplete(() =>
                 {
-                    extraPanelContainer.DOSizeDelta(new(0, extraPanelContainer.sizeDelta.y), scaleXChangeDuration).SetEase(Ease.InSine);
+                    extraPanelContainer.DOSizeDelta(new(0, extraPanelContainer.sizeDelta.y), scaleXChangeDuration).SetUpdate(true).SetEase(Ease.InSine);
                 });
 
         isOpened = false;
@@ -124,10 +124,10 @@ public class ExtraPanelOpen : MonoBehaviour
 
     public void ClosePanelAnimated(Action action)
     {
-        extraPanelContainer.DOSizeDelta(new(extraPanelContainer.sizeDelta.x, 40), scaleYChangeDuration).SetEase(Ease.InQuad)
+        extraPanelContainer.DOSizeDelta(new(extraPanelContainer.sizeDelta.x, 40), scaleYChangeDuration).SetUpdate(true).SetEase(Ease.InQuad)
                 .OnComplete(() =>
                 {
-                    extraPanelContainer.DOSizeDelta(new(0, extraPanelContainer.sizeDelta.y), scaleXChangeDuration).SetEase(Ease.InSine)
+                    extraPanelContainer.DOSizeDelta(new(0, extraPanelContainer.sizeDelta.y), scaleXChangeDuration).SetUpdate(true).SetEase(Ease.InSine)
                         .OnComplete(() =>
                         {
                             action?.Invoke();

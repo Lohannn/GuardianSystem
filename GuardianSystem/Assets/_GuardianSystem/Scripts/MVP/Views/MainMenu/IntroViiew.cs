@@ -1,4 +1,5 @@
 using DG.Tweening;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -34,7 +35,7 @@ public class IntroViiew : MonoBehaviour
 
     private void Start()
     {
-        PlayIntro();
+        StartCoroutine(PlayIntroDelay());
     }
 
     private void PrepareIntro()
@@ -123,13 +124,20 @@ public class IntroViiew : MonoBehaviour
                 .SetEase(Ease.InOutSine)
         );
 
-        introSequence.Join(
-            logoGroup.DOFade(0f, revealDuration)
-        );
-
-        introSequence.OnComplete(() =>
+        introSequence.JoinCallback(() =>
         {
             introContainer.blocksRaycasts = false;
         });
+
+        introSequence.Join(
+            logoGroup.DOFade(0f, revealDuration)
+        );
+    }
+
+    private IEnumerator PlayIntroDelay()
+    {
+        yield return new WaitForSeconds(1f);
+
+        PlayIntro();
     }
 }

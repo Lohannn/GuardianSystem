@@ -38,13 +38,13 @@ public class GameManager : MonoBehaviour
     public int currentDayNumber = 0;
     private float currentDayDuration;
     private bool endOfDayRequested = false;
+    private bool musicRushStarted = false;
 
     //Events
 #region Game State Events
     public event Action OnSetupDay;
     public event Action OnDayStarted;
     public event Action OnDayInterrupted;
-    public event Action OnDayPaused;
     public event Action OnUtopiaRunning;
     public event Action OnDayRunning;
     public event Action OnDayOvertime;
@@ -74,6 +74,12 @@ public class GameManager : MonoBehaviour
         if (CurrentGameState == GameState.Running || CurrentGameState == GameState.Utopia)
         {
             currentDayDuration -= Time.deltaTime;
+
+            if (CurrentGameState != GameState.Utopia && !musicRushStarted && currentDayDuration <= 30f)
+            {
+                musicRushStarted = true;
+                AudioManager.Instance.StartMusicRush();
+            }
 
             if (currentDayDuration <= 0)
             {
@@ -136,10 +142,6 @@ public class GameManager : MonoBehaviour
                 if (!utopiaDay) OnDayOvertime?.Invoke();
                 if (utopiaDay) EndUtopiaDay?.Invoke();
                 break;
-            case GameState.Paused:
-                Debug.Log("Game is now paused.");
-                OnDayPaused?.Invoke();
-                break;
             case GameState.EndOfDay:
                 Debug.Log("Day has ended.");
                 OnDayEnded?.Invoke();
@@ -174,6 +176,9 @@ public class GameManager : MonoBehaviour
         currentDayConfig = currentDayNumber == dayConfigOrder.Count
             ? GetEndingDay()
             : dayConfigOrder[currentDayNumber];
+
+        musicRushStarted = false;
+        AudioManager.Instance.ResetMusicSpeed();
 
         Debug.Log($"Setting up Day {currentDayConfig.name}.");
         StartCoroutine(ChangeStateDelay(GameState.Starting, 2f));

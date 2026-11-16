@@ -68,14 +68,14 @@ public class ButtonBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerExit
     {
         isReleasePending = false;
 
-        buttonTransform.DOScale((defaultScale * pressedScaleMultiplier), scaleChangeDuration);
-        buttonOffSprite.DOFade(0, colorChangeDuration);
-        outerDetailsContainerGroup.DOFade(1, detailsOpacityChangeDuration);
-        outerDetailsContainer.DOScaleX((outerDetailDefaultScaleX * outerDetailsScaleMultiplierX), detailsMovementDuration);
-        outerDetailsContainer.DOScaleY((outerDetailDefaultScaleY * outerDetailsScaleMultiplierY), detailsMovementDuration);
-        innerDetailsContainerGroup.DOFade(1, detailsOpacityChangeDuration).SetDelay(innerDetailsDelay);
-        innerDetailsContainer.DOScaleX((innerDetailDefaultScaleX * innerDetailsScaleMultiplierX), detailsMovementDuration).SetDelay(innerDetailsDelay);
-        innerDetailsContainer.DOScaleY((innerDetailDefaultScaleY * innerDetailsScaleMultiplierY), detailsMovementDuration).SetDelay(innerDetailsDelay);
+        buttonTransform.DOScale((defaultScale * pressedScaleMultiplier), scaleChangeDuration).SetUpdate(true);
+        buttonOffSprite.DOFade(0, colorChangeDuration).SetUpdate(true);
+        outerDetailsContainerGroup.DOFade(1, detailsOpacityChangeDuration).SetUpdate(true);
+        outerDetailsContainer.DOScaleX((outerDetailDefaultScaleX * outerDetailsScaleMultiplierX), detailsMovementDuration).SetUpdate(true);
+        outerDetailsContainer.DOScaleY((outerDetailDefaultScaleY * outerDetailsScaleMultiplierY), detailsMovementDuration).SetUpdate(true);
+        innerDetailsContainerGroup.DOFade(1, detailsOpacityChangeDuration).SetDelay(innerDetailsDelay).SetUpdate(true);
+        innerDetailsContainer.DOScaleX((innerDetailDefaultScaleX * innerDetailsScaleMultiplierX), detailsMovementDuration).SetDelay(innerDetailsDelay).SetUpdate(true);
+        innerDetailsContainer.DOScaleY((innerDetailDefaultScaleY * innerDetailsScaleMultiplierY), detailsMovementDuration).SetDelay(innerDetailsDelay).SetUpdate(true);
 
         isPressed = true;
     }
@@ -87,14 +87,14 @@ public class ButtonBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     private void RealeaseButton()
     {
-        buttonTransform.DOScale((defaultScale), scaleChangeDuration);
-        buttonOffSprite.DOFade(1, colorChangeDuration);
-        outerDetailsContainerGroup.DOFade(0, detailsOpacityChangeDuration);
-        outerDetailsContainer.DOScaleX((outerDetailDefaultScaleX), detailsMovementDuration);
-        outerDetailsContainer.DOScaleY((outerDetailDefaultScaleY), detailsMovementDuration);
-        innerDetailsContainerGroup.DOFade(0, detailsOpacityChangeDuration).SetDelay(innerDetailsDelay);
-        innerDetailsContainer.DOScaleX((innerDetailDefaultScaleX), detailsMovementDuration).SetDelay(innerDetailsDelay).SetEase(Ease.InQuad);
-        innerDetailsContainer.DOScaleY((innerDetailDefaultScaleY), detailsMovementDuration).SetDelay(innerDetailsDelay).SetEase(Ease.InQuad);
+        buttonTransform.DOScale((defaultScale), scaleChangeDuration).SetUpdate(true);
+        buttonOffSprite.DOFade(1, colorChangeDuration).SetUpdate(true);
+        outerDetailsContainerGroup.DOFade(0, detailsOpacityChangeDuration).SetUpdate(true);
+        outerDetailsContainer.DOScaleX((outerDetailDefaultScaleX), detailsMovementDuration).SetUpdate(true);
+        outerDetailsContainer.DOScaleY((outerDetailDefaultScaleY), detailsMovementDuration).SetUpdate(true);
+        innerDetailsContainerGroup.DOFade(0, detailsOpacityChangeDuration).SetDelay(innerDetailsDelay).SetUpdate(true);
+        innerDetailsContainer.DOScaleX((innerDetailDefaultScaleX), detailsMovementDuration).SetDelay(innerDetailsDelay).SetEase(Ease.InQuad).SetUpdate(true);
+        innerDetailsContainer.DOScaleY((innerDetailDefaultScaleY), detailsMovementDuration).SetDelay(innerDetailsDelay).SetEase(Ease.InQuad).SetUpdate(true);
 
         isPressed = false;
     }
@@ -103,26 +103,26 @@ public class ButtonBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerExit
     {
         if (isPressed || !button.interactable) return;
 
-        buttonTransform.DOScale((defaultScale * hoverScaleMultiplier), scaleChangeDuration);
+        buttonTransform.DOScale((defaultScale * hoverScaleMultiplier), scaleChangeDuration).SetUpdate(true);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
         if (isPressed || !button.interactable) return;
 
-        buttonTransform.DOScale((defaultScale), scaleChangeDuration);
+        buttonTransform.DOScale((defaultScale), scaleChangeDuration).SetUpdate(true);
     }
 
     private void ResetVisual()
     {
-        buttonTransform.DOScale((defaultScale), scaleChangeDuration);
-        buttonOffSprite.DOFade(1, colorChangeDuration);
-        outerDetailsContainerGroup.DOFade(0, detailsOpacityChangeDuration);
-        outerDetailsContainer.DOScaleX((outerDetailDefaultScaleX), detailsMovementDuration);
-        outerDetailsContainer.DOScaleY((outerDetailDefaultScaleY), detailsMovementDuration);
-        innerDetailsContainerGroup.DOFade(0, detailsOpacityChangeDuration).SetDelay(innerDetailsDelay);
-        innerDetailsContainer.DOScaleX((innerDetailDefaultScaleX), detailsMovementDuration).SetDelay(innerDetailsDelay).SetEase(Ease.InQuad);
-        innerDetailsContainer.DOScaleY((innerDetailDefaultScaleY), detailsMovementDuration).SetDelay(innerDetailsDelay).SetEase(Ease.InQuad);
+        buttonTransform.DOScale((defaultScale), scaleChangeDuration).SetUpdate(true);
+        buttonOffSprite.DOFade(1, colorChangeDuration).SetUpdate(true);
+        outerDetailsContainerGroup.DOFade(0, detailsOpacityChangeDuration).SetUpdate(true);
+        outerDetailsContainer.DOScaleX((outerDetailDefaultScaleX), detailsMovementDuration).SetUpdate(true);
+        outerDetailsContainer.DOScaleY((outerDetailDefaultScaleY), detailsMovementDuration).SetUpdate(true);
+        innerDetailsContainerGroup.DOFade(0, detailsOpacityChangeDuration).SetDelay(innerDetailsDelay).SetUpdate(true);
+        innerDetailsContainer.DOScaleX((innerDetailDefaultScaleX), detailsMovementDuration).SetDelay(innerDetailsDelay).SetEase(Ease.InQuad).SetUpdate(true);
+        innerDetailsContainer.DOScaleY((innerDetailDefaultScaleY), detailsMovementDuration).SetDelay(innerDetailsDelay).SetEase(Ease.InQuad).SetUpdate(true);
 
         isPressed = false;
     }

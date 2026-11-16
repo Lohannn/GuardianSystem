@@ -97,6 +97,12 @@ public class CallDetailPresenter : MonoBehaviour
         view.Hide();
     }
 
+    public void CloseDetailPanel()
+    {
+        view.Hide();
+        ClearCase();
+    }
+
     private void CallTimeOutHandler(EventData eventData, CallButtonPresenter callPresenter)
     {
         if (currentCallButtonPresenter != callPresenter) return;
