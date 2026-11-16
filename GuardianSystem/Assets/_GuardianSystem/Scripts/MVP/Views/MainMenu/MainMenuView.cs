@@ -8,6 +8,7 @@ public class MainMenuView : MonoBehaviour
     [Header("References")]
     [SerializeField] private RectTransform menuBackground;
     [SerializeField] private Image menuBackgroundImage;
+    [SerializeField] private Image gridBackgroundImage;
     [SerializeField] private RectTransform gameMenuBackground;
     [SerializeField] private Image logo;
     [SerializeField] private ExtraPanelOpen playPanel;
@@ -48,6 +49,9 @@ public class MainMenuView : MonoBehaviour
 
         transitionSequence.Insert(0.1f,
             logo.DOFade(0f, 0.45f));
+
+        transitionSequence.Insert(0.2f,
+            gridBackgroundImage.DOFade(0.2902f, 0.9f));
 
         transitionSequence.Insert(0.2f,
             mapImage.DOFade(1f, 0.9f));

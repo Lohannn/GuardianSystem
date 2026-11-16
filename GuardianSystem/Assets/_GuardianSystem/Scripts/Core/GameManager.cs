@@ -20,6 +20,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
+    [Header("References")]
+    [SerializeField] private UIDigitalReveal dayReveal;
+
     [Header("Game State manager")]
     public GameState CurrentGameState { get; private set; } = GameState.Starting;
     private int currentCallsActive = 0;
@@ -103,12 +106,14 @@ public class GameManager : MonoBehaviour
                 Debug.Log("Game is setting up.");
                 OnSetupDay?.Invoke();
                 SetupDay();
+                if (currentDayNumber > 0) dayReveal.PrepareReveal();
                 break;
             case GameState.Starting:
                 Debug.Log("Game is starting.");
                 StartDay();
                 OnDayStarted?.Invoke();
                 EventBus.OnFadeIn?.Invoke(null);
+                if (currentDayNumber > 0) dayReveal.PlayReveal();
                 break;
             case GameState.Interrupted:
                 Debug.Log("Game has been interrupted.");

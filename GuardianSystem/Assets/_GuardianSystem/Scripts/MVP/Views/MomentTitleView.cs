@@ -38,7 +38,7 @@ public class MomentTitleView : MonoBehaviour
 
     private void ShowDayTitle(int dayNumber)
     {
-        dayTitle.text = $"Day {dayNumber}";
+        dayTitle.text = $"Dia {dayNumber}";
         dayTitleGroup.DOFade(1, showAnimDuration);
     }
 

@@ -1,7 +1,6 @@
-using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,6 +13,7 @@ public class CallDetailView : MonoBehaviour
     [SerializeField] private Image clickBlockerPanel;
     [SerializeField] private Image callDetailPanel;
     [SerializeField] private Image callSituationImage;
+    [SerializeField] private UIDigitalReveal imageReveal;
     [SerializeField] private TextMeshProUGUI callDescriptionText;
     [SerializeField] private Button[] questionCallAnswerButtons;
     [SerializeField] private Button confirmAnswerButton;
@@ -29,6 +29,8 @@ public class CallDetailView : MonoBehaviour
     [SerializeField] private EventData data;
 
     private List<Button> alreadySetupedButtons;
+
+    private Coroutine imageRevealCoroutine;
 
     private void Awake()
     {
@@ -166,10 +168,17 @@ public class CallDetailView : MonoBehaviour
 
         callDetailPanel.gameObject.SetActive(true);
         animation.OpenPanelAnimated();
+        imageReveal.PrepareReveal();
+        imageRevealCoroutine = StartCoroutine(RevealImage());
     }
 
     public void Hide()
     {
+        if (imageRevealCoroutine != null)
+        {
+            StopCoroutine(imageRevealCoroutine);
+            imageRevealCoroutine = null;
+        }
 
         foreach (Button button in questionCallAnswerButtons)
         {
@@ -192,6 +201,9 @@ public class CallDetailView : MonoBehaviour
 
         clickBlockerPanel.color = new Color(clickBlockerPanel.color.r, clickBlockerPanel.color.g, clickBlockerPanel.color.b, 0f);
         clickBlockerPanel.raycastTarget = false;
+
+        imageReveal.PrepareReveal();
+
         animation.ClosePanelAnimated(() => callDetailPanel.gameObject.SetActive(false));
     }
 
@@ -218,5 +230,13 @@ public class CallDetailView : MonoBehaviour
                 button.interactable = true;
             }
         }
+    }
+
+    private IEnumerator RevealImage()
+    {
+        yield return new WaitForSeconds(0.3f);
+
+        imageRevealCoroutine = null;
+        imageReveal.PlayReveal();
     }
 }
