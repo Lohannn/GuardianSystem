@@ -3,10 +3,9 @@ using UnityEngine;
 
 public enum MusicType
 {
-    MainMenu,
+    MainMusic,
     Stage,
-    BadEnding,
-    GoodEnding
+    BadEnding
 }
 
 [System.Serializable]

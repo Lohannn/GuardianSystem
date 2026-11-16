@@ -127,6 +127,7 @@ public class IntroViiew : MonoBehaviour
         introSequence.JoinCallback(() =>
         {
             introContainer.blocksRaycasts = false;
+            AudioManager.Instance.PlayMusic(AudioManager.Instance.GetMusic(MusicType.MainMusic));
         });
 
         introSequence.Join(
