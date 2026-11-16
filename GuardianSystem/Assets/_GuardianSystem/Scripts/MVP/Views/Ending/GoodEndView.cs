@@ -76,6 +76,8 @@ public class GoodEndView : MonoBehaviour
 
     private IEnumerator GoToMainMenu()
     {
+        AudioManager.Instance.StopMusic();
+
         yield return new WaitForSeconds(2f);
 
         SceneManager.LoadScene("MainMenuScene");

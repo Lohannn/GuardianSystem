@@ -26,8 +26,14 @@ public class IntroViiew : MonoBehaviour
     private Sequence introSequence;
     private Vector3 logoOriginalScale;
 
+    private AudioManager audioManager;
+    private AudioClip mainMusic;
+
     private void Awake()
     {
+        audioManager = AudioManager.Instance;
+        mainMusic = audioManager.GetMusic(MusicType.MainMusic);
+
         logoOriginalScale = introLogo.localScale;
 
         PrepareIntro();
@@ -35,6 +41,7 @@ public class IntroViiew : MonoBehaviour
 
     private void Start()
     {
+        audioManager.StopMusicWithoutFade();
         StartCoroutine(PlayIntroDelay());
     }
 
@@ -89,6 +96,7 @@ public class IntroViiew : MonoBehaviour
         {
             pulseRing.localScale = Vector3.one * 0.15f;
             pulseGroup.alpha = 1f;
+            audioManager.PlayMusic(mainMusic);
         });
 
         introSequence.Join(
@@ -127,7 +135,6 @@ public class IntroViiew : MonoBehaviour
         introSequence.JoinCallback(() =>
         {
             introContainer.blocksRaycasts = false;
-            AudioManager.Instance.PlayMusic(AudioManager.Instance.GetMusic(MusicType.MainMusic));
         });
 
         introSequence.Join(

@@ -54,6 +54,8 @@ public class AudioManager : MonoBehaviour
 
         musicFadeTween?.Kill();
 
+        musicSource.volume = 0f;
+
         if (musicSource.clip == audio && musicSource.isPlaying)
         {
             musicFadeTween = musicSource

@@ -78,7 +78,7 @@ public class GameManager : MonoBehaviour
             if (CurrentGameState != GameState.Utopia && !musicRushStarted && currentDayDuration <= 30f)
             {
                 musicRushStarted = true;
-                AudioManager.Instance.StartMusicRush();
+                AudioManager.Instance.StartMusicRush(maxSpeed:1.8f);
             }
 
             if (currentDayDuration <= 0)
@@ -123,6 +123,7 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.Interrupted:
                 Debug.Log("Game has been interrupted.");
+                AudioManager.Instance.StopMusicWithoutFade();
                 OnDayInterrupted?.Invoke();
                 break;
             case GameState.Utopia:
@@ -139,7 +140,13 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.Overtime:
                 Debug.Log("Game is now on overtime");
-                if (!utopiaDay) OnDayOvertime?.Invoke();
+
+                if (!utopiaDay)
+                {
+                    OnDayOvertime?.Invoke();
+                    AudioManager.Instance.StopMusicWithoutFade();
+                }
+
                 if (utopiaDay) EndUtopiaDay?.Invoke();
                 break;
             case GameState.EndOfDay:
@@ -169,7 +176,7 @@ public class GameManager : MonoBehaviour
 
         if (currentDayNumber < 0 || currentDayNumber > dayConfigOrder.Count)
         {
-            Debug.LogError($"{currentDayNumber} is a invalid Day number.");
+            Debug.LogError($"{currentDayNumber} isn't a invalid Day number.");
             return;
         }
 
@@ -195,6 +202,10 @@ public class GameManager : MonoBehaviour
                 : GameState.Running;
 
             StartCoroutine(ChangeStateDelay(nextState, 1.5f));
+
+            AudioManager.Instance.PlayMusic(nextState == GameState.Utopia 
+                                                         ? AudioManager.Instance.GetMusic(MusicType.MainMusic)
+                                                         : AudioManager.Instance.GetMusic(MusicType.Stage));
 
             print($"Is bad ending?: {currentDayConfig == badEndConfig}");
             if (currentDayConfig == badEndConfig)

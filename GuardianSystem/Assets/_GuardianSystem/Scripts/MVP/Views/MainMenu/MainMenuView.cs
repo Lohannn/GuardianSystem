@@ -60,6 +60,11 @@ public class MainMenuView : MonoBehaviour
             mapImageTransform.DOAnchorPos(finalMapPosition, 1.1f)
                 .SetEase(Ease.InOutCubic));
 
+        transitionSequence.InsertCallback(0.2f, () =>
+        {
+            AudioManager.Instance.StopMusic();
+        });
+
         transitionSequence.Insert(0.25f,
             menuBackgroundImage.DOFade(0f, 0.85f));
 

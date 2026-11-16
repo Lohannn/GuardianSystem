@@ -93,6 +93,8 @@ public class BadEndView : MonoBehaviour
 
     private void RollCredits()
     {
+        AudioManager.Instance.PlayMusic(AudioManager.Instance.GetMusic(MusicType.BadEnding));
+
         Canvas.ForceUpdateCanvases();
         LayoutRebuilder.ForceRebuildLayoutImmediate(creditsContainer);
 
