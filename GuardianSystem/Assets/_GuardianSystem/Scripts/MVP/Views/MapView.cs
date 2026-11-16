@@ -25,7 +25,7 @@ public class MapView : MonoBehaviour
     private static readonly int SouthActive = Shader.PropertyToID("_SouthActive");
     private static readonly int CenterActive = Shader.PropertyToID("_CenterActive");
     private static readonly int EastActive = Shader.PropertyToID("_EastActive");
-    private static readonly int WestActive= Shader.PropertyToID("_WesthActive");
+    private static readonly int WestActive= Shader.PropertyToID("_WestActive");
 
     private bool isShaking = false;
 
@@ -49,8 +49,8 @@ public class MapView : MonoBehaviour
 
     void OnDisable()
     {
-        EventBus.OnWaterOverflow += AnimateWaterCrisis;
-        GameManager.Instance.OnSetupDay += ResetCrisis;
+        EventBus.OnWaterOverflow -= AnimateWaterCrisis;
+        GameManager.Instance.OnSetupDay -= ResetCrisis;
 
         ResetCrisis();
     }

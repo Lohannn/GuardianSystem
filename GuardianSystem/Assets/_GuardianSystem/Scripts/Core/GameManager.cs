@@ -229,7 +229,7 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator BadEndInterruption()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(20f);
         ChangeState(GameState.Interrupted);
     }
 

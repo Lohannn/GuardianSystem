@@ -52,7 +52,14 @@ public class GhostItem : MonoBehaviour
     {
         unitImage.sprite = presenter.Unit.icon;
         unitImage.color = new Color(unitImage.color.r, unitImage.color.g, unitImage.color.b, 0.5f);
-        rTransform.position = position;
+        
+        RectTransformUtility.ScreenPointToWorldPointInRectangle(
+            rTransform,
+            position,
+            Camera.main,
+            out Vector3 worldPoint
+        );
+        rTransform.position = worldPoint;
     }   
 
     public void UpdateGhost(Vector2 position)
