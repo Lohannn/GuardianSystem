@@ -2660,7 +2660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   musicList: {fileID: 11400000, guid: 1fc40978ea7207a4ebf649dcbcf38620, type: 2}
-  sfxList: {fileID: 0}
+  sfxList: {fileID: 11400000, guid: bacaff13e7f9a2040b2129e9190ca6f5, type: 2}
   musicSource: {fileID: 396076416}
   sfxSource: {fileID: 396076415}
   fadeDuration: 1

@@ -37,6 +37,8 @@ public class ExtraPanelOpen : MonoBehaviour
     {
         if (isOpened)
         {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Panel_Close));
+
             extraPanelContainer.DOSizeDelta(new(openedSize.x, 40), scaleYChangeDuration).SetUpdate(true).SetEase(Ease.InQuad)
                 .OnComplete(() =>
                 {
@@ -49,6 +51,8 @@ public class ExtraPanelOpen : MonoBehaviour
         }
         else
         {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Panel_Open));
+
             extraPanelContainer.DOSizeDelta(new(openedSize.x, 40), scaleXChangeDuration).SetUpdate(true).SetEase(Ease.OutSine)
                 .OnComplete(() =>
                 {
@@ -67,6 +71,7 @@ public class ExtraPanelOpen : MonoBehaviour
     {
         if (isOpened)
         {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Panel_Close));
             extraPanelContainer.DOSizeDelta(new(openedSize.x, 40), scaleYChangeDuration).SetUpdate(true).SetEase(Ease.InQuad)
                 .OnComplete(() =>
                 {
@@ -75,6 +80,7 @@ public class ExtraPanelOpen : MonoBehaviour
         }
         else
         {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Panel_Open));
             extraPanelContainer.DOSizeDelta(new(openedSize.x, 40), scaleXChangeDuration).SetUpdate(true).SetEase(Ease.OutSine)
                 .OnComplete(() =>
                 {
@@ -87,6 +93,7 @@ public class ExtraPanelOpen : MonoBehaviour
 
     public void OpenPanelAnimated()
     {
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Panel_Open));
         extraPanelContainer.DOSizeDelta(new(openedSize.x, extraPanelContainer.sizeDelta.y), scaleXChangeDuration).SetUpdate(true).SetEase(Ease.OutSine)
                 .OnComplete(() =>
                 {
@@ -98,6 +105,7 @@ public class ExtraPanelOpen : MonoBehaviour
 
     public void OpenPanelAnimated(Action action)
     {
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Panel_Open));
         extraPanelContainer.DOSizeDelta(new(openedSize.x, extraPanelContainer.sizeDelta.y), scaleXChangeDuration).SetUpdate(true).SetEase(Ease.OutSine)
                 .OnComplete(() =>
                 {
@@ -113,6 +121,7 @@ public class ExtraPanelOpen : MonoBehaviour
 
     public void ClosePanelAnimated()
     {
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Panel_Close));
         extraPanelContainer.DOSizeDelta(new(extraPanelContainer.sizeDelta.x, 40), scaleYChangeDuration).SetUpdate(true).SetEase(Ease.InQuad)
                 .OnComplete(() =>
                 {
@@ -124,6 +133,7 @@ public class ExtraPanelOpen : MonoBehaviour
 
     public void ClosePanelAnimated(Action action)
     {
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Panel_Close));
         extraPanelContainer.DOSizeDelta(new(extraPanelContainer.sizeDelta.x, 40), scaleYChangeDuration).SetUpdate(true).SetEase(Ease.InQuad)
                 .OnComplete(() =>
                 {

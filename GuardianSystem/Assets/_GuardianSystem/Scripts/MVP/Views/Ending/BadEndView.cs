@@ -148,6 +148,8 @@ public class BadEndView : MonoBehaviour
 
     private IEnumerator GoToMainMenu()
     {
+        AudioManager.Instance.StopMusic();
+
         yield return new WaitForSeconds(1.5f);
 
         SceneManager.LoadScene("MainMenuScene");

@@ -66,6 +66,7 @@ public class ButtonBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     public void OnPointerDown(PointerEventData eventData)
     {
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Button_Click));
         isReleasePending = false;
 
         buttonTransform.DOScale((defaultScale * pressedScaleMultiplier), scaleChangeDuration).SetUpdate(true);
@@ -103,6 +104,7 @@ public class ButtonBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerExit
     {
         if (isPressed || !button.interactable) return;
 
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Button_Hover));
         buttonTransform.DOScale((defaultScale * hoverScaleMultiplier), scaleChangeDuration).SetUpdate(true);
     }
 

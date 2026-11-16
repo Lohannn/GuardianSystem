@@ -3,7 +3,11 @@ using UnityEngine;
 
 public enum SFXType
 {
-    
+    UI_Button_Hover,
+    UI_Button_Click,
+    UI_Slot_Drop,
+    UI_Panel_Open,
+    UI_Panel_Close
 }
 
 [System.Serializable]

@@ -38,8 +38,12 @@ public class CallDispatchSlotPresenter : MonoBehaviour, IDropHandler, IPointerEn
         if (currentUnitInSlot == null) return;
 
         bool accepted = callDetail.TryUnitDrop(slotPosition, currentUnitInSlot);
-        
-        if (accepted) view.SetIcon(currentUnitInSlot.Unit);
+
+        if (accepted)
+        {
+            view.SetIcon(currentUnitInSlot.Unit);
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Slot_Drop));
+        }
     }
 
     private void ClearSlot()

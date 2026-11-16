@@ -123,6 +123,7 @@ public class ZonePresenter : MonoBehaviour, IDropHandler, IPointerEnterHandler, 
 
         if (droppedUnit == null || droppedUnit.Unit.type != UnitType.TrashCollector) return;
 
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Slot_Drop));
         collectorUnit = droppedUnit;
 
         EventBus.OnDispatchStart?.Invoke(collectorUnit, 

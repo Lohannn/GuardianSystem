@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2318d986efc46a94cb60823033224a46, type: 3}
+  m_Name: SFXList
+  m_EditorClassIdentifier: Assembly-CSharp::SFXListSO
+  sfxList:
+  - type: 0
+    sfx: {fileID: 8300000, guid: 4df99de472921a24ca7fcd1025a80536, type: 3}
+  - type: 1
+    sfx: {fileID: 8300000, guid: 4012f68c7b50be7498d986eebbf7084b, type: 3}
+  - type: 2
+    sfx: {fileID: 8300000, guid: 6ce2b61f438a6f24baf3cbc14add0615, type: 3}
+  - type: 3
+    sfx: {fileID: 8300000, guid: 3aaee6a8fcea8754b895f813562495e2, type: 3}
+  - type: 4
+    sfx: {fileID: 8300000, guid: 9f4963ad8118a164ea4f843c7614190c, type: 3}
