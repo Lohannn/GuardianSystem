@@ -10386,8 +10386,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 84799a4d4106ed266ac5ed473d91cf37, type: 2}
   badEndConfig: {fileID: 11400000, guid: d49836d28cbeffa47b17b0d3067999f0, type: 2}
   goodEndConfig: {fileID: 11400000, guid: cb0413b63e5ccb3488420da644b7571e, type: 2}
-  currentDayConfig: {fileID: 11400000, guid: 96f988a3ca680e02aa6f3d6cc803d39b, type: 2}
-  currentDayNumber: 2
+  currentDayConfig: {fileID: 11400000, guid: d0092dabbe7bf0c31b079c4a3ecc570f, type: 2}
+  currentDayNumber: 0
   utopiaDay: 0
 --- !u!4 &710395508
 Transform:
