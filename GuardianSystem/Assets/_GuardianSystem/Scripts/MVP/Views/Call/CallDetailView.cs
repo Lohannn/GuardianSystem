@@ -48,15 +48,6 @@ public class CallDetailView : MonoBehaviour
         EventBus.OnCallClicked -= HandleCallClicked;
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyUp(KeyCode.Escape) && callDetailPanel.gameObject.activeInHierarchy)
-        {
-            Hide();
-            EventBus.OnDetailPanelHide.Invoke();
-        }
-    }
-
     private void Initialize(EventData eventData)
     {
         data = eventData;
