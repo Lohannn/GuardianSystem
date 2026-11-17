@@ -15,18 +15,18 @@ MonoBehaviour:
   DayNumber: -1
   endDayCutscene: {fileID: 11400000, guid: dff340f7f7ec355a8954e980617ef99d, type: 2}
   dayDurationInSeconds: 50
-  minCallSpawnInterval: 10
-  maxCallSpawnInterval: 24
-  maxSimultaneousCalls: 2
+  minCallSpawnInterval: 1
+  maxCallSpawnInterval: 2
+  maxSimultaneousCalls: 5
   waterVariationPerSecond: 1
-  waterDirectionChangeInterval: 8
+  waterDirectionChangeInterval: 5
   popularityImpactOnWaterCallSpawn: -1
   emptyWaterTickInterval: 5
   popularityImpactOnEmptyWaterPerTick: -0.3
-  minTrashAddInterval: 1
-  maxTrashAddInterval: 2
+  minTrashAddInterval: 999
+  maxTrashAddInterval: 999
   fullTrashTickInterval: 3
   popularityImpactOnFullTrashPerTick: -0.4
   popularityImpactOnCollectedTrash: 0.6
   isTutorialActive: 0
-  activeEventWeights: 00000000
+  activeEventWeights: 0100000002000000
