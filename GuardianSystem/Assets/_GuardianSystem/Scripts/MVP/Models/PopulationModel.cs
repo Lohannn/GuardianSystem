@@ -23,6 +23,11 @@ public class PopulationModel
         EventBus.OnPopularityValueChanged?.Invoke(amount > 0);
     }
 
+    public void SetPopularity(float amount)
+    {
+        Popularity = Mathf.Clamp(Popularity + amount, 0, 100);
+    }
+
     public PopularityLevel GetPopularityLevel()
     {
         switch (Popularity)

@@ -33,6 +33,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private DayConfigData goodEndConfig;
     public DayConfigData currentDayConfig;
     [NonSerialized] public PopulationModel populationModel;
+    private PlayerData playerData;
+    public static bool ContinueRequested { get; private set; }
 
     [Header("Day Data")]
     public int currentDayNumber = 0;
@@ -58,6 +60,11 @@ public class GameManager : MonoBehaviour
 
     public bool utopiaDay = false;
 
+    public static void SetContinueRequested(bool value)
+    {
+        ContinueRequested = value;
+    }
+
     private void Awake()
     {
         Instance = this;
@@ -66,7 +73,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         populationModel = new PopulationModel();
-        ChangeState(GameState.Starting);
+        ChangeState(GameState.Setup);
     }
 
     private void Update()
@@ -112,14 +119,15 @@ public class GameManager : MonoBehaviour
                 Debug.Log("Game is setting up.");
                 OnSetupDay?.Invoke();
                 SetupDay();
-                if (currentDayNumber > 0) dayReveal.PrepareReveal();
+                if (currentDayNumber > 0 && !ContinueRequested) dayReveal.PrepareReveal();
                 break;
             case GameState.Starting:
                 Debug.Log("Game is starting.");
                 StartDay();
                 OnDayStarted?.Invoke();
                 EventBus.OnFadeIn?.Invoke(null);
-                if (currentDayNumber > 0) dayReveal.PlayReveal();
+                if (currentDayNumber > 0 && !ContinueRequested) dayReveal.PlayReveal();
+                ContinueRequested = false;
                 break;
             case GameState.Interrupted:
                 Debug.Log("Game has been interrupted.");
@@ -165,6 +173,18 @@ public class GameManager : MonoBehaviour
 
     private void SetupDay()
     {
+        //Save
+        if (playerData == null)
+        {
+            playerData = SaveData.LoadGame();
+
+            if (ContinueRequested)
+            {
+                currentDayNumber = playerData.lastDayNumber;
+                populationModel.SetPopularity(playerData.lastPopularityValue);
+            }
+        }
+
         if (currentDayConfig == badEndConfig || currentDayConfig == goodEndConfig)
             return;
 
@@ -178,6 +198,14 @@ public class GameManager : MonoBehaviour
         {
             Debug.LogError($"{currentDayNumber} isn't a invalid Day number.");
             return;
+        }
+
+        if (currentDayNumber > 0)
+        {
+            SaveData.currentPlayerData.lastDayNumber = currentDayNumber;
+            SaveData.currentPlayerData.lastPopularityValue = populationModel.Popularity;
+
+            SaveData.SaveGame();
         }
 
         currentDayConfig = currentDayNumber == dayConfigOrder.Count
