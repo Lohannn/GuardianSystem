@@ -1,0 +1,7527 @@
+fileFormatVersion: 2
+guid: 0b2e0ed0938206744ab71c30c4445db1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7296345396538885169
+    second: MacBook Air - 4 (3)_0
+  - first:
+      213: 3472111636168019931
+    second: MacBook Air - 4 (3)_1
+  - first:
+      213: 6630766571288254837
+    second: MacBook Air - 4 (3)_2
+  - first:
+      213: 2878846160565107647
+    second: MacBook Air - 4 (3)_3
+  - first:
+      213: -4058991592507554240
+    second: MacBook Air - 4 (3)_4
+  - first:
+      213: 8417529951754717965
+    second: MacBook Air - 4 (3)_5
+  - first:
+      213: -3223775566893138631
+    second: MacBook Air - 4 (3)_6
+  - first:
+      213: -1120938241354113119
+    second: MacBook Air - 4 (3)_7
+  - first:
+      213: 3278483751554000036
+    second: MacBook Air - 4 (3)_8
+  - first:
+      213: 343419373117676272
+    second: MacBook Air - 4 (3)_9
+  - first:
+      213: 4803825603757344359
+    second: MacBook Air - 4 (3)_10
+  - first:
+      213: -3651619924767755437
+    second: MacBook Air - 4 (3)_11
+  - first:
+      213: 1142746624257040858
+    second: MacBook Air - 4 (3)_12
+  - first:
+      213: -2119928222132604466
+    second: MacBook Air - 4 (3)_13
+  - first:
+      213: -4222940861610078738
+    second: MacBook Air - 4 (3)_14
+  - first:
+      213: 2975363170353390617
+    second: MacBook Air - 4 (3)_15
+  - first:
+      213: 6269406008019598227
+    second: MacBook Air - 4 (3)_16
+  - first:
+      213: 9134957019377682682
+    second: MacBook Air - 4 (3)_17
+  - first:
+      213: 3739620665382047010
+    second: MacBook Air - 4 (3)_18
+  - first:
+      213: -6813077174879288447
+    second: MacBook Air - 4 (3)_19
+  - first:
+      213: 7970488632874511843
+    second: MacBook Air - 4 (3)_20
+  - first:
+      213: 436378200281353680
+    second: MacBook Air - 4 (3)_21
+  - first:
+      213: 8791634964709893422
+    second: MacBook Air - 4 (3)_22
+  - first:
+      213: 880069298066180211
+    second: MacBook Air - 4 (3)_23
+  - first:
+      213: 7545799550547140643
+    second: MacBook Air - 4 (3)_24
+  - first:
+      213: -5805652057513056966
+    second: MacBook Air - 4 (3)_25
+  - first:
+      213: 8086654732522244628
+    second: MacBook Air - 4 (3)_26
+  - first:
+      213: -3965937787561032685
+    second: MacBook Air - 4 (3)_27
+  - first:
+      213: -7132941759313947679
+    second: MacBook Air - 4 (3)_28
+  - first:
+      213: -7706528293425260600
+    second: MacBook Air - 4 (3)_29
+  - first:
+      213: -598322787847344558
+    second: MacBook Air - 4 (3)_30
+  - first:
+      213: -5125769883803222882
+    second: MacBook Air - 4 (3)_31
+  - first:
+      213: 1198491730029921325
+    second: MacBook Air - 4 (3)_32
+  - first:
+      213: -7135346444633281745
+    second: MacBook Air - 4 (3)_33
+  - first:
+      213: -4112019508046385887
+    second: MacBook Air - 4 (3)_34
+  - first:
+      213: 5824649785234175638
+    second: MacBook Air - 4 (3)_35
+  - first:
+      213: 2680312465284419516
+    second: MacBook Air - 4 (3)_36
+  - first:
+      213: -7704310912195007782
+    second: MacBook Air - 4 (3)_37
+  - first:
+      213: 4324889457815894736
+    second: MacBook Air - 4 (3)_38
+  - first:
+      213: -6952220733234653775
+    second: MacBook Air - 4 (3)_39
+  - first:
+      213: 774412642283494871
+    second: MacBook Air - 4 (3)_40
+  - first:
+      213: 5865949429806895057
+    second: MacBook Air - 4 (3)_41
+  - first:
+      213: -158966118073825284
+    second: MacBook Air - 4 (3)_42
+  - first:
+      213: 1483342278967806911
+    second: MacBook Air - 4 (3)_43
+  - first:
+      213: 6279933246684809493
+    second: MacBook Air - 4 (3)_44
+  - first:
+      213: 4145240102172032885
+    second: MacBook Air - 4 (3)_45
+  - first:
+      213: -6593074918825534107
+    second: MacBook Air - 4 (3)_46
+  - first:
+      213: 1549145260197416599
+    second: MacBook Air - 4 (3)_47
+  - first:
+      213: -5217997974495237905
+    second: MacBook Air - 4 (3)_48
+  - first:
+      213: 3840903333929323609
+    second: MacBook Air - 4 (3)_49
+  - first:
+      213: 4273627135495023479
+    second: MacBook Air - 4 (3)_50
+  - first:
+      213: -4912348070875291728
+    second: MacBook Air - 4 (3)_51
+  - first:
+      213: 6554698085358648230
+    second: MacBook Air - 4 (3)_52
+  - first:
+      213: -2775859498846526077
+    second: MacBook Air - 4 (3)_53
+  - first:
+      213: 5531248467333716883
+    second: MacBook Air - 4 (3)_54
+  - first:
+      213: -4802595804848940372
+    second: MacBook Air - 4 (3)_55
+  - first:
+      213: -8266407279640259414
+    second: MacBook Air - 4 (3)_56
+  - first:
+      213: -2798871528567139629
+    second: MacBook Air - 4 (3)_57
+  - first:
+      213: 5976142312567907205
+    second: MacBook Air - 4 (3)_58
+  - first:
+      213: 7171225755663066329
+    second: MacBook Air - 4 (3)_59
+  - first:
+      213: -33681773353524632
+    second: MacBook Air - 4 (3)_60
+  - first:
+      213: -5045041456083882267
+    second: MacBook Air - 4 (3)_61
+  - first:
+      213: -40703425509052846
+    second: MacBook Air - 4 (3)_62
+  - first:
+      213: -8491386271602569388
+    second: MacBook Air - 4 (3)_63
+  - first:
+      213: -900040948176079397
+    second: MacBook Air - 4 (3)_64
+  - first:
+      213: 7655134661830183175
+    second: MacBook Air - 4 (3)_65
+  - first:
+      213: 8859678029948011086
+    second: MacBook Air - 4 (3)_66
+  - first:
+      213: 4264078905445159419
+    second: MacBook Air - 4 (3)_67
+  - first:
+      213: -1808020315940410028
+    second: MacBook Air - 4 (3)_68
+  - first:
+      213: -339102393407334162
+    second: MacBook Air - 4 (3)_69
+  - first:
+      213: -3256113388155806831
+    second: MacBook Air - 4 (3)_70
+  - first:
+      213: 3591942348799600779
+    second: MacBook Air - 4 (3)_71
+  - first:
+      213: -4108554811017255449
+    second: MacBook Air - 4 (3)_72
+  - first:
+      213: 2730355143832704713
+    second: MacBook Air - 4 (3)_73
+  - first:
+      213: 8916667542425497852
+    second: MacBook Air - 4 (3)_74
+  - first:
+      213: -1189008375402036344
+    second: MacBook Air - 4 (3)_75
+  - first:
+      213: 5940156334231791628
+    second: MacBook Air - 4 (3)_76
+  - first:
+      213: -3200969581644057664
+    second: MacBook Air - 4 (3)_77
+  - first:
+      213: 3703669119847581165
+    second: MacBook Air - 4 (3)_78
+  - first:
+      213: -1367210883824943793
+    second: MacBook Air - 4 (3)_79
+  - first:
+      213: -5030664738778495460
+    second: MacBook Air - 4 (3)_80
+  - first:
+      213: 2700127294461106374
+    second: MacBook Air - 4 (3)_81
+  - first:
+      213: -2941555400334743988
+    second: MacBook Air - 4 (3)_82
+  - first:
+      213: 5061694418205804093
+    second: MacBook Air - 4 (3)_83
+  - first:
+      213: -558103903371200823
+    second: MacBook Air - 4 (3)_84
+  - first:
+      213: -2323662038469742428
+    second: MacBook Air - 4 (3)_85
+  - first:
+      213: -7674131522029287200
+    second: MacBook Air - 4 (3)_86
+  - first:
+      213: -4102330844924413008
+    second: MacBook Air - 4 (3)_87
+  - first:
+      213: -1603396840015434014
+    second: MacBook Air - 4 (3)_88
+  - first:
+      213: -1850708547463234274
+    second: MacBook Air - 4 (3)_89
+  - first:
+      213: 8123056593060394486
+    second: MacBook Air - 4 (3)_90
+  - first:
+      213: 5756923490511525754
+    second: MacBook Air - 4 (3)_91
+  - first:
+      213: -1553095622865076907
+    second: MacBook Air - 4 (3)_92
+  - first:
+      213: 667400758056455496
+    second: MacBook Air - 4 (3)_93
+  - first:
+      213: -3984316827576201090
+    second: MacBook Air - 4 (3)_94
+  - first:
+      213: -1766087064096579504
+    second: MacBook Air - 4 (3)_95
+  - first:
+      213: 6026213834728810216
+    second: MacBook Air - 4 (3)_96
+  - first:
+      213: -6565794960913436318
+    second: MacBook Air - 4 (3)_97
+  - first:
+      213: -5107240451155847124
+    second: MacBook Air - 4 (3)_98
+  - first:
+      213: 8858211521997668290
+    second: MacBook Air - 4 (3)_99
+  - first:
+      213: -2639920107084777389
+    second: MacBook Air - 4 (3)_100
+  - first:
+      213: 4516815149360870100
+    second: MacBook Air - 4 (3)_101
+  - first:
+      213: -1089590713570915767
+    second: MacBook Air - 4 (3)_102
+  - first:
+      213: -4431225905359165589
+    second: MacBook Air - 4 (3)_103
+  - first:
+      213: -6508767134238064052
+    second: MacBook Air - 4 (3)_104
+  - first:
+      213: -3039385084842183085
+    second: MacBook Air - 4 (3)_105
+  - first:
+      213: 379904201227094243
+    second: MacBook Air - 4 (3)_106
+  - first:
+      213: -9175689874108517217
+    second: MacBook Air - 4 (3)_107
+  - first:
+      213: 6267749848134854344
+    second: MacBook Air - 4 (3)_108
+  - first:
+      213: 4507810591600208513
+    second: MacBook Air - 4 (3)_109
+  - first:
+      213: 5660934157794746696
+    second: MacBook Air - 4 (3)_110
+  - first:
+      213: 1962590766825035008
+    second: MacBook Air - 4 (3)_111
+  - first:
+      213: -8346962165395123792
+    second: MacBook Air - 4 (3)_112
+  - first:
+      213: 6442447449990902330
+    second: MacBook Air - 4 (3)_113
+  - first:
+      213: -5711712921817913428
+    second: MacBook Air - 4 (3)_114
+  - first:
+      213: -7889246770551376759
+    second: MacBook Air - 4 (3)_115
+  - first:
+      213: 3794299319141012237
+    second: MacBook Air - 4 (3)_116
+  - first:
+      213: -937462908060224525
+    second: MacBook Air - 4 (3)_117
+  - first:
+      213: 5974533954302972915
+    second: MacBook Air - 4 (3)_118
+  - first:
+      213: -8600546061855898745
+    second: MacBook Air - 4 (3)_119
+  - first:
+      213: -9076887170763679862
+    second: MacBook Air - 4 (3)_120
+  - first:
+      213: 3179884730308746506
+    second: MacBook Air - 4 (3)_121
+  - first:
+      213: 59406538025071676
+    second: MacBook Air - 4 (3)_122
+  - first:
+      213: -5910635268431623845
+    second: MacBook Air - 4 (3)_123
+  - first:
+      213: -4543739674797556680
+    second: MacBook Air - 4 (3)_124
+  - first:
+      213: -3454719365609239815
+    second: MacBook Air - 4 (3)_125
+  - first:
+      213: -5378115164265403854
+    second: MacBook Air - 4 (3)_126
+  - first:
+      213: 8862169721569608698
+    second: MacBook Air - 4 (3)_127
+  - first:
+      213: -8291027253326454514
+    second: MacBook Air - 4 (3)_128
+  - first:
+      213: 5538285343779707671
+    second: MacBook Air - 4 (3)_129
+  - first:
+      213: -3807617489988341441
+    second: MacBook Air - 4 (3)_130
+  - first:
+      213: 852728476528285457
+    second: MacBook Air - 4 (3)_131
+  - first:
+      213: 6641225826379972161
+    second: MacBook Air - 4 (3)_132
+  - first:
+      213: -8420550193400608155
+    second: MacBook Air - 4 (3)_133
+  - first:
+      213: -3163673248320370052
+    second: MacBook Air - 4 (3)_134
+  - first:
+      213: -6977597521318489679
+    second: MacBook Air - 4 (3)_135
+  - first:
+      213: 1364506787770029117
+    second: MacBook Air - 4 (3)_136
+  - first:
+      213: -2597165519172060408
+    second: MacBook Air - 4 (3)_137
+  - first:
+      213: 8475268180221194882
+    second: MacBook Air - 4 (3)_138
+  - first:
+      213: -7334850199489986377
+    second: MacBook Air - 4 (3)_139
+  - first:
+      213: -6814554222335386205
+    second: MacBook Air - 4 (3)_140
+  - first:
+      213: -1246634638937957011
+    second: MacBook Air - 4 (3)_141
+  - first:
+      213: 4487266867404128689
+    second: MacBook Air - 4 (3)_142
+  - first:
+      213: 5369533421683532798
+    second: MacBook Air - 4 (3)_143
+  - first:
+      213: 5474037848101077159
+    second: MacBook Air - 4 (3)_144
+  - first:
+      213: -248879844578779539
+    second: MacBook Air - 4 (3)_145
+  - first:
+      213: -180831298917726322
+    second: MacBook Air - 4 (3)_146
+  - first:
+      213: -2917012426336274953
+    second: MacBook Air - 4 (3)_147
+  - first:
+      213: 6741755383792502319
+    second: MacBook Air - 4 (3)_148
+  - first:
+      213: 5762550812989796240
+    second: MacBook Air - 4 (3)_149
+  - first:
+      213: 8693227877596692591
+    second: MacBook Air - 4 (3)_150
+  - first:
+      213: -1103218521054282895
+    second: MacBook Air - 4 (3)_151
+  - first:
+      213: 8022363641158087839
+    second: MacBook Air - 4 (3)_152
+  - first:
+      213: 3961055135500273891
+    second: MacBook Air - 4 (3)_153
+  - first:
+      213: 796550281570999737
+    second: MacBook Air - 4 (3)_154
+  - first:
+      213: -7788223058886957038
+    second: MacBook Air - 4 (3)_155
+  - first:
+      213: -2826281732180638632
+    second: MacBook Air - 4 (3)_156
+  - first:
+      213: -4837418776869947192
+    second: MacBook Air - 4 (3)_157
+  - first:
+      213: 3949727433703006916
+    second: MacBook Air - 4 (3)_158
+  - first:
+      213: 7173133760638917680
+    second: MacBook Air - 4 (3)_159
+  - first:
+      213: 343683436327599455
+    second: MacBook Air - 4 (3)_160
+  - first:
+      213: -5285631214432875209
+    second: MacBook Air - 4 (3)_161
+  - first:
+      213: -8886003408725181275
+    second: MacBook Air - 4 (3)_162
+  - first:
+      213: 376560217055027679
+    second: MacBook Air - 4 (3)_163
+  - first:
+      213: 6095350699286606198
+    second: MacBook Air - 4 (3)_164
+  - first:
+      213: 8593702865544825559
+    second: MacBook Air - 4 (3)_165
+  - first:
+      213: 5413958730444777219
+    second: MacBook Air - 4 (3)_166
+  - first:
+      213: 5661278006686605187
+    second: MacBook Air - 4 (3)_167
+  - first:
+      213: -4012426040996157977
+    second: MacBook Air - 4 (3)_168
+  - first:
+      213: 1680461540372528428
+    second: MacBook Air - 4 (3)_169
+  - first:
+      213: -999921365088419129
+    second: MacBook Air - 4 (3)_170
+  - first:
+      213: 4281146231288572896
+    second: MacBook Air - 4 (3)_171
+  - first:
+      213: 5920186662554097572
+    second: MacBook Air - 4 (3)_172
+  - first:
+      213: -4591206063292161998
+    second: MacBook Air - 4 (3)_173
+  - first:
+      213: -6835501102310907462
+    second: MacBook Air - 4 (3)_174
+  - first:
+      213: -6098179200916186444
+    second: MacBook Air - 4 (3)_175
+  - first:
+      213: 2337688326793718906
+    second: MacBook Air - 4 (3)_176
+  - first:
+      213: -3297833941662455256
+    second: MacBook Air - 4 (3)_177
+  - first:
+      213: -4426950033465678275
+    second: MacBook Air - 4 (3)_178
+  - first:
+      213: 4700051201158792937
+    second: MacBook Air - 4 (3)_179
+  - first:
+      213: 2130464128685720711
+    second: MacBook Air - 4 (3)_180
+  - first:
+      213: -2529020043800830478
+    second: MacBook Air - 4 (3)_181
+  - first:
+      213: -8918547455373644127
+    second: MacBook Air - 4 (3)_182
+  - first:
+      213: 3427239029389704799
+    second: MacBook Air - 4 (3)_183
+  - first:
+      213: 7576539457682298557
+    second: MacBook Air - 4 (3)_184
+  - first:
+      213: 736561336675177139
+    second: MacBook Air - 4 (3)_185
+  - first:
+      213: 1991615431463954100
+    second: MacBook Air - 4 (3)_186
+  - first:
+      213: -706568723744827136
+    second: MacBook Air - 4 (3)_187
+  - first:
+      213: -206168626176345897
+    second: MacBook Air - 4 (3)_188
+  - first:
+      213: 5510186334851377320
+    second: MacBook Air - 4 (3)_189
+  - first:
+      213: -6695524932672376259
+    second: MacBook Air - 4 (3)_190
+  - first:
+      213: 3013171356236018761
+    second: MacBook Air - 4 (3)_191
+  - first:
+      213: 1415309492965107077
+    second: MacBook Air - 4 (3)_192
+  - first:
+      213: -5772101861598709468
+    second: MacBook Air - 4 (3)_193
+  - first:
+      213: 4346816200175571927
+    second: MacBook Air - 4 (3)_194
+  - first:
+      213: -494832243422874490
+    second: MacBook Air - 4 (3)_195
+  - first:
+      213: 4084319663551902265
+    second: MacBook Air - 4 (3)_196
+  - first:
+      213: 3145667300640664570
+    second: MacBook Air - 4 (3)_197
+  - first:
+      213: 3807428534863553329
+    second: MacBook Air - 4 (3)_198
+  - first:
+      213: -1644767364391121387
+    second: MacBook Air - 4 (3)_199
+  - first:
+      213: -3799247546038396241
+    second: MacBook Air - 4 (3)_200
+  - first:
+      213: -6288281768493594329
+    second: MacBook Air - 4 (3)_201
+  - first:
+      213: 864085911720326276
+    second: MacBook Air - 4 (3)_202
+  - first:
+      213: 5256422087996388250
+    second: MacBook Air - 4 (3)_203
+  - first:
+      213: -1412303204312996631
+    second: MacBook Air - 4 (3)_204
+  - first:
+      213: 7337527412835718749
+    second: MacBook Air - 4 (3)_205
+  - first:
+      213: 943543710929968746
+    second: MacBook Air - 4 (3)_206
+  - first:
+      213: 5509654690593863682
+    second: MacBook Air - 4 (3)_207
+  - first:
+      213: -2742045297339026214
+    second: MacBook Air - 4 (3)_208
+  - first:
+      213: -4772256280001164278
+    second: MacBook Air - 4 (3)_209
+  - first:
+      213: 6443018344539388078
+    second: MacBook Air - 4 (3)_210
+  - first:
+      213: -1028018601964910981
+    second: MacBook Air - 4 (3)_211
+  - first:
+      213: 6639912302151526904
+    second: MacBook Air - 4 (3)_212
+  - first:
+      213: 7833402255842438442
+    second: MacBook Air - 4 (3)_213
+  - first:
+      213: -2736171172560902727
+    second: MacBook Air - 4 (3)_214
+  - first:
+      213: 562939921009246209
+    second: MacBook Air - 4 (3)_215
+  - first:
+      213: 8509713133976332672
+    second: MacBook Air - 4 (3)_216
+  - first:
+      213: -7832701432061524819
+    second: MacBook Air - 4 (3)_217
+  - first:
+      213: 1860879856140096220
+    second: MacBook Air - 4 (3)_218
+  - first:
+      213: 3160680935697682500
+    second: MacBook Air - 4 (3)_219
+  - first:
+      213: -2965966333377595213
+    second: MacBook Air - 4 (3)_220
+  - first:
+      213: -6855689651436234544
+    second: MacBook Air - 4 (3)_221
+  - first:
+      213: 4719828316170470549
+    second: MacBook Air - 4 (3)_222
+  - first:
+      213: -1129032935525732679
+    second: MacBook Air - 4 (3)_223
+  - first:
+      213: 9191429922073356573
+    second: MacBook Air - 4 (3)_224
+  - first:
+      213: -890185269843751596
+    second: MacBook Air - 4 (3)_225
+  - first:
+      213: 3203824793863236570
+    second: MacBook Air - 4 (3)_226
+  - first:
+      213: -7432436495739508139
+    second: MacBook Air - 4 (3)_227
+  - first:
+      213: -7317598529494921905
+    second: MacBook Air - 4 (3)_228
+  - first:
+      213: -6293152904044185787
+    second: MacBook Air - 4 (3)_229
+  - first:
+      213: 7399414119469994336
+    second: MacBook Air - 4 (3)_230
+  - first:
+      213: -6373317369334278162
+    second: MacBook Air - 4 (3)_231
+  - first:
+      213: 8454805235704060489
+    second: MacBook Air - 4 (3)_232
+  - first:
+      213: -7869702362549461879
+    second: MacBook Air - 4 (3)_233
+  - first:
+      213: -6691246774242265863
+    second: MacBook Air - 4 (3)_234
+  - first:
+      213: -4510973841767415550
+    second: MacBook Air - 4 (3)_235
+  - first:
+      213: -1342673574648404205
+    second: MacBook Air - 4 (3)_236
+  - first:
+      213: 1678073377549992280
+    second: MacBook Air - 4 (3)_237
+  - first:
+      213: 846127949982863037
+    second: MacBook Air - 4 (3)_238
+  - first:
+      213: -7064745415261364833
+    second: MacBook Air - 4 (3)_239
+  - first:
+      213: 6215439546347665797
+    second: MacBook Air - 4 (3)_240
+  - first:
+      213: 8908115072642764587
+    second: MacBook Air - 4 (3)_241
+  - first:
+      213: -8877935278410318924
+    second: MacBook Air - 4 (3)_242
+  - first:
+      213: 4457676398379341455
+    second: MacBook Air - 4 (3)_243
+  - first:
+      213: 8902479970363564596
+    second: MacBook Air - 4 (3)_244
+  - first:
+      213: -6936704624844251030
+    second: MacBook Air - 4 (3)_245
+  - first:
+      213: -2400010021911154216
+    second: MacBook Air - 4 (3)_246
+  - first:
+      213: 6167317494063034169
+    second: MacBook Air - 4 (3)_247
+  - first:
+      213: -9210033990110935997
+    second: MacBook Air - 4 (3)_248
+  - first:
+      213: 766042718291069007
+    second: MacBook Air - 4 (3)_249
+  - first:
+      213: 3227434757731823482
+    second: MacBook Air - 4 (3)_250
+  - first:
+      213: -1166968337259537709
+    second: MacBook Air - 4 (3)_251
+  - first:
+      213: 1286166403587189359
+    second: MacBook Air - 4 (3)_252
+  - first:
+      213: -2675286600260778499
+    second: MacBook Air - 4 (3)_253
+  - first:
+      213: -172456542997641567
+    second: MacBook Air - 4 (3)_254
+  - first:
+      213: -3235340596710152061
+    second: MacBook Air - 4 (3)_255
+  - first:
+      213: -9075235289925277405
+    second: MacBook Air - 4 (3)_256
+  - first:
+      213: -1549533981512637418
+    second: MacBook Air - 4 (3)_257
+  - first:
+      213: -2983627868095948991
+    second: MacBook Air - 4 (3)_258
+  - first:
+      213: -6683292108657317565
+    second: MacBook Air - 4 (3)_259
+  - first:
+      213: -7405812165145844052
+    second: MacBook Air - 4 (3)_260
+  - first:
+      213: -6768941409398114876
+    second: MacBook Air - 4 (3)_261
+  - first:
+      213: 8174540523082618760
+    second: MacBook Air - 4 (3)_262
+  - first:
+      213: 109807839592401944
+    second: MacBook Air - 4 (3)_263
+  - first:
+      213: 3710737358253036363
+    second: MacBook Air - 4 (3)_264
+  - first:
+      213: 9181599542926155415
+    second: MacBook Air - 4 (3)_265
+  - first:
+      213: -7155065177797161737
+    second: MacBook Air - 4 (3)_266
+  - first:
+      213: 967973559317685875
+    second: MacBook Air - 4 (3)_267
+  - first:
+      213: -8675497722233841721
+    second: MacBook Air - 4 (3)_268
+  - first:
+      213: 5900002963692828028
+    second: MacBook Air - 4 (3)_269
+  - first:
+      213: -6870356716562361090
+    second: MacBook Air - 4 (3)_270
+  - first:
+      213: -141877931221411279
+    second: MacBook Air - 4 (3)_271
+  - first:
+      213: 6669469861948705846
+    second: MacBook Air - 4 (3)_272
+  - first:
+      213: -8233255961871834032
+    second: MacBook Air - 4 (3)_273
+  - first:
+      213: 6993977238375162170
+    second: MacBook Air - 4 (3)_274
+  - first:
+      213: -2329365552557361710
+    second: MacBook Air - 4 (3)_275
+  - first:
+      213: 6179560959665400927
+    second: MacBook Air - 4 (3)_276
+  - first:
+      213: -2009054548780551935
+    second: MacBook Air - 4 (3)_277
+  - first:
+      213: -6159429362132020112
+    second: MacBook Air - 4 (3)_278
+  - first:
+      213: 4866732352981666093
+    second: MacBook Air - 4 (3)_279
+  - first:
+      213: -4699676700778151412
+    second: MacBook Air - 4 (3)_280
+  - first:
+      213: 3527371444826336893
+    second: MacBook Air - 4 (3)_281
+  - first:
+      213: -4902250850425537005
+    second: MacBook Air - 4 (3)_282
+  - first:
+      213: 5589441602694475142
+    second: MacBook Air - 4 (3)_283
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_0
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1691
+        width: 802
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134c14ffa73d14560800000000000000
+      internalID: 7296345396538885169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_1
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1919
+        width: 94
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf8b46132b6f2030800000000000000
+      internalID: 3472111636168019931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_2
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1917
+        width: 37
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579db26b017350c50800000000000000
+      internalID: 6630766571288254837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_3
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 1998
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbfa7b8457b3f720800000000000000
+      internalID: 2878846160565107647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_4
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 1917
+        width: 70
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0464a4ee6a09ba7c0800000000000000
+      internalID: -4058991592507554240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_5
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 1919
+        width: 69
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b0d84a4e211d470800000000000000
+      internalID: 8417529951754717965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_6
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1917
+        width: 70
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d30c3c339d243d0800000000000000
+      internalID: -3223775566893138631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_7
+      rect:
+        serializedVersion: 2
+        x: 2501
+        y: 1917
+        width: 71
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afdfe4cb90a170f0800000000000000
+      internalID: -1120938241354113119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_8
+      rect:
+        serializedVersion: 2
+        x: 2892
+        y: 1917
+        width: 53
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a424451a938f7d20800000000000000
+      internalID: 3278483751554000036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_9
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 1917
+        width: 70
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa9aafa91214c400800000000000000
+      internalID: 343419373117676272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_10
+      rect:
+        serializedVersion: 2
+        x: 3266
+        y: 2002
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76602e25fed9aa240800000000000000
+      internalID: 4803825603757344359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_11
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 1998
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353ba798607d25dc0800000000000000
+      internalID: -3651619924767755437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_12
+      rect:
+        serializedVersion: 2
+        x: 4261
+        y: 1998
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad12e1f000adbdf00800000000000000
+      internalID: 1142746624257040858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_13
+      rect:
+        serializedVersion: 2
+        x: 4383
+        y: 2002
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1f57a83808492e0800000000000000
+      internalID: -2119928222132604466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_14
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1917
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eedcf3419a91565c0800000000000000
+      internalID: -4222940861610078738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_15
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1919
+        width: 111
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914a1be0a0d9a4920800000000000000
+      internalID: 2975363170353390617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_16
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 1917
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b35bc2c87610750800000000000000
+      internalID: 6269406008019598227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_17
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1917
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8c7729203e5ce70800000000000000
+      internalID: 9134957019377682682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_18
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 1917
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d8eca8e2dc5e330800000000000000
+      internalID: 3739620665382047010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_19
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1917
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1838ffb18661371a0800000000000000
+      internalID: -6813077174879288447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_20
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 1919
+        width: 110
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed26c0ae2ddc9e60800000000000000
+      internalID: 7970488632874511843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_21
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 1917
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd8e7f39a35e0600800000000000000
+      internalID: 436378200281353680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_22
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 1917
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25ef6a9b69220a70800000000000000
+      internalID: 8791634964709893422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_23
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 1917
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37846f02d52a63c00800000000000000
+      internalID: 880069298066180211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_24
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 1898
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3202aac36b018b860800000000000000
+      internalID: 7545799550547140643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_25
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 1917
+        width: 68
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a352b6e963e2e6fa0800000000000000
+      internalID: -5805652057513056966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_26
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 1919
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a483162a1993070800000000000000
+      internalID: 8086654732522244628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_27
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 1917
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314402b389826f8c0800000000000000
+      internalID: -3965937787561032685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_28
+      rect:
+        serializedVersion: 2
+        x: 2813
+        y: 1919
+        width: 69
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3da880343b20d90800000000000000
+      internalID: -7132941759313947679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_29
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 1917
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7d3ea1959ec0590800000000000000
+      internalID: -7706528293425260600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_30
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 1917
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e6651389452b7f0800000000000000
+      internalID: -598322787847344558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_31
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 1919
+        width: 20
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c738bb27b9dd8b0800000000000000
+      internalID: -5125769883803222882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_32
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 1917
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d244daae0e5e1a010800000000000000
+      internalID: 1198491730029921325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_33
+      rect:
+        serializedVersion: 2
+        x: 3383
+        y: 1898
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b694a96382afc90800000000000000
+      internalID: -7135346444633281745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_34
+      rect:
+        serializedVersion: 2
+        x: 3446
+        y: 1917
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d2b693b0c2fe6c0800000000000000
+      internalID: -4112019508046385887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_35
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 1917
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69630fd8e1055d050800000000000000
+      internalID: 5824649785234175638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_36
+      rect:
+        serializedVersion: 2
+        x: 3605
+        y: 1919
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf445c7cf1623520800000000000000
+      internalID: 2680312465284419516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_37
+      rect:
+        serializedVersion: 2
+        x: 3661
+        y: 1917
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada63776b0ac41590800000000000000
+      internalID: -7704310912195007782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_38
+      rect:
+        serializedVersion: 2
+        x: 3777
+        y: 1919
+        width: 69
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dab2f13c08150c30800000000000000
+      internalID: 4324889457815894736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_39
+      rect:
+        serializedVersion: 2
+        x: 3859
+        y: 1917
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5517bd310c48f90800000000000000
+      internalID: -6952220733234653775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_40
+      rect:
+        serializedVersion: 2
+        x: 3938
+        y: 1917
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd11e4f1344fba00800000000000000
+      internalID: 774412642283494871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_41
+      rect:
+        serializedVersion: 2
+        x: 4009
+        y: 1917
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df8b026de9086150800000000000000
+      internalID: 5865949429806895057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_42
+      rect:
+        serializedVersion: 2
+        x: 4088
+        y: 1917
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf703e8682d3bcdf0800000000000000
+      internalID: -158966118073825284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_43
+      rect:
+        serializedVersion: 2
+        x: 4163
+        y: 1917
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbc13291f3e59410800000000000000
+      internalID: 1483342278967806911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_44
+      rect:
+        serializedVersion: 2
+        x: 4238
+        y: 1917
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51940dde30ec62750800000000000000
+      internalID: 6279933246684809493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_45
+      rect:
+        serializedVersion: 2
+        x: 4323
+        y: 1919
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ffaa619e9d68930800000000000000
+      internalID: 4145240102172032885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_46
+      rect:
+        serializedVersion: 2
+        x: 4383
+        y: 1919
+        width: 20
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56dddddfa41b084a0800000000000000
+      internalID: -6593074918825534107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_47
+      rect:
+        serializedVersion: 2
+        x: 4418
+        y: 1917
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e0c8b086baf7510800000000000000
+      internalID: 1549145260197416599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_48
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 1830
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8e0830d72f597b0800000000000000
+      internalID: -5217997974495237905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_49
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1745
+        width: 54
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c88737b31ad4530800000000000000
+      internalID: 3840903333929323609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_50
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 1745
+        width: 70
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ba6a1bc39fe4b30800000000000000
+      internalID: 4273627135495023479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_51
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1830
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf176ec475d3dbb0800000000000000
+      internalID: -4912348070875291728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_52
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 1745
+        width: 53
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab3cbb2e27f6fa50800000000000000
+      internalID: 6554698085358648230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_53
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 1830
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385ebd03e7a2a79d0800000000000000
+      internalID: -2775859498846526077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_54
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 1745
+        width: 71
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b99dbdc21f2cc40800000000000000
+      internalID: 5531248467333716883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_55
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 1830
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa923c8f80c95db0800000000000000
+      internalID: -4802595804848940372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_56
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 1830
+        width: 51
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4d6506062d74d80800000000000000
+      internalID: -8266407279640259414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_57
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 1745
+        width: 71
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d21dcf7c296829d0800000000000000
+      internalID: -2798871528567139629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_58
+      rect:
+        serializedVersion: 2
+        x: 2957
+        y: 1826
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583aac335c58fe250800000000000000
+      internalID: 5976142312567907205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_59
+      rect:
+        serializedVersion: 2
+        x: 3455
+        y: 1745
+        width: 54
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4ed6a74df458360800000000000000
+      internalID: 7171225755663066329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_60
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1747
+        width: 111
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862abd70b96588ff0800000000000000
+      internalID: -33681773353524632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_61
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1745
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee200586896cf9b0800000000000000
+      internalID: -5045041456083882267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_62
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 1747
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e246d33746f6ff0800000000000000
+      internalID: -40703425509052846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_63
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 1747
+        width: 21
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f008edc29882a80800000000000000
+      internalID: -8491386271602569388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_64
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1745
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5b8a8b6896283f0800000000000000
+      internalID: -900040948176079397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_65
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1747
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7090b229a608c3a60800000000000000
+      internalID: 7655134661830183175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_66
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1745
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4242674a36e3fa70800000000000000
+      internalID: 8859678029948011086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_67
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 1747
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf19b452c2d0d2b30800000000000000
+      internalID: 4264078905445159419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_68
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1745
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45daea91a1f98e6e0800000000000000
+      internalID: -1808020315940410028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_69
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 1747
+        width: 20
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8987a7b244b4bf0800000000000000
+      internalID: -339102393407334162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_70
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 1745
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b54960026ffc2d0800000000000000
+      internalID: -3256113388155806831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_71
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 1747
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88e1e9098429d130800000000000000
+      internalID: 3591942348799600779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_72
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 1747
+        width: 20
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5281dda2b7bf6c0800000000000000
+      internalID: -4108554811017255449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_73
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 1745
+        width: 68
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c61fca898b24e520800000000000000
+      internalID: 2730355143832704713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_74
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 1747
+        width: 20
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0f68623ed5ebb70800000000000000
+      internalID: 8916667542425497852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_75
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 1745
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8838235ae2bcf7fe0800000000000000
+      internalID: -1189008375402036344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_76
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 1745
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c082c24b6bcaf6250800000000000000
+      internalID: 5940156334231791628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_77
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1745
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3764dff1fd393d0800000000000000
+      internalID: -3200969581644057664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_78
+      rect:
+        serializedVersion: 2
+        x: 2823
+        y: 1745
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5491e0173166330800000000000000
+      internalID: 3703669119847581165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_79
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 1745
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4df098e1f0b60de0800000000000000
+      internalID: -1367210883824943793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_80
+      rect:
+        serializedVersion: 2
+        x: 3013
+        y: 1718
+        width: 78
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16460dd21d7f2ab0800000000000000
+      internalID: -5030664738778495460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_81
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 1745
+        width: 68
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8d0bae777c87520800000000000000
+      internalID: 2700127294461106374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_82
+      rect:
+        serializedVersion: 2
+        x: 3181
+        y: 1745
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c466aebc2fe7d27d0800000000000000
+      internalID: -2941555400334743988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_83
+      rect:
+        serializedVersion: 2
+        x: 3293
+        y: 1745
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d360cbe5140ce3640800000000000000
+      internalID: 5061694418205804093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_84
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 1747
+        width: 69
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6fcc3f4773148f0800000000000000
+      internalID: -558103903371200823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_85
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 1747
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a073f2ffa1b0cfd0800000000000000
+      internalID: -2323662038469742428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_86
+      rect:
+        serializedVersion: 2
+        x: 3574
+        y: 1745
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e801dd3a02008590800000000000000
+      internalID: -7674131522029287200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_87
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 1745
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbf625e4d79117c0800000000000000
+      internalID: -4102330844924413008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_88
+      rect:
+        serializedVersion: 2
+        x: 3765
+        y: 1745
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee65e4b1179fb9e0800000000000000
+      internalID: -1603396840015434014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_89
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 1747
+        width: 65
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1dbcada166f056e0800000000000000
+      internalID: -1850708547463234274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_90
+      rect:
+        serializedVersion: 2
+        x: 3947
+        y: 1745
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f572cffee4eab070800000000000000
+      internalID: 8123056593060394486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_91
+      rect:
+        serializedVersion: 2
+        x: 4033
+        y: 1747
+        width: 69
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a779a03c963b4ef40800000000000000
+      internalID: 5756923490511525754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_92
+      rect:
+        serializedVersion: 2
+        x: 4115
+        y: 1745
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55db9e872cb427ae0800000000000000
+      internalID: -1553095622865076907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_93
+      rect:
+        serializedVersion: 2
+        x: 4196
+        y: 1745
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d08c21475134900800000000000000
+      internalID: 667400758056455496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_94
+      rect:
+        serializedVersion: 2
+        x: 4273
+        y: 1747
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7095b384fcd4b8c0800000000000000
+      internalID: -3984316827576201090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_95
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 1711
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0506c1e1c299d77e0800000000000000
+      internalID: -1766087064096579504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_96
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 775
+        width: 96
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e62e8fed8961a350800000000000000
+      internalID: 6026213834728810216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_97
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1061
+        width: 81
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26174b6254c91e4a0800000000000000
+      internalID: -6565794960913436318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_98
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1146
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2899567edf6f19b0800000000000000
+      internalID: -5107240451155847124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_99
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1063
+        width: 69
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf71f94270beea70800000000000000
+      internalID: 8858211521997668290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_100
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 1146
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358fcc546ae1d5bd0800000000000000
+      internalID: -2639920107084777389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_101
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 1142
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2f1cd7273feae30800000000000000
+      internalID: 4516815149360870100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_102
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 1061
+        width: 71
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a8a07d40ff0e0f0800000000000000
+      internalID: -1089590713570915767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_103
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 1146
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67ee87448f1182c0800000000000000
+      internalID: -4431225905359165589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_104
+      rect:
+        serializedVersion: 2
+        x: 3291
+        y: 1061
+        width: 37
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42c00eb6c63ca5a0800000000000000
+      internalID: -6508767134238064052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_105
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 1142
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3567c526e5fe1d5d0800000000000000
+      internalID: -3039385084842183085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_106
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1061
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8c1d2bbd0b54500800000000000000
+      internalID: 379904201227094243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_107
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 1063
+        width: 20
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94fc94aca669a080800000000000000
+      internalID: -9175689874108517217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_108
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1063
+        width: 78
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6261767458bf650800000000000000
+      internalID: 6267749848134854344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_109
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1061
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ae21389d5fe8e30800000000000000
+      internalID: 4507810591600208513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_110
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1063
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8412b34af9daf8e40800000000000000
+      internalID: 5660934157794746696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_111
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1061
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005511877e58c3b10800000000000000
+      internalID: 1962590766825035008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_112
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1061
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b19ff97222a92c80800000000000000
+      internalID: -8346962165395123792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_113
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 1034
+        width: 78
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3234dc72db286950800000000000000
+      internalID: 6442447449990902330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_114
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 1061
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7e80c0c5bebb0b0800000000000000
+      internalID: -5711712921817913428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_115
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 1063
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98433e77cd3c38290800000000000000
+      internalID: -7889246770551376759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_116
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 1061
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0318e0b02f08a430800000000000000
+      internalID: 3794299319141012237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_117
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 1063
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f337f6b3767df2f0800000000000000
+      internalID: -937462908060224525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_118
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 1061
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f31dbc1afec9e250800000000000000
+      internalID: 5974533954302972915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_119
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 1063
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783c1b4ace8b4a880800000000000000
+      internalID: -8600546061855898745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_120
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1061
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a879458a53b680280800000000000000
+      internalID: -9076887170763679862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_121
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 1063
+        width: 20
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0dddb08058312c20800000000000000
+      internalID: 3179884730308746506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_122
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1063
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34f15c7eed03d000800000000000000
+      internalID: 59406538025071676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_123
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 1061
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59cc3c0a8439fda0800000000000000
+      internalID: -5910635268431623845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_124
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 1061
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cb7dbe6d461f0c0800000000000000
+      internalID: -4543739674797556680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_125
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 1063
+        width: 20
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fac2367a0f5e00d0800000000000000
+      internalID: -3454719365609239815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_126
+      rect:
+        serializedVersion: 2
+        x: 2707
+        y: 1063
+        width: 77
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23aa1d8a0c81d55b0800000000000000
+      internalID: -5378115164265403854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_127
+      rect:
+        serializedVersion: 2
+        x: 2790
+        y: 1061
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af301617860ccfa70800000000000000
+      internalID: 8862169721569608698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_128
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 1063
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01e46e04aa50fc80800000000000000
+      internalID: -8291027253326454514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_129
+      rect:
+        serializedVersion: 2
+        x: 2959
+        y: 1061
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bddb45d21fbdc40800000000000000
+      internalID: 5538285343779707671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_130
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 1034
+        width: 71
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f313ea40110a82bc0800000000000000
+      internalID: -3807617489988341441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_131
+      rect:
+        serializedVersion: 2
+        x: 3127
+        y: 1061
+        width: 68
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117145d080085db00800000000000000
+      internalID: 852728476528285457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_132
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 1061
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e378ec3bf5a2c50800000000000000
+      internalID: 6641225826379972161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_133
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 1061
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a820d8632342b80800000000000000
+      internalID: -8420550193400608155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_134
+      rect:
+        serializedVersion: 2
+        x: 3445
+        y: 1063
+        width: 65
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a457841ff5814d0800000000000000
+      internalID: -3163673248320370052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_135
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 1061
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b15a24f5089a2f90800000000000000
+      internalID: -6977597521318489679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_136
+      rect:
+        serializedVersion: 2
+        x: 3606
+        y: 1063
+        width: 69
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3454aaa1b3bfe210800000000000000
+      internalID: 1364506787770029117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_137
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 1061
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b3bde78b305fbd0800000000000000
+      internalID: -2597165519172060408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_138
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 1061
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282714a81833e9570800000000000000
+      internalID: 8475268180221194882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_139
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 1061
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b042b2fa90653a90800000000000000
+      internalID: -7334850199489986377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_140
+      rect:
+        serializedVersion: 2
+        x: 3958
+        y: 1063
+        width: 111
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad9f033a07dd61a0800000000000000
+      internalID: -6814554222335386205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_141
+      rect:
+        serializedVersion: 2
+        x: 4113
+        y: 1061
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6dd76d966013bee0800000000000000
+      internalID: -1246634638937957011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_142
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 1034
+        width: 78
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1c00cf079f54e30800000000000000
+      internalID: 4487266867404128689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_143
+      rect:
+        serializedVersion: 2
+        x: 4279
+        y: 1061
+        width: 68
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3e801b23a648a40800000000000000
+      internalID: 5369533421683532798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_144
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 1061
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0cb1f8b60b7fb40800000000000000
+      internalID: 5474037848101077159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_145
+      rect:
+        serializedVersion: 2
+        x: 4443
+        y: 1042
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e9028991dcb8cf0800000000000000
+      internalID: -248879844578779539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_146
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 889
+        width: 71
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e878cb744ee8d7df0800000000000000
+      internalID: -180831298917726322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_147
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 889
+        width: 37
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f573da37a0b487d0800000000000000
+      internalID: -2917012426336274953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_148
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 973
+        width: 51
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26878d5dc68f8d50800000000000000
+      internalID: 6741755383792502319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_149
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 889
+        width: 70
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f2560ee61b8ff40800000000000000
+      internalID: 5762550812989796240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_150
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 889
+        width: 54
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f608cab22bc84a870800000000000000
+      internalID: 8693227877596692591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_151
+      rect:
+        serializedVersion: 2
+        x: 3342
+        y: 889
+        width: 54
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b7de6a99490b0f0800000000000000
+      internalID: -1103218521054282895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_152
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 862
+        width: 78
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94bc323a39255f60800000000000000
+      internalID: 8022363641158087839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_153
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 889
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e80b3fb8ae78f630800000000000000
+      internalID: 3961055135500273891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_154
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 891
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bdd6c2c24aed0b00800000000000000
+      internalID: 796550281570999737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_155
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 889
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2186987446caae390800000000000000
+      internalID: -7788223058886957038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_156
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 891
+        width: 69
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85482362db707c8d0800000000000000
+      internalID: -2826281732180638632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_157
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 889
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8bcde80490edcb0800000000000000
+      internalID: -4837418776869947192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_158
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 891
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2ab75ac2040d630800000000000000
+      internalID: 3949727433703006916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_159
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 889
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c9e3186271c8360800000000000000
+      internalID: 7173133760638917680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_160
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 889
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5dfd71b34205c400800000000000000
+      internalID: 343683436327599455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_161
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 889
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d030a3a6aa5a6b0800000000000000
+      internalID: -5285631214432875209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_162
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 891
+        width: 110
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac7606daf29ea480800000000000000
+      internalID: -8886003408725181275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_163
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 889
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1eb16b58fc93500800000000000000
+      internalID: 376560217055027679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_164
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 889
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671386c9a29079450800000000000000
+      internalID: 6095350699286606198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_165
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 889
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da4e0e8937f24770800000000000000
+      internalID: 8593702865544825559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_166
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 889
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30729cce7ce322b40800000000000000
+      internalID: 5413958730444777219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_167
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 889
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f59433a56e09e40800000000000000
+      internalID: 5661278006686605187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_168
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 889
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5a5e246cff058c0800000000000000
+      internalID: -4012426040996157977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_169
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 889
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d3c941ed2325710800000000000000
+      internalID: 1680461540372528428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_170
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 891
+        width: 111
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2c496f0d09f12f0800000000000000
+      internalID: -999921365088419129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_171
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 862
+        width: 71
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb257b90dfa96b30800000000000000
+      internalID: 4281146231288572896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_172
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 889
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7da81376ab82250800000000000000
+      internalID: 5920186662554097572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_173
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 889
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230e9d22962c840c0800000000000000
+      internalID: -4591206063292161998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_174
+      rect:
+        serializedVersion: 2
+        x: 3111
+        y: 889
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1a7f6a6fb6321a0800000000000000
+      internalID: -6835501102310907462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_175
+      rect:
+        serializedVersion: 2
+        x: 3194
+        y: 891
+        width: 110
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba17b8835aee5ba0800000000000000
+      internalID: -6098179200916186444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_176
+      rect:
+        serializedVersion: 2
+        x: 3403
+        y: 889
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ced1ac523217020800000000000000
+      internalID: 2337688326793718906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_177
+      rect:
+        serializedVersion: 2
+        x: 3486
+        y: 891
+        width: 110
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82aabf2b08dbb32d0800000000000000
+      internalID: -3297833941662455256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_178
+      rect:
+        serializedVersion: 2
+        x: 3612
+        y: 862
+        width: 72
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36efd846605092c0800000000000000
+      internalID: -4426950033465678275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_179
+      rect:
+        serializedVersion: 2
+        x: 3695
+        y: 889
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6c73f5aafe93140800000000000000
+      internalID: 4700051201158792937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_180
+      rect:
+        serializedVersion: 2
+        x: 3777
+        y: 889
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784460d56dde09d10800000000000000
+      internalID: 2130464128685720711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_181
+      rect:
+        serializedVersion: 2
+        x: 3855
+        y: 891
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd98636bad17ecd0800000000000000
+      internalID: -2529020043800830478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_182
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 855
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae6df18754fa3480800000000000000
+      internalID: -8918547455373644127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_183
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 191
+        width: 96
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5eb02b2dbfff8f20800000000000000
+      internalID: 3427239029389704799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_184
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 477
+        width: 81
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db652e99e76452960800000000000000
+      internalID: 7576539457682298557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_185
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 562
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b29fcb12aac83a00800000000000000
+      internalID: 736561336675177139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_186
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 479
+        width: 69
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b66891dea3a3ab10800000000000000
+      internalID: 1991615431463954100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_187
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 558
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009d9c34d73c136f0800000000000000
+      internalID: -706568723744827136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_188
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 562
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8bde01aba832df0800000000000000
+      internalID: -206168626176345897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_189
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 562
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8270ff64d187c40800000000000000
+      internalID: 5510186334851377320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_190
+      rect:
+        serializedVersion: 2
+        x: 2742
+        y: 558
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32ba435c87b413a0800000000000000
+      internalID: -6695524932672376259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_191
+      rect:
+        serializedVersion: 2
+        x: 3548
+        y: 477
+        width: 54
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94474df426fe0d920800000000000000
+      internalID: 3013171356236018761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_192
+      rect:
+        serializedVersion: 2
+        x: 3913
+        y: 477
+        width: 71
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5856c673c7034a310800000000000000
+      internalID: 1415309492965107077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_193
+      rect:
+        serializedVersion: 2
+        x: 4137
+        y: 477
+        width: 70
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429b90450ff55efa0800000000000000
+      internalID: -5772101861598709468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_194
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 477
+        width: 53
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3d06bbd4ef25c30800000000000000
+      internalID: 4346816200175571927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_195
+      rect:
+        serializedVersion: 2
+        x: 4766
+        y: 477
+        width: 70
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684be5342b00229f0800000000000000
+      internalID: -494832243422874490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_196
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 477
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9327727281b6ea830800000000000000
+      internalID: 4084319663551902265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_197
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 479
+        width: 20
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afbaf345eb7a7ab20800000000000000
+      internalID: 3145667300640664570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_198
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 479
+        width: 78
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1336a307414b6d430800000000000000
+      internalID: 3807428534863553329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_199
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 477
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ecf43ebcc9c29e0800000000000000
+      internalID: -1644767364391121387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_200
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 479
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa5b947c7c564bc0800000000000000
+      internalID: -3799247546038396241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_201
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 477
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729cf5d5c098bb8a0800000000000000
+      internalID: -6288281768493594329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_202
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 477
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484728ffe89ddfb00800000000000000
+      internalID: 864085911720326276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_203
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 450
+        width: 78
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93ba801a0092f840800000000000000
+      internalID: 5256422087996388250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_204
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 477
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e427c7e7bd766ce0800000000000000
+      internalID: -1412303204312996631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_205
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 479
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5693cb5e4224d560800000000000000
+      internalID: 7337527412835718749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_206
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 477
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ed8088104281d00800000000000000
+      internalID: 943543710929968746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_207
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 477
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20879ebefb9367c40800000000000000
+      internalID: 5509654690593863682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_208
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 479
+        width: 110
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4b31e745c42f9d0800000000000000
+      internalID: -2742045297339026214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_209
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 477
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c4765a23a85cdb0800000000000000
+      internalID: -4772256280001164278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_210
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 479
+        width: 78
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8789b3c033a6950800000000000000
+      internalID: 6443018344539388078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_211
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 479
+        width: 20
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b764367378ebbb1f0800000000000000
+      internalID: -1028018601964910981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_212
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 479
+        width: 110
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9ec7d1f05b52c50800000000000000
+      internalID: 6639912302151526904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_213
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 477
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d6b3a39d5d5bc60800000000000000
+      internalID: 7833402255842438442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_214
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 479
+        width: 20
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5e7deb0da270ad0800000000000000
+      internalID: -2736171172560902727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_215
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 479
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10084a520e6ffc700800000000000000
+      internalID: 562939921009246209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_216
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 477
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089a22b4203981670800000000000000
+      internalID: 8509713133976332672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_217
+      rect:
+        serializedVersion: 2
+        x: 2831
+        y: 477
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da487460c87ac4390800000000000000
+      internalID: -7832701432061524819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_218
+      rect:
+        serializedVersion: 2
+        x: 2903
+        y: 477
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd219eaae5c23d910800000000000000
+      internalID: 1860879856140096220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_219
+      rect:
+        serializedVersion: 2
+        x: 2987
+        y: 477
+        width: 68
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4401c94a09efcdb20800000000000000
+      internalID: 3160680935697682500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_220
+      rect:
+        serializedVersion: 2
+        x: 3067
+        y: 477
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8b24b8555c6d6d0800000000000000
+      internalID: -2965966333377595213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_221
+      rect:
+        serializedVersion: 2
+        x: 3143
+        y: 477
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d852d3c592bbd0a0800000000000000
+      internalID: -6855689651436234544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_222
+      rect:
+        serializedVersion: 2
+        x: 3227
+        y: 479
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594cb2ac8d2308140800000000000000
+      internalID: 4719828316170470549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_223
+      rect:
+        serializedVersion: 2
+        x: 3315
+        y: 477
+        width: 68
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bea54ae68ed450f0800000000000000
+      internalID: -1129032935525732679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_224
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 479
+        width: 111
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19241bd0d48e8f70800000000000000
+      internalID: 9191429922073356573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_225
+      rect:
+        serializedVersion: 2
+        x: 3612
+        y: 479
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d8da6a63d65a3f0800000000000000
+      internalID: -890185269843751596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_226
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 477
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbaec8eca5467c20800000000000000
+      internalID: 3203824793863236570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_227
+      rect:
+        serializedVersion: 2
+        x: 3753
+        y: 479
+        width: 69
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a2cc7c26eaad890800000000000000
+      internalID: -7432436495739508139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_228
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 477
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4dc88068eaa27a90800000000000000
+      internalID: -7317598529494921905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_229
+      rect:
+        serializedVersion: 2
+        x: 3994
+        y: 477
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5477a3db6ca3aa8a0800000000000000
+      internalID: -6293152904044185787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_230
+      rect:
+        serializedVersion: 2
+        x: 4081
+        y: 479
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061d40910ffffa660800000000000000
+      internalID: 7399414119469994336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_231
+      rect:
+        serializedVersion: 2
+        x: 4220
+        y: 477
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7d000be9d6d87a0800000000000000
+      internalID: -6373317369334278162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_232
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 479
+        width: 110
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ad04ff090855570800000000000000
+      internalID: 8454805235704060489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_233
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 477
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cdf20956339c290800000000000000
+      internalID: -7869702362549461879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_234
+      rect:
+        serializedVersion: 2
+        x: 4511
+        y: 479
+        width: 69
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4bfc4b28ae323a0800000000000000
+      internalID: -6691246774242265863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_235
+      rect:
+        serializedVersion: 2
+        x: 4650
+        y: 477
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201cf5ae03dc561c0800000000000000
+      internalID: -4510973841767415550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_236
+      rect:
+        serializedVersion: 2
+        x: 4850
+        y: 477
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31727c56f7ddd5de0800000000000000
+      internalID: -1342673574648404205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_237
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 386
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85148e798d6b94710800000000000000
+      internalID: 1678073377549992280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_238
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 305
+        width: 71
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe024533ec0ebb00800000000000000
+      internalID: 846127949982863037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_239
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 386
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9dd6c6b97bf4fd90800000000000000
+      internalID: -7064745415261364833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_240
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 390
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589b7fa265da14650800000000000000
+      internalID: 6215439546347665797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_241
+      rect:
+        serializedVersion: 2
+        x: 3110
+        y: 305
+        width: 54
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fcc2b167bff9b70800000000000000
+      internalID: 8908115072642764587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_242
+      rect:
+        serializedVersion: 2
+        x: 3973
+        y: 307
+        width: 59
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbb17fc6ec3bc480800000000000000
+      internalID: -8877935278410318924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_243
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 305
+        width: 54
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f861b090119dcdd30800000000000000
+      internalID: 4457676398379341455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_244
+      rect:
+        serializedVersion: 2
+        x: 4250
+        y: 305
+        width: 70
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432ec8d9d56fb8b70800000000000000
+      internalID: 8902479970363564596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_245
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 305
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60695c55efdbbf90800000000000000
+      internalID: -6936704624844251030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_246
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 278
+        width: 78
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1bb92d99371bed0800000000000000
+      internalID: -2400010021911154216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_247
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 305
+        width: 68
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93feda2c596b69550800000000000000
+      internalID: 6167317494063034169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_248
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 305
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3440a2202e26f2080800000000000000
+      internalID: -9210033990110935997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_249
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 286
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48838a2bc781aa00800000000000000
+      internalID: 766042718291069007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_250
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 278
+        width: 79
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7faa5effc62acc20800000000000000
+      internalID: 3227434757731823482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_251
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 305
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da5489ea781ecfe0800000000000000
+      internalID: -1166968337259537709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_252
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 307
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a2bd7978169d110800000000000000
+      internalID: 1286166403587189359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_253
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 305
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df50817e2097fdad0800000000000000
+      internalID: -2675286600260778499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_254
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 307
+        width: 69
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a60f6710bf4b9df0800000000000000
+      internalID: -172456542997641567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_255
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 305
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388e0bd6ed2c913d0800000000000000
+      internalID: -3235340596710152061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_256
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 305
+        width: 68
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3292ae226994e0280800000000000000
+      internalID: -9075235289925277405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_257
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 307
+        width: 110
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614ea88bd03fe7ae0800000000000000
+      internalID: -1549533981512637418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_258
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 305
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1475f2c03460896d0800000000000000
+      internalID: -2983627868095948991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_259
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 305
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3492f4d9c3d2043a0800000000000000
+      internalID: -6683292108657317565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_260
+      rect:
+        serializedVersion: 2
+        x: 2295
+        y: 305
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6273fc215493990800000000000000
+      internalID: -7405812165145844052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_261
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 305
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5b46bc6a3ef02a0800000000000000
+      internalID: -6768941409398114876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_262
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 307
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88710609b4dc17170800000000000000
+      internalID: 8174540523082618760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_263
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 307
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c4578f5ad168100800000000000000
+      internalID: 109807839592401944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_264
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 305
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43917d87ff2f7330800000000000000
+      internalID: 3710737358253036363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_265
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 307
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e900a53289b6f70800000000000000
+      internalID: 9181599542926155415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_266
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 305
+        width: 63
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc02a4412a14bc90800000000000000
+      internalID: -7155065177797161737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_267
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 307
+        width: 21
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376e91bd2deee6d00800000000000000
+      internalID: 967973559317685875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_268
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 305
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c79a8059c07a9780800000000000000
+      internalID: -8675497722233841721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_269
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 305
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75b9a89f6501e150800000000000000
+      internalID: 5900002963692828028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_270
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 307
+        width: 77
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4d41d87f697a0a0800000000000000
+      internalID: -6870356716562361090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_271
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 307
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a9414f5c2f70ef0800000000000000
+      internalID: -141877931221411279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_272
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 305
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c40a9c087be8c50800000000000000
+      internalID: 6669469861948705846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_273
+      rect:
+        serializedVersion: 2
+        x: 3346
+        y: 307
+        width: 69
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05423c703599dbd80800000000000000
+      internalID: -8233255961871834032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_274
+      rect:
+        serializedVersion: 2
+        x: 3427
+        y: 305
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31e48c1e399f0160800000000000000
+      internalID: 6993977238375162170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_275
+      rect:
+        serializedVersion: 2
+        x: 3540
+        y: 307
+        width: 65
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d579c71f5e6cafd0800000000000000
+      internalID: -2329365552557361710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_276
+      rect:
+        serializedVersion: 2
+        x: 3615
+        y: 305
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c6abcb3f532c550800000000000000
+      internalID: 6179560959665400927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_277
+      rect:
+        serializedVersion: 2
+        x: 3701
+        y: 307
+        width: 69
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1017d8548876e14e0800000000000000
+      internalID: -2009054548780551935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_278
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 305
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074920311af458aa0800000000000000
+      internalID: -6159429362132020112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_279
+      rect:
+        serializedVersion: 2
+        x: 3895
+        y: 305
+        width: 68
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d298f5c3a4b1a8340800000000000000
+      internalID: 4866732352981666093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_280
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 305
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0240fac0f467ceb0800000000000000
+      internalID: -4699676700778151412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_281
+      rect:
+        serializedVersion: 2
+        x: 4168
+        y: 305
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7eeab7e3adb3f030800000000000000
+      internalID: 3527371444826336893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_282
+      rect:
+        serializedVersion: 2
+        x: 4333
+        y: 305
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e778423d4b7fbb0800000000000000
+      internalID: -4902250850425537005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MacBook Air - 4 (3)_283
+      rect:
+        serializedVersion: 2
+        x: 4416
+        y: 307
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68de465068fa19d40800000000000000
+      internalID: 5589441602694475142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MacBook Air - 4 (3)_0: 7296345396538885169
+      MacBook Air - 4 (3)_1: 3472111636168019931
+      MacBook Air - 4 (3)_10: 4803825603757344359
+      MacBook Air - 4 (3)_100: -2639920107084777389
+      MacBook Air - 4 (3)_101: 4516815149360870100
+      MacBook Air - 4 (3)_102: -1089590713570915767
+      MacBook Air - 4 (3)_103: -4431225905359165589
+      MacBook Air - 4 (3)_104: -6508767134238064052
+      MacBook Air - 4 (3)_105: -3039385084842183085
+      MacBook Air - 4 (3)_106: 379904201227094243
+      MacBook Air - 4 (3)_107: -9175689874108517217
+      MacBook Air - 4 (3)_108: 6267749848134854344
+      MacBook Air - 4 (3)_109: 4507810591600208513
+      MacBook Air - 4 (3)_11: -3651619924767755437
+      MacBook Air - 4 (3)_110: 5660934157794746696
+      MacBook Air - 4 (3)_111: 1962590766825035008
+      MacBook Air - 4 (3)_112: -8346962165395123792
+      MacBook Air - 4 (3)_113: 6442447449990902330
+      MacBook Air - 4 (3)_114: -5711712921817913428
+      MacBook Air - 4 (3)_115: -7889246770551376759
+      MacBook Air - 4 (3)_116: 3794299319141012237
+      MacBook Air - 4 (3)_117: -937462908060224525
+      MacBook Air - 4 (3)_118: 5974533954302972915
+      MacBook Air - 4 (3)_119: -8600546061855898745
+      MacBook Air - 4 (3)_12: 1142746624257040858
+      MacBook Air - 4 (3)_120: -9076887170763679862
+      MacBook Air - 4 (3)_121: 3179884730308746506
+      MacBook Air - 4 (3)_122: 59406538025071676
+      MacBook Air - 4 (3)_123: -5910635268431623845
+      MacBook Air - 4 (3)_124: -4543739674797556680
+      MacBook Air - 4 (3)_125: -3454719365609239815
+      MacBook Air - 4 (3)_126: -5378115164265403854
+      MacBook Air - 4 (3)_127: 8862169721569608698
+      MacBook Air - 4 (3)_128: -8291027253326454514
+      MacBook Air - 4 (3)_129: 5538285343779707671
+      MacBook Air - 4 (3)_13: -2119928222132604466
+      MacBook Air - 4 (3)_130: -3807617489988341441
+      MacBook Air - 4 (3)_131: 852728476528285457
+      MacBook Air - 4 (3)_132: 6641225826379972161
+      MacBook Air - 4 (3)_133: -8420550193400608155
+      MacBook Air - 4 (3)_134: -3163673248320370052
+      MacBook Air - 4 (3)_135: -6977597521318489679
+      MacBook Air - 4 (3)_136: 1364506787770029117
+      MacBook Air - 4 (3)_137: -2597165519172060408
+      MacBook Air - 4 (3)_138: 8475268180221194882
+      MacBook Air - 4 (3)_139: -7334850199489986377
+      MacBook Air - 4 (3)_14: -4222940861610078738
+      MacBook Air - 4 (3)_140: -6814554222335386205
+      MacBook Air - 4 (3)_141: -1246634638937957011
+      MacBook Air - 4 (3)_142: 4487266867404128689
+      MacBook Air - 4 (3)_143: 5369533421683532798
+      MacBook Air - 4 (3)_144: 5474037848101077159
+      MacBook Air - 4 (3)_145: -248879844578779539
+      MacBook Air - 4 (3)_146: -180831298917726322
+      MacBook Air - 4 (3)_147: -2917012426336274953
+      MacBook Air - 4 (3)_148: 6741755383792502319
+      MacBook Air - 4 (3)_149: 5762550812989796240
+      MacBook Air - 4 (3)_15: 2975363170353390617
+      MacBook Air - 4 (3)_150: 8693227877596692591
+      MacBook Air - 4 (3)_151: -1103218521054282895
+      MacBook Air - 4 (3)_152: 8022363641158087839
+      MacBook Air - 4 (3)_153: 3961055135500273891
+      MacBook Air - 4 (3)_154: 796550281570999737
+      MacBook Air - 4 (3)_155: -7788223058886957038
+      MacBook Air - 4 (3)_156: -2826281732180638632
+      MacBook Air - 4 (3)_157: -4837418776869947192
+      MacBook Air - 4 (3)_158: 3949727433703006916
+      MacBook Air - 4 (3)_159: 7173133760638917680
+      MacBook Air - 4 (3)_16: 6269406008019598227
+      MacBook Air - 4 (3)_160: 343683436327599455
+      MacBook Air - 4 (3)_161: -5285631214432875209
+      MacBook Air - 4 (3)_162: -8886003408725181275
+      MacBook Air - 4 (3)_163: 376560217055027679
+      MacBook Air - 4 (3)_164: 6095350699286606198
+      MacBook Air - 4 (3)_165: 8593702865544825559
+      MacBook Air - 4 (3)_166: 5413958730444777219
+      MacBook Air - 4 (3)_167: 5661278006686605187
+      MacBook Air - 4 (3)_168: -4012426040996157977
+      MacBook Air - 4 (3)_169: 1680461540372528428
+      MacBook Air - 4 (3)_17: 9134957019377682682
+      MacBook Air - 4 (3)_170: -999921365088419129
+      MacBook Air - 4 (3)_171: 4281146231288572896
+      MacBook Air - 4 (3)_172: 5920186662554097572
+      MacBook Air - 4 (3)_173: -4591206063292161998
+      MacBook Air - 4 (3)_174: -6835501102310907462
+      MacBook Air - 4 (3)_175: -6098179200916186444
+      MacBook Air - 4 (3)_176: 2337688326793718906
+      MacBook Air - 4 (3)_177: -3297833941662455256
+      MacBook Air - 4 (3)_178: -4426950033465678275
+      MacBook Air - 4 (3)_179: 4700051201158792937
+      MacBook Air - 4 (3)_18: 3739620665382047010
+      MacBook Air - 4 (3)_180: 2130464128685720711
+      MacBook Air - 4 (3)_181: -2529020043800830478
+      MacBook Air - 4 (3)_182: -8918547455373644127
+      MacBook Air - 4 (3)_183: 3427239029389704799
+      MacBook Air - 4 (3)_184: 7576539457682298557
+      MacBook Air - 4 (3)_185: 736561336675177139
+      MacBook Air - 4 (3)_186: 1991615431463954100
+      MacBook Air - 4 (3)_187: -706568723744827136
+      MacBook Air - 4 (3)_188: -206168626176345897
+      MacBook Air - 4 (3)_189: 5510186334851377320
+      MacBook Air - 4 (3)_19: -6813077174879288447
+      MacBook Air - 4 (3)_190: -6695524932672376259
+      MacBook Air - 4 (3)_191: 3013171356236018761
+      MacBook Air - 4 (3)_192: 1415309492965107077
+      MacBook Air - 4 (3)_193: -5772101861598709468
+      MacBook Air - 4 (3)_194: 4346816200175571927
+      MacBook Air - 4 (3)_195: -494832243422874490
+      MacBook Air - 4 (3)_196: 4084319663551902265
+      MacBook Air - 4 (3)_197: 3145667300640664570
+      MacBook Air - 4 (3)_198: 3807428534863553329
+      MacBook Air - 4 (3)_199: -1644767364391121387
+      MacBook Air - 4 (3)_2: 6630766571288254837
+      MacBook Air - 4 (3)_20: 7970488632874511843
+      MacBook Air - 4 (3)_200: -3799247546038396241
+      MacBook Air - 4 (3)_201: -6288281768493594329
+      MacBook Air - 4 (3)_202: 864085911720326276
+      MacBook Air - 4 (3)_203: 5256422087996388250
+      MacBook Air - 4 (3)_204: -1412303204312996631
+      MacBook Air - 4 (3)_205: 7337527412835718749
+      MacBook Air - 4 (3)_206: 943543710929968746
+      MacBook Air - 4 (3)_207: 5509654690593863682
+      MacBook Air - 4 (3)_208: -2742045297339026214
+      MacBook Air - 4 (3)_209: -4772256280001164278
+      MacBook Air - 4 (3)_21: 436378200281353680
+      MacBook Air - 4 (3)_210: 6443018344539388078
+      MacBook Air - 4 (3)_211: -1028018601964910981
+      MacBook Air - 4 (3)_212: 6639912302151526904
+      MacBook Air - 4 (3)_213: 7833402255842438442
+      MacBook Air - 4 (3)_214: -2736171172560902727
+      MacBook Air - 4 (3)_215: 562939921009246209
+      MacBook Air - 4 (3)_216: 8509713133976332672
+      MacBook Air - 4 (3)_217: -7832701432061524819
+      MacBook Air - 4 (3)_218: 1860879856140096220
+      MacBook Air - 4 (3)_219: 3160680935697682500
+      MacBook Air - 4 (3)_22: 8791634964709893422
+      MacBook Air - 4 (3)_220: -2965966333377595213
+      MacBook Air - 4 (3)_221: -6855689651436234544
+      MacBook Air - 4 (3)_222: 4719828316170470549
+      MacBook Air - 4 (3)_223: -1129032935525732679
+      MacBook Air - 4 (3)_224: 9191429922073356573
+      MacBook Air - 4 (3)_225: -890185269843751596
+      MacBook Air - 4 (3)_226: 3203824793863236570
+      MacBook Air - 4 (3)_227: -7432436495739508139
+      MacBook Air - 4 (3)_228: -7317598529494921905
+      MacBook Air - 4 (3)_229: -6293152904044185787
+      MacBook Air - 4 (3)_23: 880069298066180211
+      MacBook Air - 4 (3)_230: 7399414119469994336
+      MacBook Air - 4 (3)_231: -6373317369334278162
+      MacBook Air - 4 (3)_232: 8454805235704060489
+      MacBook Air - 4 (3)_233: -7869702362549461879
+      MacBook Air - 4 (3)_234: -6691246774242265863
+      MacBook Air - 4 (3)_235: -4510973841767415550
+      MacBook Air - 4 (3)_236: -1342673574648404205
+      MacBook Air - 4 (3)_237: 1678073377549992280
+      MacBook Air - 4 (3)_238: 846127949982863037
+      MacBook Air - 4 (3)_239: -7064745415261364833
+      MacBook Air - 4 (3)_24: 7545799550547140643
+      MacBook Air - 4 (3)_240: 6215439546347665797
+      MacBook Air - 4 (3)_241: 8908115072642764587
+      MacBook Air - 4 (3)_242: -8877935278410318924
+      MacBook Air - 4 (3)_243: 4457676398379341455
+      MacBook Air - 4 (3)_244: 8902479970363564596
+      MacBook Air - 4 (3)_245: -6936704624844251030
+      MacBook Air - 4 (3)_246: -2400010021911154216
+      MacBook Air - 4 (3)_247: 6167317494063034169
+      MacBook Air - 4 (3)_248: -9210033990110935997
+      MacBook Air - 4 (3)_249: 766042718291069007
+      MacBook Air - 4 (3)_25: -5805652057513056966
+      MacBook Air - 4 (3)_250: 3227434757731823482
+      MacBook Air - 4 (3)_251: -1166968337259537709
+      MacBook Air - 4 (3)_252: 1286166403587189359
+      MacBook Air - 4 (3)_253: -2675286600260778499
+      MacBook Air - 4 (3)_254: -172456542997641567
+      MacBook Air - 4 (3)_255: -3235340596710152061
+      MacBook Air - 4 (3)_256: -9075235289925277405
+      MacBook Air - 4 (3)_257: -1549533981512637418
+      MacBook Air - 4 (3)_258: -2983627868095948991
+      MacBook Air - 4 (3)_259: -6683292108657317565
+      MacBook Air - 4 (3)_26: 8086654732522244628
+      MacBook Air - 4 (3)_260: -7405812165145844052
+      MacBook Air - 4 (3)_261: -6768941409398114876
+      MacBook Air - 4 (3)_262: 8174540523082618760
+      MacBook Air - 4 (3)_263: 109807839592401944
+      MacBook Air - 4 (3)_264: 3710737358253036363
+      MacBook Air - 4 (3)_265: 9181599542926155415
+      MacBook Air - 4 (3)_266: -7155065177797161737
+      MacBook Air - 4 (3)_267: 967973559317685875
+      MacBook Air - 4 (3)_268: -8675497722233841721
+      MacBook Air - 4 (3)_269: 5900002963692828028
+      MacBook Air - 4 (3)_27: -3965937787561032685
+      MacBook Air - 4 (3)_270: -6870356716562361090
+      MacBook Air - 4 (3)_271: -141877931221411279
+      MacBook Air - 4 (3)_272: 6669469861948705846
+      MacBook Air - 4 (3)_273: -8233255961871834032
+      MacBook Air - 4 (3)_274: 6993977238375162170
+      MacBook Air - 4 (3)_275: -2329365552557361710
+      MacBook Air - 4 (3)_276: 6179560959665400927
+      MacBook Air - 4 (3)_277: -2009054548780551935
+      MacBook Air - 4 (3)_278: -6159429362132020112
+      MacBook Air - 4 (3)_279: 4866732352981666093
+      MacBook Air - 4 (3)_28: -7132941759313947679
+      MacBook Air - 4 (3)_280: -4699676700778151412
+      MacBook Air - 4 (3)_281: 3527371444826336893
+      MacBook Air - 4 (3)_282: -4902250850425537005
+      MacBook Air - 4 (3)_283: 5589441602694475142
+      MacBook Air - 4 (3)_29: -7706528293425260600
+      MacBook Air - 4 (3)_3: 2878846160565107647
+      MacBook Air - 4 (3)_30: -598322787847344558
+      MacBook Air - 4 (3)_31: -5125769883803222882
+      MacBook Air - 4 (3)_32: 1198491730029921325
+      MacBook Air - 4 (3)_33: -7135346444633281745
+      MacBook Air - 4 (3)_34: -4112019508046385887
+      MacBook Air - 4 (3)_35: 5824649785234175638
+      MacBook Air - 4 (3)_36: 2680312465284419516
+      MacBook Air - 4 (3)_37: -7704310912195007782
+      MacBook Air - 4 (3)_38: 4324889457815894736
+      MacBook Air - 4 (3)_39: -6952220733234653775
+      MacBook Air - 4 (3)_4: -4058991592507554240
+      MacBook Air - 4 (3)_40: 774412642283494871
+      MacBook Air - 4 (3)_41: 5865949429806895057
+      MacBook Air - 4 (3)_42: -158966118073825284
+      MacBook Air - 4 (3)_43: 1483342278967806911
+      MacBook Air - 4 (3)_44: 6279933246684809493
+      MacBook Air - 4 (3)_45: 4145240102172032885
+      MacBook Air - 4 (3)_46: -6593074918825534107
+      MacBook Air - 4 (3)_47: 1549145260197416599
+      MacBook Air - 4 (3)_48: -5217997974495237905
+      MacBook Air - 4 (3)_49: 3840903333929323609
+      MacBook Air - 4 (3)_5: 8417529951754717965
+      MacBook Air - 4 (3)_50: 4273627135495023479
+      MacBook Air - 4 (3)_51: -4912348070875291728
+      MacBook Air - 4 (3)_52: 6554698085358648230
+      MacBook Air - 4 (3)_53: -2775859498846526077
+      MacBook Air - 4 (3)_54: 5531248467333716883
+      MacBook Air - 4 (3)_55: -4802595804848940372
+      MacBook Air - 4 (3)_56: -8266407279640259414
+      MacBook Air - 4 (3)_57: -2798871528567139629
+      MacBook Air - 4 (3)_58: 5976142312567907205
+      MacBook Air - 4 (3)_59: 7171225755663066329
+      MacBook Air - 4 (3)_6: -3223775566893138631
+      MacBook Air - 4 (3)_60: -33681773353524632
+      MacBook Air - 4 (3)_61: -5045041456083882267
+      MacBook Air - 4 (3)_62: -40703425509052846
+      MacBook Air - 4 (3)_63: -8491386271602569388
+      MacBook Air - 4 (3)_64: -900040948176079397
+      MacBook Air - 4 (3)_65: 7655134661830183175
+      MacBook Air - 4 (3)_66: 8859678029948011086
+      MacBook Air - 4 (3)_67: 4264078905445159419
+      MacBook Air - 4 (3)_68: -1808020315940410028
+      MacBook Air - 4 (3)_69: -339102393407334162
+      MacBook Air - 4 (3)_7: -1120938241354113119
+      MacBook Air - 4 (3)_70: -3256113388155806831
+      MacBook Air - 4 (3)_71: 3591942348799600779
+      MacBook Air - 4 (3)_72: -4108554811017255449
+      MacBook Air - 4 (3)_73: 2730355143832704713
+      MacBook Air - 4 (3)_74: 8916667542425497852
+      MacBook Air - 4 (3)_75: -1189008375402036344
+      MacBook Air - 4 (3)_76: 5940156334231791628
+      MacBook Air - 4 (3)_77: -3200969581644057664
+      MacBook Air - 4 (3)_78: 3703669119847581165
+      MacBook Air - 4 (3)_79: -1367210883824943793
+      MacBook Air - 4 (3)_8: 3278483751554000036
+      MacBook Air - 4 (3)_80: -5030664738778495460
+      MacBook Air - 4 (3)_81: 2700127294461106374
+      MacBook Air - 4 (3)_82: -2941555400334743988
+      MacBook Air - 4 (3)_83: 5061694418205804093
+      MacBook Air - 4 (3)_84: -558103903371200823
+      MacBook Air - 4 (3)_85: -2323662038469742428
+      MacBook Air - 4 (3)_86: -7674131522029287200
+      MacBook Air - 4 (3)_87: -4102330844924413008
+      MacBook Air - 4 (3)_88: -1603396840015434014
+      MacBook Air - 4 (3)_89: -1850708547463234274
+      MacBook Air - 4 (3)_9: 343419373117676272
+      MacBook Air - 4 (3)_90: 8123056593060394486
+      MacBook Air - 4 (3)_91: 5756923490511525754
+      MacBook Air - 4 (3)_92: -1553095622865076907
+      MacBook Air - 4 (3)_93: 667400758056455496
+      MacBook Air - 4 (3)_94: -3984316827576201090
+      MacBook Air - 4 (3)_95: -1766087064096579504
+      MacBook Air - 4 (3)_96: 6026213834728810216
+      MacBook Air - 4 (3)_97: -6565794960913436318
+      MacBook Air - 4 (3)_98: -5107240451155847124
+      MacBook Air - 4 (3)_99: 8858211521997668290
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
