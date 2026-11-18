@@ -34,6 +34,7 @@ public class CallDetailView : MonoBehaviour
 
     private void Awake()
     {
+        imageReveal.PrepareReveal();
         confirmAnswerButton.onClick.RemoveAllListeners();
         confirmAnswerButton.onClick.AddListener(OnAnswerConfirm);
     }
@@ -159,7 +160,6 @@ public class CallDetailView : MonoBehaviour
 
         callDetailPanel.gameObject.SetActive(true);
         animation.OpenPanelAnimated();
-        imageReveal.PrepareReveal();
         imageRevealCoroutine = StartCoroutine(RevealImage());
     }
 
