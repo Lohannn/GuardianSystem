@@ -52,6 +52,8 @@ public class BadEndView : MonoBehaviour
 
     private void AnimateShutdown()
     {
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.BadEnding_Shutdown));
+
         shutdownSequence = DOTween.Sequence()
             .Append(
                 badEndWhiteImageTransform.DOScaleY(0.004f, 0.10f).SetEase(Ease.InCubic)

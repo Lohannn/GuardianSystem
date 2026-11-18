@@ -57,6 +57,7 @@ public class MapView : MonoBehaviour
 
     private void AnimateWaterCrisis(Zone zone)
     {
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.Water_Overflow));
         mapMaterial.SetFloat(GetZoneProperty(zone), 1);
 
         crisisSequence?.Kill();

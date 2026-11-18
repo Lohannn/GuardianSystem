@@ -7,7 +7,10 @@ public enum SFXType
     UI_Button_Click,
     UI_Slot_Drop,
     UI_Panel_Open,
-    UI_Panel_Close
+    UI_Panel_Close,
+    UI_Dispatch_Finished,
+    Water_Overflow,
+    BadEnding_Shutdown
 }
 
 [System.Serializable]

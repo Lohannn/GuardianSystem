@@ -83,10 +83,22 @@ public class CallDetailPresenter : MonoBehaviour
 
             if (!eventData.requiredUnits.All(unit => dispatchedUnits.Contains(unit)))
             {
-                result = () => gameManager.populationModel.AdjustPopularity(eventData.popularityImpactOnWrongUnits);
+                result = () =>
+                {
+                    gameManager.populationModel.AdjustPopularity(eventData.popularityImpactOnWrongUnits);
+                    
+                    if (gameManager.CurrentGameState != GameState.EndOfDay) 
+                        AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Dispatch_Finished));
+                };
             }else
             {
-                result = () => gameManager.populationModel.AdjustPopularity(eventData.popularityImpactOnSuccess);
+                result = () =>
+                {
+                    gameManager.populationModel.AdjustPopularity(eventData.popularityImpactOnSuccess);
+
+                    if (gameManager.CurrentGameState != GameState.EndOfDay) 
+                        AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Dispatch_Finished));
+                };
             }
         }
 

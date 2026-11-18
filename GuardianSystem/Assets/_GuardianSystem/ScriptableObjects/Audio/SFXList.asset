@@ -23,3 +23,9 @@ MonoBehaviour:
     sfx: {fileID: 8300000, guid: 3aaee6a8fcea8754b895f813562495e2, type: 3}
   - type: 4
     sfx: {fileID: 8300000, guid: 9f4963ad8118a164ea4f843c7614190c, type: 3}
+  - type: 7
+    sfx: {fileID: 8300000, guid: c723f18353bc97f1a81183cc9e1229ae, type: 3}
+  - type: 6
+    sfx: {fileID: 8300000, guid: 95938148fcdc87e199e9e070d8ba27c3, type: 3}
+  - type: 5
+    sfx: {fileID: 8300000, guid: afb00644399140e86bb07c50653f06dd, type: 3}
