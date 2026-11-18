@@ -29,7 +29,7 @@ public class QuitPanel : MonoBehaviour
 #if UNITY_EDITOR
         EditorApplication.isPlaying = false;
 #else
-        Application.Quit();
+        Application.Quit(0);
 #endif
     }
 }
