@@ -13,6 +13,8 @@ public class CallButtonFactory : MonoBehaviour
 
     private List<EventData> availableEventsForTheDay = new List<EventData>();
 
+    private EventData lastEvent;
+
     private ObjectPool buttonPool;
     private GameManager gameManager;
 
@@ -57,6 +59,18 @@ public class CallButtonFactory : MonoBehaviour
         }
 
         EventData randomEvent = availableEventsForTheDay[Random.Range(0, availableEventsForTheDay.Count)];
+
+        if (availableEventsForTheDay.Count > 1)
+        {
+            while (randomEvent == lastEvent)
+            {
+                randomEvent = availableEventsForTheDay[
+                    Random.Range(0, availableEventsForTheDay.Count)
+                ];
+            }
+        }
+
+        lastEvent = randomEvent;
         
         RectTransform spawnPoint = GetRandomSpawnPoint();
 
