@@ -33,6 +33,28 @@ During development, I worked with:
 - **ScriptableObjects:** Data-driven configuration for gameplay content.
 - **Shader Graph and DOTween:** Custom interface effects, transitions, and animations.
 
+
+<details>
+<summary>🔒 System Diagnostics — Restricted Access</summary>
+
+### Hidden Commands
+
+The Guardian System contains a few undocumented commands for those curious enough to explore its systems.
+
+While playing, type:
+
+| Command | Effect |
+|---|---|
+| `GLOBAL` | Sets public trust to 0% |
+| `SOLUTION` | Sets public trust to 100% |
+| `FIAP` | Restores public trust to 50% |
+
+Overflow sound means that worked.  
+
+*Some systems have more control than they let on.*
+
+</details>
+
 ## 🛠️ Built With
 
 - [**Unity**](https://unity.com/) — Game engine (URP)
