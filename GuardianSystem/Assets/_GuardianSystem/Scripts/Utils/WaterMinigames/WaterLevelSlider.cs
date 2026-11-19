@@ -22,6 +22,16 @@ public class WaterLevelSlider : MonoBehaviour
         defaultColor = fillArea.color;
     }
 
+    void OnEnable()
+    {
+        EventBus.OnWaterCallEnded += ResetValue;
+    }
+
+    void OnDisable()
+    {
+        EventBus.OnWaterCallEnded -= ResetValue;
+    }
+
     public void AddOnValueChanged(Action<Zone, float> eventToTrigger)
     {
         zoneLevelSlider.onValueChanged.RemoveAllListeners();
@@ -37,6 +47,13 @@ public class WaterLevelSlider : MonoBehaviour
     {
         zoneLevelSlider.SetValueWithoutNotify(value);
         ToggleCrisisState(value <= 20 || value >= 80);
+    }
+
+    public void ResetValue(Zone zoneAffected)
+    {
+        if (zoneAffected != sourceZone) return;
+
+        zoneLevelSlider.value = 70;
     }
 
     public float GetValue()

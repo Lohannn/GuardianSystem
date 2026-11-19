@@ -115,9 +115,15 @@ public class CallButtonFactory : MonoBehaviour
         buttonRect.SetParent(spawnPoint, false);
         buttonRect.localPosition = Vector3.zero;
 
+        CallButtonPresenter callButtonPresenter = buttonObj.GetComponent<CallButtonPresenter>();
         CallButtonView callButtonView = buttonObj.GetComponent<CallButtonView>();
         callButtonView.Initialize(randomEvent);
         callButtonView.ownerPool = buttonPool;
+
+        callButtonPresenter.SetOnCallEnded(() =>
+        {
+            EventBus.OnWaterCallEnded?.Invoke(zone);
+        });
 
         affectedZone.currentCall = buttonObj.GetComponent<CallButtonPresenter>();
 

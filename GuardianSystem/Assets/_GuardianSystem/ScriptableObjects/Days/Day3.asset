@@ -18,10 +18,10 @@ MonoBehaviour:
   minCallSpawnInterval: 3
   maxCallSpawnInterval: 13
   maxSimultaneousCalls: 5
-  waterVariationPerSecond: 1.7
-  waterDirectionChangeInterval: 12
+  waterVariationPerSecond: 2
+  waterDirectionChangeInterval: 15
   popularityImpactOnWaterCallSpawn: -3
-  emptyWaterTickInterval: 10
+  emptyWaterTickInterval: 8
   popularityImpactOnEmptyWaterPerTick: -0.8
   minTrashAddInterval: 6
   maxTrashAddInterval: 12

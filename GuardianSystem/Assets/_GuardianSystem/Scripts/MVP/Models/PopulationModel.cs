@@ -25,7 +25,7 @@ public class PopulationModel
 
     public void SetPopularity(float amount)
     {
-        Popularity = Mathf.Clamp(Popularity + amount, 0, 100);
+        Popularity = Mathf.Clamp(amount, 0, 100);
     }
 
     public PopularityLevel GetPopularityLevel()

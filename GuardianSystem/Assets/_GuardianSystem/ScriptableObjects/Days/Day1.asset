@@ -19,7 +19,7 @@ MonoBehaviour:
   maxCallSpawnInterval: 20
   maxSimultaneousCalls: 2
   waterVariationPerSecond: 1
-  waterDirectionChangeInterval: 8
+  waterDirectionChangeInterval: 6
   popularityImpactOnWaterCallSpawn: -1
   emptyWaterTickInterval: 15
   popularityImpactOnEmptyWaterPerTick: -0.3
@@ -27,6 +27,6 @@ MonoBehaviour:
   maxTrashAddInterval: 20
   fullTrashTickInterval: 12
   popularityImpactOnFullTrashPerTick: -0.4
-  popularityImpactOnCollectedTrash: 0.6
+  popularityImpactOnCollectedTrash: 0.4
   isTutorialActive: 0
   activeEventWeights: 00000000
