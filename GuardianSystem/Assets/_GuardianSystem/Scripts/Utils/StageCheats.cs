@@ -10,10 +10,14 @@ public class StageCheats : MonoBehaviour
     private Keyboard keyboard;
     private string currentScene;
 
+    void Awake()
+    {
+        keyboard = Keyboard.current;
+        currentScene = SceneManager.GetActiveScene().name;
+    }
+
     private void Update()
     {
-        Keyboard keyboard = Keyboard.current;
-
         if (keyboard == null) return;
 
         for (int i = 0; i < 26; i++)
