@@ -19,8 +19,6 @@ public class AudioManager : MonoBehaviour
     [Header("Music Speed")]
     [SerializeField] private AudioMixer musicMixer;
 
-    private const string PitchCorrection = "PitchCorrection";
-
     private Tween musicRushTween;
     private Tween musicFadeTween;
     private float defaultMusicVolume;
@@ -92,7 +90,6 @@ public class AudioManager : MonoBehaviour
     private void SetMusicSpeed(float speed)
     {
         musicSource.pitch = speed;
-        musicMixer.SetFloat(PitchCorrection, 1f / speed);
     }
 
     public void StartMusicRush(float duration = 30f, float maxSpeed = 1.2f)
