@@ -10,21 +10,26 @@ public class StageCheats : MonoBehaviour
     private Keyboard keyboard;
     private string currentScene;
 
-    private void OnEnable()
+    private void Update()
     {
-        currentScene = SceneManager.GetActiveScene().name;
+        Keyboard keyboard = Keyboard.current;
 
-        keyboard = Keyboard.current;
+        if (keyboard == null) return;
 
-        if (keyboard != null)
-            keyboard.onTextInput += HandleTextInput;
+        for (int i = 0; i < 26; i++)
+        {
+            Key key = (Key)((int)Key.A + i);
+
+            if (keyboard[key].wasPressedThisFrame)
+            {
+                char character = (char)('A' + i);
+                HandleTextInput(character);
+            }
+        }
     }
 
     private void OnDisable()
     {
-        if (keyboard != null)
-            keyboard.onTextInput -= HandleTextInput;
-
         typedText = "";
     }
 
