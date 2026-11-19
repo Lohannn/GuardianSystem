@@ -17,7 +17,7 @@ MonoBehaviour:
     Consciente, mas apresenta tontura e dificuldade de permanecer em p\xE9.\n\n"
   eventImage: {fileID: 7074447374885318651, guid: 534bca344bc5ccfeb9942046b649dd18, type: 3}
   eventType: 0
-  eventDuration: 18
+  eventDuration: 20
   requiredUnits: 02000000
   popularityImpactOnSuccess: 3
   popularityImpactOnWrongUnits: -5

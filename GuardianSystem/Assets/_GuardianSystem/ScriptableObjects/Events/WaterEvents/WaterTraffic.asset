@@ -18,7 +18,7 @@ MonoBehaviour:
     seguran\xE7a e um deles apresenta sinais de mal-estar.\n\n"
   eventImage: {fileID: -1868132577964463549, guid: 93a809c2db38d8ca7b26f87c59d49072, type: 3}
   eventType: 0
-  eventDuration: 22
+  eventDuration: 30
   requiredUnits: 0100000002000000
   popularityImpactOnSuccess: 4
   popularityImpactOnWrongUnits: -5

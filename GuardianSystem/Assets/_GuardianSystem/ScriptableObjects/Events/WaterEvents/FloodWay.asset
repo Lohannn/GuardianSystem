@@ -18,7 +18,7 @@ MonoBehaviour:
     presos e de acidentes envolvendo pedestres.\n\n"
   eventImage: {fileID: 1403259182807415347, guid: c89234ecd2b2bc225a46e9e87a1ce32e, type: 3}
   eventType: 0
-  eventDuration: 22
+  eventDuration: 30
   requiredUnits: 0100000000000000
   popularityImpactOnSuccess: 4
   popularityImpactOnWrongUnits: -5

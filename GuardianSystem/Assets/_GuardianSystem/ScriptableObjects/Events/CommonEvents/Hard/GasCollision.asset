@@ -18,7 +18,7 @@ MonoBehaviour:
     risco de inc\xEAndio. A regis\xE3o precisa ser isolada com urg\xEAncia.\n\n"
   eventImage: {fileID: 8757581124789671334, guid: 5caeafd87c99bd9f0983ebaca772637e, type: 3}
   eventType: 0
-  eventDuration: 20
+  eventDuration: 30
   requiredUnits: 0100000000000000
   popularityImpactOnSuccess: 7
   popularityImpactOnWrongUnits: -8

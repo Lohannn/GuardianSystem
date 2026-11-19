@@ -18,7 +18,7 @@ MonoBehaviour:
     \xE9 leg\xEDtima, mas os dados est\xE3o vis\xEDveis publicamente. O que fazer?\n\n"
   eventImage: {fileID: -5608072620577646555, guid: 608e3d83ab8e6f3b9bc5d9f6adfbfc68, type: 3}
   eventType: 1
-  eventDuration: 24
+  eventDuration: 25
   requiredUnits: 00000000
   popularityImpactOnSuccess: 0
   popularityImpactOnWrongUnits: 0

@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DayConfigData
   DayNumber: 2
   endDayCutscene: {fileID: 11400000, guid: dff340f7f7ec355a8954e980617ef99d, type: 2}
-  dayDurationInSeconds: 300
-  minCallSpawnInterval: 4
-  maxCallSpawnInterval: 15
-  maxSimultaneousCalls: 4
+  dayDurationInSeconds: 240
+  minCallSpawnInterval: 3
+  maxCallSpawnInterval: 13
+  maxSimultaneousCalls: 5
   waterVariationPerSecond: 1.7
   waterDirectionChangeInterval: 12
   popularityImpactOnWaterCallSpawn: -3

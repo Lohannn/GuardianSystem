@@ -18,7 +18,7 @@ MonoBehaviour:
     pr\xF3ximos ao local do acidente.\n\n"
   eventImage: {fileID: -3378545337972560718, guid: 8ced85c83b4b9bc2eb535c8a40bbaa0e, type: 3}
   eventType: 0
-  eventDuration: 24
+  eventDuration: 25
   requiredUnits: 0000000002000000
   popularityImpactOnSuccess: 5
   popularityImpactOnWrongUnits: -6

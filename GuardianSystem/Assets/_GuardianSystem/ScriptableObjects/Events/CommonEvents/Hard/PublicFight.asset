@@ -19,7 +19,7 @@ MonoBehaviour:
     imediata.\n\n"
   eventImage: {fileID: 5027643112390432395, guid: ca1a8b2e6c2a989679afc46de18f179e, type: 3}
   eventType: 0
-  eventDuration: 15
+  eventDuration: 30
   requiredUnits: 0000000002000000
   popularityImpactOnSuccess: 7
   popularityImpactOnWrongUnits: -8

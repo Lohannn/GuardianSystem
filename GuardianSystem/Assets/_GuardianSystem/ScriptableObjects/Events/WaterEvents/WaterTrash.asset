@@ -18,7 +18,7 @@ MonoBehaviour:
     e iniciar a remo\xE7\xE3o segura dos materiais que impedem o escoamento.\n\n"
   eventImage: {fileID: -8382713675663953313, guid: 217d3547d11119d8b8e1f621abfa6c97, type: 3}
   eventType: 0
-  eventDuration: 22
+  eventDuration: 30
   requiredUnits: 0100000003000000
   popularityImpactOnSuccess: 4
   popularityImpactOnWrongUnits: -5

@@ -19,7 +19,7 @@ MonoBehaviour:
     considerada segura para limpeza.\n\n"
   eventImage: {fileID: 111916522244217026, guid: bdf3f16578d1e83e090abd7dbfc82bcc, type: 3}
   eventType: 0
-  eventDuration: 22
+  eventDuration: 30
   requiredUnits: 0200000003000000
   popularityImpactOnSuccess: 4
   popularityImpactOnWrongUnits: -5

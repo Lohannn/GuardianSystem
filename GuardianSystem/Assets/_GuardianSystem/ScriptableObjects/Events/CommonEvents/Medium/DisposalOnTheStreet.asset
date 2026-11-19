@@ -18,7 +18,7 @@ MonoBehaviour:
     passagem e dificultando a circula\xE7\xE3o de pedestres.\n\n"
   eventImage: {fileID: 2565653872732474816, guid: 704dd45577b996b9d84c71c6dacf7c88, type: 3}
   eventType: 0
-  eventDuration: 24
+  eventDuration: 25
   requiredUnits: 03000000
   popularityImpactOnSuccess: 4
   popularityImpactOnWrongUnits: -5

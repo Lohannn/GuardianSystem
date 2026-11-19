@@ -18,7 +18,7 @@ MonoBehaviour:
     foi confirmada , mas j\xE1 est\xE1 causando preocupa\xE7\xF5es entre os moradores.\n\n"
   eventImage: {fileID: -4942639155145601319, guid: 3d53178fba3756fb3b484f93aeac364d, type: 3}
   eventType: 1
-  eventDuration: 18
+  eventDuration: 20
   requiredUnits: 00000000
   popularityImpactOnSuccess: 0
   popularityImpactOnWrongUnits: 0

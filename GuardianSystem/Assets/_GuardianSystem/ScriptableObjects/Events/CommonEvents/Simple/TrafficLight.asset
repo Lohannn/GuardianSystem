@@ -18,7 +18,7 @@ MonoBehaviour:
     houve acidentes. Como proceder?\n\n"
   eventImage: {fileID: -4585031799566294454, guid: 712219106e7815b37bde0944ae900c1d, type: 3}
   eventType: 1
-  eventDuration: 18
+  eventDuration: 20
   requiredUnits: 00000000
   popularityImpactOnSuccess: 0
   popularityImpactOnWrongUnits: 0

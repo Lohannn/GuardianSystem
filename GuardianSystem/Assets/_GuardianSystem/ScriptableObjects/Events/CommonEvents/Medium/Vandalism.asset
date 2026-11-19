@@ -18,7 +18,7 @@ MonoBehaviour:
     e os respons\xE1veis ainda permanecem no local.\n\n"
   eventImage: {fileID: 3540137862720715610, guid: 80e0892230fffd4a8bbcf99cb1bfe15a, type: 3}
   eventType: 0
-  eventDuration: 24
+  eventDuration: 25
   requiredUnits: 00000000
   popularityImpactOnSuccess: 4
   popularityImpactOnWrongUnits: -5

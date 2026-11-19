@@ -18,7 +18,7 @@ MonoBehaviour:
     enviar uma equipe para verificar a ocorr\xEAncia.\n\n"
   eventImage: {fileID: 5428235409488937955, guid: 020d3a4501a593acdaf66f9ed80d7f0b, type: 3}
   eventType: 0
-  eventDuration: 18
+  eventDuration: 20
   requiredUnits: 00000000
   popularityImpactOnSuccess: 3
   popularityImpactOnWrongUnits: -5

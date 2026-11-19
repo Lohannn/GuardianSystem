@@ -18,7 +18,7 @@ MonoBehaviour:
     com dificuldades respirat\xF3rias devido \xE0 fuma\xE7a.\n\n"
   eventImage: {fileID: -8682333079990592723, guid: 47e18a9e8afc8cf8081bb9a52f5e7c97, type: 3}
   eventType: 0
-  eventDuration: 15
+  eventDuration: 30
   requiredUnits: 0100000002000000
   popularityImpactOnSuccess: 7
   popularityImpactOnWrongUnits: -8

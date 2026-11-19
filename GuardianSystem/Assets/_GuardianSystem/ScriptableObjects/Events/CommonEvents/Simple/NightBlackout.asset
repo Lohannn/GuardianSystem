@@ -18,7 +18,7 @@ MonoBehaviour:
     Como agir?\n\n"
   eventImage: {fileID: -550408322754406553, guid: ef1750e71160cb4d8bcfe8136acd80ad, type: 3}
   eventType: 1
-  eventDuration: 18
+  eventDuration: 20
   requiredUnits: 00000000
   popularityImpactOnSuccess: 0
   popularityImpactOnWrongUnits: 0
