@@ -12,19 +12,22 @@ public class ExtraPanelOpen : MonoBehaviour
     [Header("Animation config")]
     [SerializeField] private float scaleXChangeDuration;
     [SerializeField] private float scaleYChangeDuration;
+    [SerializeField] private bool closeOnDetailChange;
 
     private void OnEnable()
     {
-        if(GameManager.Instance == null) return;
+        if(GameManager.Instance != null)
+            GameManager.Instance.OnSetupDay += ClosePanel;
 
-        GameManager.Instance.OnSetupDay += ClosePanel;
+        EventBus.OnCallDetailChanged += CloseAllPanels;
     }
 
     private void OnDisable()
     {
-        if(GameManager.Instance == null) return;
+        if(GameManager.Instance != null)
+            GameManager.Instance.OnSetupDay -= ClosePanel;
 
-        GameManager.Instance.OnSetupDay -= ClosePanel;
+        EventBus.OnCallDetailChanged -= CloseAllPanels;
     }
 
     public void ClosePanel()
@@ -33,6 +36,13 @@ public class ExtraPanelOpen : MonoBehaviour
 
         extraPanelContainer.sizeDelta = new(0, 40);
         isOpened = false;
+    }
+
+    public void CloseAllPanels()
+    {
+        if (!closeOnDetailChange) return;
+
+        ClosePanelAnimated();
     }
 
     public void TogglePanelWindowAnimated(Action action)

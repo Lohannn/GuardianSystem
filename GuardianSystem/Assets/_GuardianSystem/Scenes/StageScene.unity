@@ -333,6 +333,7 @@ MonoBehaviour:
   openedSize: {x: 350, y: 200}
   scaleXChangeDuration: 0.1
   scaleYChangeDuration: 0.2
+  closeOnDetailChange: 1
 --- !u!1 &22681719
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,6 +574,7 @@ MonoBehaviour:
   openedSize: {x: 350, y: 200}
   scaleXChangeDuration: 0.1
   scaleYChangeDuration: 0.2
+  closeOnDetailChange: 1
 --- !u!1 &53466340
 GameObject:
   m_ObjectHideFlags: 0
@@ -5099,6 +5101,7 @@ MonoBehaviour:
   openedSize: {x: 350, y: 200}
   scaleXChangeDuration: 0.1
   scaleYChangeDuration: 0.2
+  closeOnDetailChange: 1
 --- !u!1 &356702039
 GameObject:
   m_ObjectHideFlags: 0
@@ -8343,6 +8346,7 @@ MonoBehaviour:
   openedSize: {x: 350, y: 200}
   scaleXChangeDuration: 0.1
   scaleYChangeDuration: 0.2
+  closeOnDetailChange: 1
 --- !u!1 &608629017
 GameObject:
   m_ObjectHideFlags: 0
@@ -13637,6 +13641,7 @@ MonoBehaviour:
   openedSize: {x: 700, y: 430}
   scaleXChangeDuration: 0.2
   scaleYChangeDuration: 0.3
+  closeOnDetailChange: 0
 --- !u!114 &1075969401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15629,6 +15634,7 @@ MonoBehaviour:
   openedSize: {x: 700, y: 600}
   scaleXChangeDuration: 0.2
   scaleYChangeDuration: 0.3
+  closeOnDetailChange: 0
 --- !u!114 &1221968526 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1469189398285561245, guid: 3902975ce7d9fa7f1b39f21acd002a53, type: 3}
@@ -19392,6 +19398,7 @@ MonoBehaviour:
   openedSize: {x: 1200, y: 800}
   scaleXChangeDuration: 0.2
   scaleYChangeDuration: 0.3
+  closeOnDetailChange: 0
 --- !u!1 &1553639797
 GameObject:
   m_ObjectHideFlags: 0
@@ -25243,6 +25250,7 @@ MonoBehaviour:
   openedSize: {x: 700, y: 550}
   scaleXChangeDuration: 0.2
   scaleYChangeDuration: 0.3
+  closeOnDetailChange: 0
 --- !u!1 &2057360072
 GameObject:
   m_ObjectHideFlags: 0

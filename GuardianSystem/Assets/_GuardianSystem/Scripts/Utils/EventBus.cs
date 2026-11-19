@@ -8,6 +8,8 @@ public static class EventBus
     public static Action<EventData, CallButtonPresenter> OnCallResolved;
     public static Action<EventData, CallButtonPresenter> OnCallClicked;
 
+    public static Action OnCallDetailChanged;
+
     public static Action OnDetailPanelHide;
 
     public static Action<UnitItemPresenter, Vector2> OnUnitBeginDrag;

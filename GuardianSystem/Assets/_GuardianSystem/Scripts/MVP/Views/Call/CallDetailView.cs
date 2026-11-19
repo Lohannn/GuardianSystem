@@ -157,6 +157,7 @@
 
         public void Show(EventData eventData)
         {
+            EventBus.OnCallDetailChanged?.Invoke();
             Initialize(eventData);
             
             clickBlockerPanel.color = new Color(clickBlockerPanel.color.r, clickBlockerPanel.color.g, clickBlockerPanel.color.b, 0.5f);
@@ -169,6 +170,8 @@
 
         public void Hide()
         {
+            EventBus.OnCallDetailChanged?.Invoke();
+
             if (imageRevealCoroutine != null)
             {
                 StopCoroutine(imageRevealCoroutine);
