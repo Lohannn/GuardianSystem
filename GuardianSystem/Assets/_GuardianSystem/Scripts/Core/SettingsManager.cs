@@ -10,13 +10,16 @@ public class SettingsManager : MonoBehaviour
 
     private const string MusicKey = "MusicVolume";
     private const string SFXKey = "SFXVolume";
+    private const string VoiceKey = "VoiceVolume";
     private const string FullscreenKey = "Fullscreen";
 
     private const string MusicParameter = "MusicVolume";
     private const string SFXParameter = "SFXVolume";
+    private const string VoiceParameter = "VoiceVolume";
 
     public float MusicVolume { get; private set; }
     public float SFXVolume { get; private set; }
+    public float VoiceVolume { get; private set; }
     public bool IsFullscreen { get; private set; }
 
     private void Awake()
@@ -32,6 +35,7 @@ public class SettingsManager : MonoBehaviour
 
         MusicVolume = PlayerPrefs.GetFloat(MusicKey, 1f);
         SFXVolume = PlayerPrefs.GetFloat(SFXKey, 1f);
+        VoiceVolume = PlayerPrefs.GetFloat(VoiceKey, 1f);
 
         IsFullscreen = PlayerPrefs.GetInt(
             FullscreenKey,
@@ -43,6 +47,7 @@ public class SettingsManager : MonoBehaviour
     {
         ApplyVolume(MusicParameter, MusicVolume);
         ApplyVolume(SFXParameter, SFXVolume);
+        ApplyVolume(VoiceParameter, VoiceVolume);
 
         ApplyFullscreen();
     }
@@ -61,6 +66,14 @@ public class SettingsManager : MonoBehaviour
         ApplyVolume(SFXParameter, SFXVolume);
 
         PlayerPrefs.SetFloat(SFXKey, SFXVolume);
+    }
+
+    public void SetVoiceVolume(float value)
+    {
+        VoiceVolume = Mathf.Clamp01(value);
+        ApplyVolume(VoiceParameter, VoiceVolume);
+
+        PlayerPrefs.SetFloat(VoiceKey, VoiceVolume);
     }
 
     private void ApplyVolume(string parameter, float value)

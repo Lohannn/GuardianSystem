@@ -28,11 +28,18 @@ MonoBehaviour:
       \xE1gua, tem ambul\xE2ncia e viatura pra todo lado, mas quando a gente realmente
       precisa, demora."
     - "E ainda t\xE3o muito lentos para resolver coisas b\xE1sicas, sabe?"
+    audioClips:
+    - {fileID: 8300000, guid: b1b4d4c4a1f1ee87f815cba817ce7cd5, type: 3}
+    - {fileID: 8300000, guid: 14164fb7ae7bae371b6a4bb129562797, type: 3}
+    - {fileID: 8300000, guid: 49df451a3bb57278886ea193cca4ea3d, type: 3}
   - level: 1
     dialogues:
     - Ah, eu nem sabia que tinham colocado um sistema diferente na cidade.
     - "Pra mim t\xE1 bem a mesma coisa, n\xE3o sei o que era para isso t\xE1 fazendo
       pra gente, mas t\xE1 tudo bem normal, como sempre."
+    audioClips:
+    - {fileID: 8300000, guid: 9b86b5d449141ad8ebda2409ffa37eb0, type: 3}
+    - {fileID: 8300000, guid: a958f6d924ad54a19a9adef99684feda, type: 3}
   - level: 2
     dialogues:
     - "Virou outra coisa a cidade! Tem alguns problemas que come\xE7aram a ser resolvidos
@@ -40,3 +47,7 @@ MonoBehaviour:
       feito."
     - "Eu n\xE3o tava esperando que ia ser uma diferen\xE7a t\xE3o grande assim."
     - Se tiverem mais coisa pra colocar na cidade que nem isso, que coloquem logo!
+    audioClips:
+    - {fileID: 8300000, guid: e15317f151a5f218c8126bee487cb669, type: 3}
+    - {fileID: 8300000, guid: 299c4200174c02bf89421c4a3a08e5c6, type: 3}
+    - {fileID: 8300000, guid: 3ecb01a4c9afee7bd9be0aa12bb23628, type: 3}

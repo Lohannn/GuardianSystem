@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62f90dcc2c9dca1f0bfd7cc016732c33, type: 3}
   m_Name: Day0_Test
   m_EditorClassIdentifier: Assembly-CSharp::DayConfigData
-  DayNumber: -1
-  endDayCutscene: {fileID: 11400000, guid: dff340f7f7ec355a8954e980617ef99d, type: 2}
-  dayDurationInSeconds: 50
+  DayNumber: 0
+  endDayCutscene: {fileID: 11400000, guid: 7d173db40bcd84b028cee08b871937cf, type: 2}
+  dayDurationInSeconds: 30
   minCallSpawnInterval: 1
   maxCallSpawnInterval: 2
   maxSimultaneousCalls: 5

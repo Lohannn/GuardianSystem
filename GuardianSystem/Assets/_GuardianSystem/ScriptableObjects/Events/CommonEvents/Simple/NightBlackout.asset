@@ -15,7 +15,7 @@ MonoBehaviour:
   eventWeight: 0
   eventDescription: "Foi recebido diversas reclama\xE7\xF5es sobre postes apagados
     em uma pra\xE7a durante a noite. Alguns moradores dizem estar evitando o local.
-    Como agir?"
+    Como agir?\n\n"
   eventImage: {fileID: -550408322754406553, guid: ef1750e71160cb4d8bcfe8136acd80ad, type: 3}
   eventType: 1
   eventDuration: 18

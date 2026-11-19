@@ -15,7 +15,7 @@ MonoBehaviour:
   eventWeight: 2
   eventDescription: "Foi recebido relatos de risco estrututral em uma passagem elevada
     muito movimentada. H\xE1 ind\xEDcios de anormalidades, mas os ainda s\xE3o inconclusivos.
-    Uma interdi\xE7\xE3o completa geraria transtornos. O que fazer?"
+    Uma interdi\xE7\xE3o completa geraria transtornos. O que fazer?\n\n"
   eventImage: {fileID: 594460736259331244, guid: b78fbda62c8e27a6f91631c060cb55dc, type: 3}
   eventType: 1
   eventDuration: 30

@@ -16,7 +16,7 @@ MonoBehaviour:
   eventDescription: "Uma discuss\xE3o entre grupos durante um evento p\xFAblico evoluiu
     para agress\xF5es f\xEDsicas. H\xE1 relatos de pessoas feridas e a multid\xE3o
     est\xE1 dificultando o acesso ao local. A situa\xE7\xE3o exisge uma resposta
-    imediata."
+    imediata.\n\n"
   eventImage: {fileID: 5027643112390432395, guid: ca1a8b2e6c2a989679afc46de18f179e, type: 3}
   eventType: 0
   eventDuration: 15

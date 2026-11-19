@@ -15,7 +15,7 @@ MonoBehaviour:
   eventWeight: 1
   eventDescription: "O ac\xFAmulo de res\xEDduos bloqueou parte da drenagem de uma
     rua, agravando o alagamento. \xC9 necess\xE1rio controlar os riscos no local
-    e iniciar a remo\xE7\xE3o segura dos materiais que impedem o escoamento."
+    e iniciar a remo\xE7\xE3o segura dos materiais que impedem o escoamento.\n\n"
   eventImage: {fileID: -8382713675663953313, guid: 217d3547d11119d8b8e1f621abfa6c97, type: 3}
   eventType: 0
   eventDuration: 22

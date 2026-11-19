@@ -15,7 +15,7 @@ MonoBehaviour:
   eventWeight: 0
   eventDescription: "Moradores indicam fuma\xE7a e pequenas chamas em uma lixeira
     p\xFAblica, pr\xF3xima a estabelecimentos comerciais. O fogo ainda est\xE1 localizado,
-    mas existe risco de proopaga\xE7\xE3o."
+    mas existe risco de proopaga\xE7\xE3o.\n\n"
   eventImage: {fileID: -3360508040297506826, guid: f839a365471bbe66fb672c4bc8cd9e20, type: 3}
   eventType: 0
   eventDuration: 18

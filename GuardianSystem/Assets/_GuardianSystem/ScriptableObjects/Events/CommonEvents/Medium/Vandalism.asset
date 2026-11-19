@@ -15,7 +15,7 @@ MonoBehaviour:
   eventWeight: 1
   eventDescription: "Moradores denunciam um grupo que est\xE1 danificando equipamentos
     de uma pra\xE7a rec\xE9m-formada. A situa\xE7\xE3o est\xE1 causando tumulto,
-    e os respons\xE1veis ainda permanecem no local."
+    e os respons\xE1veis ainda permanecem no local.\n\n"
   eventImage: {fileID: 3540137862720715610, guid: 80e0892230fffd4a8bbcf99cb1bfe15a, type: 3}
   eventType: 0
   eventDuration: 24

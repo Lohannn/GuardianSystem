@@ -15,7 +15,7 @@ MonoBehaviour:
   eventWeight: 2
   eventDescription: "Dois ve\xEDculos colidiram em uma avenida e um deles come\xE7ou
     a apresentar vazamento de combust\xEDvel. O tr\xE2nsito est\xE1 intenso e existe
-    risco de inc\xEAndio. A regis\xE3o precisa ser isolada com urg\xEAncia."
+    risco de inc\xEAndio. A regis\xE3o precisa ser isolada com urg\xEAncia.\n\n"
   eventImage: {fileID: 8757581124789671334, guid: 5caeafd87c99bd9f0983ebaca772637e, type: 3}
   eventType: 0
   eventDuration: 20

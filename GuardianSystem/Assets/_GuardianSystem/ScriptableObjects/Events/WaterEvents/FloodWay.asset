@@ -15,7 +15,7 @@ MonoBehaviour:
   eventWeight: 1
   eventDescription: "Uma avenida importante est\xE1 parcialmente inundada, mas alguns
     motoristas continuam tentando travess\xE1-la. H\xE1 riscxo de ve\xEDculos ficarem
-    presos e de acidentes envolvendo pedestres."
+    presos e de acidentes envolvendo pedestres.\n\n"
   eventImage: {fileID: 1403259182807415347, guid: c89234ecd2b2bc225a46e9e87a1ce32e, type: 3}
   eventType: 0
   eventDuration: 22

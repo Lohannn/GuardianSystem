@@ -185,8 +185,8 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        if (currentDayConfig == badEndConfig || currentDayConfig == goodEndConfig)
-            return;
+        // if (currentDayConfig == badEndConfig || currentDayConfig == goodEndConfig)
+        //     return;
 
         if (dayConfigOrder == null || dayConfigOrder.Count == 0)
         {

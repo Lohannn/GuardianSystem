@@ -16,7 +16,7 @@ MonoBehaviour:
   eventDescription: "Moradores retirados de uma \xE1rea inundada est\xE3o sendo acolhidos
     em um abrigo tempor\xE1rio. Algumas pessoas precisam de avalia\xE7\xE3o m\xE9dica
     e h\xE1 res\xEDduos contaminados acumulados na \xE1rea externa, que j\xE1 foi
-    considerada segura para limpeza."
+    considerada segura para limpeza.\n\n"
   eventImage: {fileID: 111916522244217026, guid: bdf3f16578d1e83e090abd7dbfc82bcc, type: 3}
   eventType: 0
   eventDuration: 22

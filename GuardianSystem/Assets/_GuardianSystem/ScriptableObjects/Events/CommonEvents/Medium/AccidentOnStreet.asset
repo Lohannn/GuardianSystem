@@ -15,7 +15,7 @@ MonoBehaviour:
   eventWeight: 1
   eventDescription: "Um pedestre foi atropelado em uma avenida movimentada. A v\xEDtima
     precisa de atendimento m\xE9dico, enquanto os ve\xEDculos continuam passando
-    pr\xF3ximos ao local do acidente."
+    pr\xF3ximos ao local do acidente.\n\n"
   eventImage: {fileID: -3378545337972560718, guid: 8ced85c83b4b9bc2eb535c8a40bbaa0e, type: 3}
   eventType: 0
   eventDuration: 24

@@ -15,7 +15,7 @@ MonoBehaviour:
   eventWeight: 1
   eventDescription: "Um cidad\xE3o publicou uma den\xFAncia no sistema acompanhada
     de uma foto que exp\xF5e o rosto e o endere\xE7o de outra pessoa. A den\xFAncia
-    \xE9 leg\xEDtima, mas os dados est\xE3o vis\xEDveis publicamente. O que fazer?"
+    \xE9 leg\xEDtima, mas os dados est\xE3o vis\xEDveis publicamente. O que fazer?\n\n"
   eventImage: {fileID: -5608072620577646555, guid: 608e3d83ab8e6f3b9bc5d9f6adfbfc68, type: 3}
   eventType: 1
   eventDuration: 24

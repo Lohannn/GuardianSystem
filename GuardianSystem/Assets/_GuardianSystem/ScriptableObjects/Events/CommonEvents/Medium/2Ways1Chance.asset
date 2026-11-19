@@ -15,7 +15,7 @@ MonoBehaviour:
   eventWeight: 1
   eventDescription: "Duas vias est\xE3o bloqueadas por obras. Uma causa congestionamento
     perto de um centro comercial; a outra prejudica o acesso de ambul\xE3ncias. S\xF3
-    \xE9 poss\xEDvel atender uma no momento."
+    \xE9 poss\xEDvel atender uma no momento.\n\n"
   eventImage: {fileID: -5862773989258749522, guid: 7a3925c450a29c795bbc3a76740cec2b, type: 3}
   eventType: 1
   eventDuration: 24

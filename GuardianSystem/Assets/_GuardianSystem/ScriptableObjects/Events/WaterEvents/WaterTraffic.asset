@@ -15,7 +15,7 @@ MonoBehaviour:
   eventWeight: 1
   eventDescription: "Um ve\xEDculo ficou preso em uma passagem alagada ap\xF3s a
     eleva\xE7\xE3o do n\xEDvel da \xE1gua. Os ocupantes n\xE3o conseguem sair com
-    seguran\xE7a e um deles apresenta sinais de mal-estar."
+    seguran\xE7a e um deles apresenta sinais de mal-estar.\n\n"
   eventImage: {fileID: -1868132577964463549, guid: 93a809c2db38d8ca7b26f87c59d49072, type: 3}
   eventType: 0
   eventDuration: 22

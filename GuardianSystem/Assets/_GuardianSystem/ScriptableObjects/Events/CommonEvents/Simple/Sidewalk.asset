@@ -15,7 +15,7 @@ MonoBehaviour:
   eventWeight: 0
   eventDescription: "Uma obra bloqueou a \xFAnica cal\xE7ada acess\xEDvel de uma
     avenida. Pessoas com mobilidade reduzida est\xE3o sendo obrigadas a usar a rua.
-    Como prosseguir?"
+    Como prosseguir?\n\n"
   eventImage: {fileID: -5862773989258749522, guid: 7a3925c450a29c795bbc3a76740cec2b, type: 3}
   eventType: 1
   eventDuration: 18

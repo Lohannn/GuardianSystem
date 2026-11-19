@@ -23,7 +23,7 @@ public class CutsceneView : MonoBehaviour
     [SerializeField] private Sprite visibleIcon;
     [SerializeField] private Sprite invisibleIcon;
 
-    [SerializeField] private float secondsPerCharacter = 0.03f;
+    [SerializeField] private float secondsPerCharacter = 0.08f;
     private float typingTimer;
 
     private bool isVisible;
@@ -31,11 +31,17 @@ public class CutsceneView : MonoBehaviour
     private TextBoxState currentState = TextBoxState.Finished;
 
     private string[] currentDialogs;
+    private AudioClip[] currentClips;
     private int currentDialogIndex;
     private string currentText;
+    private AudioClip currentAudio;
+
+    private AudioSource audioSource;
 
     void Awake()
     {
+        audioSource = GetComponent<AudioSource>();
+
         toggleVisibilityButton.onClick.AddListener(ToggleDialog);
     }
 
@@ -68,11 +74,13 @@ public class CutsceneView : MonoBehaviour
         }
     }
 
-    public void SetupCutscene(Sprite cutsceneImage, string[] dialogs)
+    public void SetupCutscene(Sprite cutsceneImage, CutsceneDialog dialogs)
     {
-        currentDialogs = dialogs;
+        currentDialogs = dialogs.dialogues;
+        currentClips = dialogs.audioClips;
         currentDialogIndex = 0;
         currentText = currentDialogs[currentDialogIndex];
+        currentAudio = currentClips[currentDialogIndex];
         cutsceneBackground.sprite = cutsceneImage;
         cutsceneContainer.alpha = 1f;
         cutsceneContainer.blocksRaycasts = true;
@@ -93,6 +101,9 @@ public class CutsceneView : MonoBehaviour
 
     private void StartTyping()
     {
+        audioSource.Stop();
+        audioSource.clip = currentAudio;
+        audioSource.Play();
         dialogText.text = currentText;
         dialogText.ForceMeshUpdate();
 
@@ -134,6 +145,7 @@ public class CutsceneView : MonoBehaviour
 
             if (currentDialogIndex >= currentDialogs.Length)
             {
+                audioSource.Stop();
                 ToggleDialog();
                 canToggleVisibility = false;
                 StartCoroutine(EndCutsceneCoroutine());
@@ -141,6 +153,7 @@ public class CutsceneView : MonoBehaviour
             }
 
             currentText = currentDialogs[currentDialogIndex];
+            currentAudio = currentClips[currentDialogIndex];
             ChangeState(TextBoxState.Typing);
         }
     }
@@ -155,7 +168,6 @@ public class CutsceneView : MonoBehaviour
             isVisible = false;
             textBox.interactable = false;
             textBox.blocksRaycasts = false;
-            isVisible = false;
             toggleVisibilityButton.image.sprite = invisibleIcon;
         }else
         {
@@ -163,7 +175,6 @@ public class CutsceneView : MonoBehaviour
             isVisible = true;
             textBox.interactable = true;
             textBox.blocksRaycasts = true;
-            isVisible = true;
             toggleVisibilityButton.image.sprite = visibleIcon;
         }
     }

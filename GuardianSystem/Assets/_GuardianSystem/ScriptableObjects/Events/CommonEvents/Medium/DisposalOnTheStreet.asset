@@ -15,7 +15,7 @@ MonoBehaviour:
   eventWeight: 1
   eventDescription: "Uma grande quantidade de entulho e res\xEDduos foi descartada
     irregularmente em uma rua residencial. O material est\xE1 bloqueando parte da
-    passagem e dificultando a circula\xE7\xE3o de pedestres."
+    passagem e dificultando a circula\xE7\xE3o de pedestres.\n\n"
   eventImage: {fileID: 2565653872732474816, guid: 704dd45577b996b9d84c71c6dacf7c88, type: 3}
   eventType: 0
   eventDuration: 24

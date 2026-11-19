@@ -28,12 +28,19 @@ MonoBehaviour:
     - "Nossos ve\xEDculos presos no tr\xE2nsito, lixo esperando coleta faz tempo,
       e nem quero falar sobre os problemas com \xE1gua que tamos tendo."
     - Ou melhorem logo, ou tirem isso da nossa cidade.
+    audioClips:
+    - {fileID: 8300000, guid: 7ce03132a758f265e8e9bd1ef259682c, type: 3}
+    - {fileID: 8300000, guid: e8ed8597a808673548b446e6a848db89, type: 3}
+    - {fileID: 8300000, guid: db59ea722133b30cab87f4c8d2422a8f, type: 3}
   - level: 1
     dialogues:
     - "Aqui no trabalho n\xE3o senti nenhuma diferen\xE7a, at\xE9 estranhei pois
       tinha tanta gente falando sobre, mas nunca notei nada demais."
     - "Acho que \xE9 assim que deveria ser mesmo n\xE9? Deve t\xE1 ajudando de alguma
       forma que a gente n\xE3o perceba, ou sei l\xE1."
+    audioClips:
+    - {fileID: 8300000, guid: bd24078bb3cb0cf1cb31e243dcd58314, type: 3}
+    - {fileID: 8300000, guid: ba9a46b7893ef516cb9aea5217e4bf6a, type: 3}
   - level: 2
     dialogues:
     - Nossa, depois que colocaram isso na cidade, nosso trabalho ficou muito mais
@@ -41,3 +48,7 @@ MonoBehaviour:
     - "Antes era problema atr\xE1s de problema, agora tudo \xE9 resolvido muito mais
       r\xE1pido, at\xE9 as entregas t\xE3o chegando no hor\xE1rio."
     - "N\xE3o sei exatamente o que esse sistema t\xE1 fazendo, mas que continue assim."
+    audioClips:
+    - {fileID: 8300000, guid: 9f542fba6305842bda667354ae1ad5ca, type: 3}
+    - {fileID: 8300000, guid: 514e9b5947fd08567abd87b939b6b6ad, type: 3}
+    - {fileID: 8300000, guid: 785a8a08991b0b3eba9ea4eb24a3cff3, type: 3}

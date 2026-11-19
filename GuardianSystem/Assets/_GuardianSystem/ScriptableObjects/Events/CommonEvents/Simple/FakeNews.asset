@@ -15,7 +15,7 @@ MonoBehaviour:
   eventWeight: 0
   eventDescription: "Uma publica\xE7\xE3o nas redes sociais afirma que todos os postos
     de sa\xFAde da regi\xE3o ser\xE3o fechados amanh\xE3. A informa\xE7\xE3o n\xE3o
-    foi confirmada , mas j\xE1 est\xE1 causando preocupa\xE7\xF5es entre os moradores."
+    foi confirmada , mas j\xE1 est\xE1 causando preocupa\xE7\xF5es entre os moradores.\n\n"
   eventImage: {fileID: -4942639155145601319, guid: 3d53178fba3756fb3b484f93aeac364d, type: 3}
   eventType: 1
   eventDuration: 18

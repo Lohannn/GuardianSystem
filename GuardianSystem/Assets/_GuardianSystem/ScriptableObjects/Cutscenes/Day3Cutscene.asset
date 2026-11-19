@@ -32,6 +32,12 @@ MonoBehaviour:
     - "Com tantos problemas, fica a pergunta: realmente vale a pena continuar investindo
       em uma tecnologia que deveria facilitar a vida dos cidad\xE3os, mas parece
       estar fazendo justamente o contr\xE1rio?"
+    audioClips:
+    - {fileID: 8300000, guid: f8df529bf09aa5710bdebc2ccaace3ac, type: 3}
+    - {fileID: 8300000, guid: 1ef916c53b751be98bb8e830f4a49df3, type: 3}
+    - {fileID: 8300000, guid: b4b9ae161a6266d85bfafe593332b95c, type: 3}
+    - {fileID: 8300000, guid: 808ce90f49ba17c48a73b04a1aa1598b, type: 3}
+    - {fileID: 8300000, guid: 33b5d4eb56a61af7e84aae280a6eab29, type: 3}
   - level: 1
     dialogues:
     - "Dias se passaram desde a implementa\xE7\xE3o de um novo sistema que prometia
@@ -45,6 +51,12 @@ MonoBehaviour:
     - "Apesar dos resultados ainda pouco expressivos, a expectativa \xE9 que, com
       mais tempo e aprimoramentos, o sistema possa demonstrar seu potencial e trazer
       benef\xEDcios mais percept\xEDveis \xE0 cidade."
+    audioClips:
+    - {fileID: 8300000, guid: f8df529bf09aa5710bdebc2ccaace3ac, type: 3}
+    - {fileID: 8300000, guid: 1ef916c53b751be98bb8e830f4a49df3, type: 3}
+    - {fileID: 8300000, guid: 2c4471f6c5a8f0b7e891fac06a1a1d9f, type: 3}
+    - {fileID: 8300000, guid: a0bd53c2ab9ef6b20b0ee7f5826a6db2, type: 3}
+    - {fileID: 8300000, guid: 3d5c9b9a76bcfcdfe8dce155326c76bc, type: 3}
   - level: 2
     dialogues:
     - "Dias se passaram desde a implementa\xE7\xE3o de um novo sistema que prometia
@@ -57,3 +69,9 @@ MonoBehaviour:
     - "Diante dos resultados positivos, a prefeitura j\xE1 considera ampliar os investimentos
       nessa tecnologia, que vem sendo chamada de \"Guardian System\", o sistema guardi\xE3o
       da cidade."
+    audioClips:
+    - {fileID: 8300000, guid: f8df529bf09aa5710bdebc2ccaace3ac, type: 3}
+    - {fileID: 8300000, guid: 1ef916c53b751be98bb8e830f4a49df3, type: 3}
+    - {fileID: 8300000, guid: 703aaf64ffb1c723aa10365e0c479a0a, type: 3}
+    - {fileID: 8300000, guid: 94918d33e2f59a1e0a87e3c13500ad7f, type: 3}
+    - {fileID: 8300000, guid: 0bd5b34063220cfa692b2d0470afd276, type: 3}

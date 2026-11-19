@@ -15,7 +15,7 @@ MonoBehaviour:
   eventWeight: 0
   eventDescription: "Moradores relatam que o sem\xE1foro de pedestres pr\xF3ximo
     a uma escola parou de funcionar. O tr\xE2nsito est\xE1 intenso, mas ainda n\xE3o
-    houve acidentes. Como proceder?"
+    houve acidentes. Como proceder?\n\n"
   eventImage: {fileID: -4585031799566294454, guid: 712219106e7815b37bde0944ae900c1d, type: 3}
   eventType: 1
   eventDuration: 18

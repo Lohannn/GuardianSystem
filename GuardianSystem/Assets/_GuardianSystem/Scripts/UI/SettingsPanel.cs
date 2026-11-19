@@ -11,11 +11,13 @@ public class SettingsPanel : MonoBehaviour
     [Header("Volume Sliders")]
     [SerializeField] private Slider musicSlider;
     [SerializeField] private Slider sfxSlider;
+    [SerializeField] private Slider voiceSlider;
 
     private void Awake()
     {
         musicSlider.onValueChanged.AddListener(ChangeMusicVolume);
         sfxSlider.onValueChanged.AddListener(ChangeSFXVolume);
+        voiceSlider.onValueChanged.AddListener(ChangeVoiceVolume);
     }
 
     private void Start()
@@ -37,6 +39,11 @@ public class SettingsPanel : MonoBehaviour
     public void ChangeSFXVolume(float value)
     {
         SettingsManager.Instance.SetSFXVolume(value);
+    }
+
+    public void ChangeVoiceVolume(float value)
+    {
+        SettingsManager.Instance.SetVoiceVolume(value);
     }
 
     public void OpenPanel()
@@ -63,6 +70,7 @@ public class SettingsPanel : MonoBehaviour
 
         musicSlider.SetValueWithoutNotify(settings.MusicVolume);
         sfxSlider.SetValueWithoutNotify(settings.SFXVolume);
+        voiceSlider.SetValueWithoutNotify(settings.VoiceVolume);
 
         UpdateCheck();
     }
@@ -76,5 +84,6 @@ public class SettingsPanel : MonoBehaviour
     {
         musicSlider.onValueChanged.RemoveListener(ChangeMusicVolume);
         sfxSlider.onValueChanged.RemoveListener(ChangeSFXVolume);
+        voiceSlider.onValueChanged.RemoveListener(ChangeVoiceVolume);
     }
 }

@@ -8,6 +8,8 @@ public struct CutsceneDialog
 
     [TextArea(2, 5)]
     public string[] dialogues;
+
+    public AudioClip[] audioClips;
 }
 
 [Serializable]
@@ -24,18 +26,18 @@ public class CutsceneData : ScriptableObject
     public CutsceneImage[] images;
     public CutsceneDialog[] dialogues;
 
-    public string[] GetDialogues(PopularityLevel level)
+    public CutsceneDialog GetDialogues(PopularityLevel level)
     {
         foreach (CutsceneDialog dialog in dialogues)
         {
             if (dialog.level == level)
             {
-                return dialog.dialogues;
+                return dialog;
             }
         }
 
         Debug.LogWarning($"No dialogues found for the {level} Popularity Level");
-        return Array.Empty<string>();
+        return default;
     }
 
     public Sprite GetImage(PopularityLevel level)
