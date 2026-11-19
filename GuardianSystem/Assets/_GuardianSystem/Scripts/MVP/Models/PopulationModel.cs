@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public enum PopularityLevel
@@ -7,6 +8,7 @@ public enum PopularityLevel
     Good
 }
 
+[Serializable]
 public class PopulationModel
 {
     public float Popularity { get; private set; }

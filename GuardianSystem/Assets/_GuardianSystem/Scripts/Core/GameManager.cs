@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private DayConfigData badEndConfig;
     [SerializeField] private DayConfigData goodEndConfig;
     public DayConfigData currentDayConfig;
-    [NonSerialized] public PopulationModel populationModel;
+    public PopulationModel populationModel;
     private PlayerData playerData;
     public static bool ContinueRequested { get; private set; }
 

@@ -29,12 +29,16 @@ public class ExtraPanelOpen : MonoBehaviour
 
     public void ClosePanel()
     {
+        extraPanelContainer.DOKill();
+
         extraPanelContainer.sizeDelta = new(0, 40);
         isOpened = false;
     }
 
     public void TogglePanelWindowAnimated(Action action)
     {
+        extraPanelContainer.DOKill();
+
         if (isOpened)
         {
             AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Panel_Close));
@@ -69,6 +73,8 @@ public class ExtraPanelOpen : MonoBehaviour
 
     public void TogglePanelWindowAnimated()
     {
+        extraPanelContainer.DOKill();
+
         if (isOpened)
         {
             AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Panel_Close));
@@ -93,6 +99,8 @@ public class ExtraPanelOpen : MonoBehaviour
 
     public void OpenPanelAnimated()
     {
+        extraPanelContainer.DOKill();
+
         AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Panel_Open));
         extraPanelContainer.DOSizeDelta(new(openedSize.x, extraPanelContainer.sizeDelta.y), scaleXChangeDuration).SetUpdate(true).SetEase(Ease.OutSine)
                 .OnComplete(() =>
@@ -105,6 +113,8 @@ public class ExtraPanelOpen : MonoBehaviour
 
     public void OpenPanelAnimated(Action action)
     {
+        extraPanelContainer.DOKill();
+
         AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Panel_Open));
         extraPanelContainer.DOSizeDelta(new(openedSize.x, extraPanelContainer.sizeDelta.y), scaleXChangeDuration).SetUpdate(true).SetEase(Ease.OutSine)
                 .OnComplete(() =>
@@ -121,6 +131,8 @@ public class ExtraPanelOpen : MonoBehaviour
 
     public void ClosePanelAnimated()
     {
+        extraPanelContainer.DOKill();
+
         AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Panel_Close));
         extraPanelContainer.DOSizeDelta(new(extraPanelContainer.sizeDelta.x, 40), scaleYChangeDuration).SetUpdate(true).SetEase(Ease.InQuad)
                 .OnComplete(() =>
@@ -133,6 +145,8 @@ public class ExtraPanelOpen : MonoBehaviour
 
     public void ClosePanelAnimated(Action action)
     {
+        extraPanelContainer.DOKill();
+
         AudioManager.Instance.PlaySFX(AudioManager.Instance.GetSFX(SFXType.UI_Panel_Close));
         extraPanelContainer.DOSizeDelta(new(extraPanelContainer.sizeDelta.x, 40), scaleYChangeDuration).SetUpdate(true).SetEase(Ease.InQuad)
                 .OnComplete(() =>
